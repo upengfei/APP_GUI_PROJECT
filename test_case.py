@@ -333,8 +333,8 @@ class TestCases(unittest.TestCase):
             + self.rf.get_option_value("http", "port")\
             + self.rf.get_option_value("API_URL", "rechargeok_url")
         data = {
-            "orderNo": "",  # 订单号
-            "checkCode": ""  # 短信验证码
+            "orderNo": "e86561bf-9f5a-4345-b8a1-4474d37cd892",  # 订单号
+            "checkCode": "275078"  # 短信验证码
         }
 
         print u"请求返回报文：", self.hf.hf_post(req_url, params=data, headers=header, arg_type=2, location=location)
@@ -353,8 +353,8 @@ if __name__ == '__main__':
                 # "test_getbanklist",
                 # "test_query_banklist",
                 # "test_withdrawquery"
-                # "test_rechargecontract_00",
-                "test_rechargeok_01"
+                "test_rechargecontract_00",
+                # "test_rechargeok_01"
 
 
 
