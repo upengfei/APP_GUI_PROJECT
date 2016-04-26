@@ -91,3 +91,71 @@ class PySelenium(object):
         else:
             raise NameError(u"找不到type类型，请输入正确的类型")
 
+    def set_window_size(self, width, height, windowhandle='current'):
+
+        self.driver.set_window_size(width, height, windowHandle=windowhandle)
+
+    def input_type(self, data_type, text):
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        el.clear()
+        el.send_keys(text)
+
+    def click(self, data_type):
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        el.click()
+
+    def right_click(self, data_type):
+        '''
+        右键点击element
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        ActionChains(self.driver).context_click(el).perform()
+
+    def move_to_element(self, data_type):
+        '''
+        移动鼠标指针到element
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        ActionChains(self.driver).move_to_element(el).perform()
+
+    def double_click(self, data_type):
+        '''
+        双击某个element
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        ActionChains(self.driver).double_click(el).perform()
+
+    def drag_and_drop(self, data_type, target_data):
+        '''
+        拖动鼠标到某个element
+        :param data_type:
+        :param target_data:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        self.element_wait(target_data)
+        el_target = self.get_element(target_data)
+        ActionChains(self.driver).drag_and_drop(el, el_target).perform()
+
+    def click_text(self, text):
+
+        self.driver.find_element_by_link_text(text).click()
+
+    def quite(self):
+        '''
+        关闭所有的窗口,退出driver
+        :return:
+        '''
+        self.driver.quit()
