@@ -8,6 +8,7 @@ import HttpFunc
 import ReadFile
 import MysqlDB
 
+
 class QydTest(unittest.TestCase):
 
     def setUp(self):
@@ -19,6 +20,7 @@ class QydTest(unittest.TestCase):
     def tearDown(self):
         self.ps.quit()
         # pass
+
     def test_login_qyd(self):
 
         self.ps.open_url(self.rf.get_option_value("http","host"))
@@ -44,7 +46,7 @@ if __name__=='__main__':
         map(
             QydTest,
             [
-                "test_open_qyd",
+                "test_login_qyd",
 
             ]
         )
