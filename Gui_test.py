@@ -18,8 +18,8 @@ class QydTest(unittest.TestCase):
 
     def tearDown(self):
         self.ps.quit()
-
-    def test_open_qyd(self):
+        # pass
+    def test_login_qyd(self):
 
         self.ps.open_url(self.rf.get_option_value("http","host"))
         if self.ps.is_display(u'link_text=>用户登录'):
@@ -28,11 +28,27 @@ class QydTest(unittest.TestCase):
         else:
             print u'首页打开失败'
 
+        self.ps.input_type('css=>#username', self.rf.get_option_value("user","username"))
+
+        self.ps.input_type('css=>#password',self.rf.get_option_value("user", "passwd"))
+
+        self.ps.click('css=>#login')
+
+        time.sleep(3)
 
 
 if __name__=='__main__':
-    suite = unittest.TestSuite()
-    suite.addTest(QydTest('test_open_qyd'))
+    # suite = unittest.TestSuite()
+    # suite.addTest(QydTest('test_open_qyd'))
+    suite = unittest.TestSuite(
+        map(
+            QydTest,
+            [
+                "test_open_qyd",
+
+            ]
+        )
+    )
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
     HttpFunc.HttpFunc.create_report("test_gui")
 
