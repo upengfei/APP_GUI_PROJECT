@@ -17,16 +17,35 @@ class PyCurl:
         self.c.setopt(pycurl.WRITEFUNCTION, self.c.s.write)
 
     def set_cookie(self):
+        '''
+        设置cookie
+        :return:
+        '''
         self.c.setopt(pycurl.COOKIEFILE, 'cookie_file')
         self.c.setopt(pycurl.COOKIEJAR, 'cookie_file')
 
     def set_url(self, url):
+        '''
+        设置请求的地址
+        :param url:
+        :return:
+        '''
         self.c.setopt(pycurl.URL, url)
 
     def set_user_agent(self, user_agent):
+        '''
+        设置user-agent
+        :param user_agent:
+        :return:
+        '''
         self.c.setopt(pycurl.USERAGENT, user_agent)
 
     def set_refer(self, url):
+        '''
+        设置安全连接
+        :param url:
+        :return:
+        '''
         self.c.setopt(pycurl.REFERER, url)
 
     def get_info_code(self):
