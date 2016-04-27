@@ -2,11 +2,11 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import StaleElementReferenceException
+# from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-import os,sys,time
+# import os,sys,time
 
 
 class PySelenium(object):
@@ -305,3 +305,10 @@ class PySelenium(object):
             if handle != window_old_handle:
                 self.driver._switch_to.window(handle)
 
+    def js_exec(self, js_script):
+        '''
+        执行js脚本
+        :param js_script:
+        :return:
+        '''
+        self.driver.execute_script(js_script)
