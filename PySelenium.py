@@ -150,7 +150,11 @@ class PySelenium(object):
         ActionChains(self.driver).drag_and_drop(el, el_target).perform()
 
     def click_text(self, text):
-
+        '''
+        Click the element by the link_text
+        :param text:
+        :return:
+        '''
         self.driver.find_element_by_link_text(text).click()
 
     def quite(self):
@@ -159,3 +163,75 @@ class PySelenium(object):
         :return:
         '''
         self.driver.quit()
+
+    def data_commit(self, data_type):
+        '''
+
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        el.submit()
+
+    def refresh(self):
+        '''
+        刷新当前页面
+        :return:
+        '''
+        self.driver.refresh()
+
+    def get_text(self, data_type):
+
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        return el.text
+
+    def get_attribute(self, data_type, attr):
+
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        return el.get_attribute(attr)
+
+    def is_display(self, data_type):
+        '''
+        element是否已经显示
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        return el.is_displayed()
+
+    def is_selected(self,data_type):
+        '''
+        element是否已经选择
+        :param data_type:
+        :return:
+        '''
+        self.element_wait(data_type)
+        el = self.get_element(data_type)
+        return el.is_selected()
+
+    def get_title(self):
+        '''
+        得到当前窗口名称
+        :return:
+        '''
+        return self.driver.title
+
+    def get_url(self):
+        '''
+        返回当前页的网址
+        :return:
+        '''
+        return self.driver.current_url
+
+    def get_window_screenshots(self, file_path):
+        '''
+        获取屏幕截图保存到相应目录
+        :param file_path:
+        :return:
+        '''
+
+        self.driver.get_screenshot_as_file(file_path)
