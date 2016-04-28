@@ -21,7 +21,7 @@ class QydTest(unittest.TestCase):
         self.ps.quit()
         # pass
 
-    def test_login_qyd(self):
+    def test_qyd_login(self):
 
         self.ps.open_url(self.rf.get_option_value("http","host"))
         if self.ps.is_display(u'link_text=>用户登录'):
@@ -30,7 +30,7 @@ class QydTest(unittest.TestCase):
         else:
             print u'首页打开失败'
 
-        self.ps.input_type('css=>#username', self.rf.get_option_value("user","username"))
+        self.ps.input_type('css=>#username', self.rf.get_option_value("user", "username"))
 
         self.ps.input_type('css=>#password',self.rf.get_option_value("user", "passwd"))
 
@@ -39,14 +39,14 @@ class QydTest(unittest.TestCase):
         time.sleep(3)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     # suite = unittest.TestSuite()
     # suite.addTest(QydTest('test_open_qyd'))
     suite = unittest.TestSuite(
         map(
             QydTest,
             [
-                "test_login_qyd",
+                "test_qyd_login",
 
             ]
         )
