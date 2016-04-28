@@ -68,7 +68,7 @@ class MysqlDB(object):
 
     def scroll(self, value, mode='relative'):
         """
-        移动指针到某一行.如果mode='relative',则表示从当前所在行移动value条,\
+        移动指针到某一行.如果mode='relative',则表示从当前所在行移动value条,
         如果 mode='absolute',则表示从结果集的第一行移动value条.
         :param value:
         :param mode:
