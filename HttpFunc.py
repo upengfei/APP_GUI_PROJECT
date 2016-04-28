@@ -85,8 +85,6 @@ class HttpFunc:
         except Exception as e:
             raise e
 
-
-
     @staticmethod
     def create_report(f_name):
         """
