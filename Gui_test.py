@@ -15,7 +15,7 @@ class QydTest(unittest.TestCase):
         HttpFunc.HttpFunc().get_root_path()
         self.ps = PySelenium.PySelenium()
         self.rf = ReadFile.ReadFile()
-        self.md = MysqlDB.MysqlDB()
+        self.msd = MysqlDB.MysqlDB()
 
     def tearDown(self):
         self.ps.quit()
