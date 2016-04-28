@@ -1,7 +1,8 @@
 # -*- encoding:utf-8 -*-
 import xlrd
 
-class ReadTestData():
+
+class ReadTestData:
     '''
     读取excel测试数据
     '''
