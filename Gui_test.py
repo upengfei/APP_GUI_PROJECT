@@ -26,6 +26,7 @@ class QydTest(unittest.TestCase):
         self.ps.open_url(self.rf.get_option_value("http","host"))
         if self.ps.is_display(u'link_text=>用户登录'):
             print u"正常打开轻易贷首页，开始进行登录"
+            self.ps.window_max()
             self.ps.click_text(u'用户登录')
         else:
             print u'首页打开失败'
