@@ -1,12 +1,9 @@
 # -*- coding:utf-8 -*-
 
-import PySelenium
-import unittest
-import HTMLTestRunner
 import time
-import HttpFunc
-import ReadFile
-import MysqlDB
+import unittest
+
+from func import HTMLTestRunner, HttpFunc, MysqlDB, PySelenium, ReadFile
 
 
 class QydTest(unittest.TestCase):
@@ -43,6 +40,7 @@ class QydTest(unittest.TestCase):
 if __name__ == '__main__':
     # suite = unittest.TestSuite()
     # suite.addTest(QydTest('test_open_qyd'))
+
     suite = unittest.TestSuite(
         map(
             QydTest,

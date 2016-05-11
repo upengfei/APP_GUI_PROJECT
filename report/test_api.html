@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>接口测试报告</title>
+    <title>测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>接口测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2016-04-18 16:38:49</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:01.213000</p>
-<p class='attribute'><strong>测试状态:</strong> &lt;通过：1&gt;;</p>
+<h1>测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2016-04-27 12:44:42</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:00.207000</p>
+<p class='attribute'><strong>测试状态:</strong> &lt;！错误：2&gt;;</p>
 
 <p class='description'>测试报告详情： </p>
 </div>
@@ -224,33 +224,68 @@ function showOutput(id, name) {
 
 </tr>
 
-<tr class='passClass'>
-    <td>TestCases</td>
-    <td>1</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>QydTest</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',1)">点击查看</a></td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c1',2)">点击查看</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_rechargecontract_00: 充值签约-正常流程</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过-detail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误-detail</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: D:\Project\PycharmProjects\APITest
-获取的token值为：2M3ZBTssFOBEez5wytBrs2nYpSAPSZB3D0iukADeowmiftrPRKldwQdZzqk3GUx8wBYQC
-请求返回报文： {"status":200,"errorCodes":[],"faultedProperties":[],"entities":[{"orderNo":"56ba7546-16ea-4ca5-ab60-b8fc15cdc01a","resultCode":"0000","processTime":"2016-04-18 16:37:42","sign":"1f80af5b8af1fbb86d041fdf17fa9c85","sts":"RechargeProcessing","resData":"{\"orderNo\":\"56ba7546-16ea-4ca5-ab60-b8fc15cdc01a\",\"resultCode\":\"0000\",\"processTime\":\"2016-04-18 16:37:42\",\"kyOrderNo\":\"20160418371088413597\"}","kyOrderNo":"20160418371088413597","success":true,"treansactionStatus":4,"transactionStatus":-1}],"entity":{"orderNo":"56ba7546-16ea-4ca5-ab60-b8fc15cdc01a","resultCode":"0000","processTime":"2016-04-18 16:37:42","sign":"1f80af5b8af1fbb86d041fdf17fa9c85","sts":"RechargeProcessing","resData":"{\"orderNo\":\"56ba7546-16ea-4ca5-ab60-b8fc15cdc01a\",\"resultCode\":\"0000\",\"processTime\":\"2016-04-18 16:37:42\",\"kyOrderNo\":\"20160418371088413597\"}","kyOrderNo":"20160418371088413597","success":true,"treansactionStatus":4,"transactionStatus":-1},"successful":true}
+ft1.1: D:\Project\PycharmProjects\APITest
+Traceback (most recent call last):
+  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 24, in test_open_qyd
+    self.ps.open_url(self.rf.get_option_value("http","host"))
+  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 32, in open_url
+    self.driver.get(url)
+AttributeError: 'PySelenium' object has no attribute 'driver'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        错误-detail</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: D:\Project\PycharmProjects\APITest
+Traceback (most recent call last):
+  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 20, in tearDown
+    self.ps.quit()
+  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 183, in quit
+    self.driver.quit()
+AttributeError: 'PySelenium' object has no attribute 'driver'
 
 
         </pre>
@@ -262,10 +297,10 @@ pt1.1: D:\Project\PycharmProjects\APITest
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>

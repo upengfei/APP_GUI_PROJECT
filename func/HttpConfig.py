@@ -1,12 +1,13 @@
 # -*-coding:utf-8 -*-
 import ConfigParser
 import cookielib
-import urllib2
-import urllib
 import json
-import Base64
 import os
 import re
+import urllib
+import urllib2
+
+from func import Base64
 
 
 class HttpConfig:
@@ -18,7 +19,6 @@ class HttpConfig:
         self.port = cp.get('http', 'port')
         self.headers = {}
         # 加载cookie
-
         cookie = cookielib.CookieJar()
         opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
         urllib2.install_opener(opener)

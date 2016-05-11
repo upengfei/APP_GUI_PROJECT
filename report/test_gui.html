@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2016-04-27 12:47:56</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:00.033000</p>
-<p class='attribute'><strong>测试状态:</strong> &lt;！错误：2&gt;;</p>
+<p class='attribute'><strong>开始时间:</strong> 2016-05-11 09:39:54</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:15.355000</p>
+<p class='attribute'><strong>测试状态:</strong> &lt;通过：1&gt;;</p>
 
 <p class='description'>测试报告详情： </p>
 </div>
@@ -224,68 +224,32 @@ function showOutput(id, name) {
 
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>QydTest</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',2)">点击查看</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">点击查看</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_qyd_login</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误-detail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过-detail</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: D:\Project\PycharmProjects\APITest
-Traceback (most recent call last):
-  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 24, in test_open_qyd
-    self.ps.open_url(self.rf.get_option_value("http","host"))
-  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 32, in open_url
-    self.driver.get(url)
-AttributeError: 'PySelenium' object has no attribute 'driver'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        错误-detail</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: D:\Project\PycharmProjects\APITest
-Traceback (most recent call last):
-  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 20, in tearDown
-    self.ps.quit()
-  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 183, in quit
-    self.driver.quit()
-AttributeError: 'PySelenium' object has no attribute 'driver'
+pt1.1: D:\Project\PycharmProjects\APITest
+正常打开轻易贷首页，开始进行登录
 
 
         </pre>
@@ -297,10 +261,10 @@ AttributeError: 'PySelenium' object has no attribute 'driver'
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>

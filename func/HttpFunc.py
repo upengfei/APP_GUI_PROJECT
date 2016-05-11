@@ -1,14 +1,13 @@
 # -*- coding:utf-8 -*-
 
-import os
-import HttpCurl
 import json
-import Base64
-import ReadFile
-import urllib
 import logging
+import os
 import re
+import urllib
 
+import ReadFile
+from func import Base64, HttpCurl
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(message)s")

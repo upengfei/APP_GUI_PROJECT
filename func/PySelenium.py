@@ -157,7 +157,7 @@ class PySelenium(object):
 
     def drag_and_drop(self, data_type, target_data):
         '''
-        拖动鼠标到某个element
+        拖动一个element到某个element
         :param data_type:
         :param target_data:
         :return:

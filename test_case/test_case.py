@@ -1,10 +1,8 @@
 # -*- coding:utf-8 -*-
-import unittest
-import HTMLTestRunner
 import time
-import ReadFile
-import HttpFunc
-import MysqlDB
+import unittest
+
+from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile
 
 
 class TestCases(unittest.TestCase):
@@ -124,11 +122,11 @@ class TestCases(unittest.TestCase):
             + self.rf.get_option_value("http", "port")\
             + self.rf.get_option_value("API_URL", "rechargecontract_url")
         data = {
-            "bankCard": "6226090110503501",  # 充值银行卡卡号
+            "bankCard": "6225768712921400",  # 充值银行卡卡号
             "userName": "于鹏飞",  # 持卡人姓名
             "userIdentity": "130622198308057019",  # 用户真实的身份证信息
-            "userMobile": "13911253517",  # 用户手机号信息
-            "amount": "12",  # 充值金额
+            "userMobile": "18911884890",  # 用户手机号信息
+            "amount": "500",  # 充值金额
             "bankName": "招商银行",  # 银行名称
             "bankCord": "CMB",  # 银行编码
             "bankCardId": "87908f8c-380b-4b8d-b817-7610d13c64e9"  # "b19d5aa2-e29b-4315-b99d-d8e8807a0a93"# bank_card_id
