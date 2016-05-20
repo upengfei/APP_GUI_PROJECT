@@ -77,7 +77,11 @@ class PyCurl:
         :param num: 0表示get请求，1表示post
         :return:
         """
-        self.c.setopt(pycurl.POST, num)
+        if num==0:
+            self.c.setopt(pycurl.CUSTOMREQUEST,"GET")
+        elif num==1:
+            self.c.setopt(pycurl.CUSTOMREQUEST,"POST")
+
         if data is not None:
             self.c.setopt(pycurl.POSTFIELDS, data)
         else:
@@ -107,4 +111,5 @@ class PyCurl:
     def get_header(self):
         return self.c.getinfo(pycurl.INFOTYPE_HEADER_IN)
 
-
+    def get_resource_code(self):
+        return self.c.getinfo(pycurl.RESPONSE_CODE)

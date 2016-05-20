@@ -135,11 +135,11 @@ class HttpConfig:
 
         # print data
         req_url = self.rf.get_option_value("API_URL", "jmd_token_url")
-        print req_url
+        # print req_url
         value = self.post_params(req_url,  headers, data)
-        print "&&&", str(value)
+        # print "&&&", str(value)
         find_content = re.findall('.*token":"(.+?)"', value, re.S)
-        print "******", find_content[0]
+        return find_content[0]
         # list_data.append(str(find_content[0]))
 
         # print self.hc.buf_tell()

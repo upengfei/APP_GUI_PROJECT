@@ -7,7 +7,7 @@ import re
 import urllib
 
 import ReadFile
-from func import Base64, HttpCurl
+from func import Base64, HttpCurl,otherFunc
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(message)s")
@@ -51,7 +51,7 @@ class HttpFunc:
         # print self.hc.buf_tell()
         return list_data
 
-    def hf_post(self, url, params, headers=None, arg_type=1, location=None, action=1):
+    def hf_post(self, url, params=None, headers=None, arg_type=1, location=None, action=1):
         """
 
         :param url:
@@ -69,8 +69,8 @@ class HttpFunc:
 
         if arg_type == 1:
             data = urllib.urlencode(params)
-            print "%%%%%%",data
-            self.hc.post_data(data=data, num=action)
+            # print "%%%%%%", data
+            self.hc.post_data(data, action)
         elif arg_type == 2:
             data = json.dumps(params)
             self.hc.post_data(data, action)
@@ -83,7 +83,7 @@ class HttpFunc:
                 self.buf_seek(location)
                 return unicode(self.buf_read(), "UTF-8")
 
-            return unicode(self.hc.get_value(), "UTF-8")
+            return unicode(self.get_buff_value(), "UTF-8")
 
         except Exception as e:
             raise e
@@ -94,15 +94,17 @@ class HttpFunc:
         在当前工程指定目录下创建测试报告模板
         :return:
         """
-        if os.path.exists(os.getcwd()+'\\report'):
-            pass
-        else:
-            os.mkdir(os.getcwd()+r'\report')
 
-        if os.path.exists(os.getcwd()+r'\\report\\%s.html' % (f_name,)):
+
+        if os.path.exists(otherFunc.Func().get_root_path()+'\\report'):
             pass
         else:
-            os.chdir(os.getcwd()+r'\report')
+            os.mkdir(otherFunc.Func().get_root_path()+r'\report')
+
+        if os.path.exists(otherFunc.Func().get_root_path()+r'\\report\\%s.html' % (f_name,)):
+            pass
+        else:
+            os.chdir(otherFunc.Func().get_root_path()+r'\report')
             f = open(os.getcwd()+'\\%s.html' % (f_name,), 'wb')
             f.close()
 
@@ -149,5 +151,8 @@ class HttpFunc:
 
     def get_code(self):
         return self.hc.get_info_code()
+
+    def get_buff_value(self):
+        return self.hc.get_value()
 
 
