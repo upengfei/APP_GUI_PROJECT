@@ -155,4 +155,5 @@ class HttpFunc:
     def get_buff_value(self):
         return self.hc.get_value()
 
-
+    def get_response_code(self):
+        return self.hc.get_resource_code()
