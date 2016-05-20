@@ -1,11 +1,14 @@
 # -*- coding:utf-8 -*-
 import configparser
 import os
+from func import otherFunc
 
 class ReadFile:
 
     def __init__(self):
+        otherFunc.Func.get_root_path()
         path = os.getcwd() + r'/config/config.ini'
+        print path
         self.hc = configparser.ConfigParser()
         self.hc.read(path)
 

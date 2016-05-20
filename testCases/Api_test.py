@@ -2,13 +2,13 @@
 import time
 import unittest
 
-from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile
+from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile,otherFunc
 
 
 class TestCases(unittest.TestCase):
 
     def setUp(self):
-        HttpFunc.HttpFunc().get_root_path()
+        otherFunc.Func().get_root_path()
         self.rf = ReadFile.ReadFile()
         self.hf = HttpFunc.HttpFunc()
         self.md = MysqlDB.MysqlDB()
@@ -671,7 +671,7 @@ if __name__ == '__main__':
         map(
             TestCases,
             [
-                # "test_rechargebankinfoget",
+                "test_rechargebankinfoget",
                 # "test_getbanklist",
                 # "test_query_banklist",
                 # "test_withdrawquery"
@@ -680,7 +680,7 @@ if __name__ == '__main__':
                 # "test_rechargeok_02",
                 # "test_withdrawal_01",
                 # "test_withdrawal_02",
-                "test_bankauthentication_01",
+                # "test_bankauthentication_01",
                 # "test_bankauthentication_02",
                 # "test_bankauthentication_03",
                 # "test_bankauthentication_04"

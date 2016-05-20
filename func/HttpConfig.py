@@ -6,17 +6,17 @@ import os
 import re
 import urllib
 import urllib2
+from func import ReadFile
 
 from func import Base64
 
 
 class HttpConfig:
 
-    def __init__(self, filename):
-        cp = ConfigParser.ConfigParser()
-        cp.read(filename)
-        self.host = cp.get('http', 'host')
-        self.port = cp.get('http', 'port')
+    def __init__(self):
+        self.rf = ReadFile.ReadFile()
+        self.host = self.rf.get_option_value("http","host")
+        self.port = self.rf.get_option_value("http","port")
         self.headers = {}
         # 加载cookie
         cookie = cookielib.CookieJar()
@@ -47,7 +47,7 @@ class HttpConfig:
 
             request = urllib2.Request(url)
             response = urllib2.urlopen(request)
-        return u"状态返回码为:%s,响应报文为:%s" % (response.code, response.read())
+        return response.read()
 
     def post_params(self, url, headers, params=None):
         """
@@ -61,9 +61,9 @@ class HttpConfig:
         self.set_header(headers)
 
         try:
-            if params:
+            if params is not None:
                 data = urllib.urlencode(params)
-                req_url = self.host + ":" + self.port + url + '? '+data
+                req_url = self.host + ":" + self.port + url + '?'+data
 
             else:
                 req_url = self.host + ":" + self.port + url
@@ -75,7 +75,7 @@ class HttpConfig:
             print e
             raise e
 
-        print response.read()
+        return response.read()
 
     def post_json(self, url, params, headers):
         """
@@ -121,7 +121,29 @@ class HttpConfig:
         print u'获取的token值为:%s' % (find_content[0],)
         return find_content[0]
 
+    def get_jmd_token(self):
+        list_data=[]
+        data = {
+            "username": "%s" % (self.rf.get_option_value("JMD", "jmd_user")),
+            "password": "%s" % (self.rf.get_option_value("JMD", "jmd_passwd"))
+        }
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0",
+            "Content-Type":"application/x-www-form-urlencoded"
+        }
 
+
+        # print data
+        req_url = self.rf.get_option_value("API_URL", "jmd_token_url")
+        print req_url
+        value = self.post_params(req_url,  headers, data)
+        print "&&&", str(value)
+        find_content = re.findall('.*token":"(.+?)"', value, re.S)
+        print "******", find_content[0]
+        # list_data.append(str(find_content[0]))
+
+        # print self.hc.buf_tell()
+        # return list_data
 
 
 

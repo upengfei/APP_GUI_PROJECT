@@ -12,6 +12,7 @@ from func import Base64, HttpCurl
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(message)s")
 
+
 class HttpFunc:
 
     """
@@ -50,7 +51,7 @@ class HttpFunc:
         # print self.hc.buf_tell()
         return list_data
 
-    def hf_post(self, url, params=None, headers=None, arg_type=1, location=None, action=1):
+    def hf_post(self, url, params, headers=None, arg_type=1, location=None, action=1):
         """
 
         :param url:
@@ -65,9 +66,11 @@ class HttpFunc:
         self.hc.set_write()
         self.hc.set_cookie()
         if headers: self.hc.set_header(headers)
+
         if arg_type == 1:
             data = urllib.urlencode(params)
-            self.hc.post_data(data, action)
+            print "%%%%%%",data
+            self.hc.post_data(data=data, num=action)
         elif arg_type == 2:
             data = json.dumps(params)
             self.hc.post_data(data, action)
@@ -75,7 +78,8 @@ class HttpFunc:
             self.hc.post_data(data=None, num=action)
         try:
             self.hc.perform()
-            if location:
+
+            if location is not None:
                 self.buf_seek(location)
                 return unicode(self.buf_read(), "UTF-8")
 
@@ -146,17 +150,4 @@ class HttpFunc:
     def get_code(self):
         return self.hc.get_info_code()
 
-    @staticmethod
-    def get_root_path():
-        """
-        回到工程根目录
-        :return:
-        """
-        path = os.getcwd()
-        list_dir = os.path.split(path)
-        if not list_dir[1] == 'APITest':
-            os.chdir(list_dir[0])
-            print list_dir[0]
-            return list_dir[0]
-        else:
-            return path
+

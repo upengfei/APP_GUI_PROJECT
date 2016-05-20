@@ -78,7 +78,7 @@ class PyCurl:
         :return:
         """
         self.c.setopt(pycurl.POST, num)
-        if data:
+        if data is not None:
             self.c.setopt(pycurl.POSTFIELDS, data)
         else:
             self.c.setopt(pycurl.POSTFIELDS, "")

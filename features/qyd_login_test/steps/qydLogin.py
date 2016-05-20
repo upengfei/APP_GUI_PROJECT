@@ -2,12 +2,12 @@
 import time
 
 from behave import *
-
+from func import ReadFile
 from func import PySelenium
 
 
 @Given("Access qyd website")
-def step_impl(context):
+def open_qyd(context):
     context.ps = PySelenium.PySelenium()
     context.ps.open_url("http://www.qingyidai.com")
     context.ps.window_max()
@@ -15,7 +15,7 @@ def step_impl(context):
 
 
 @When("input {username} and {password}")
-def step_impl(context, username, password):
+def qyd_login(context, username, password):
     context.ps.input_type('css=>#username', username)
 
     context.ps.input_type('css=>#password', password)
@@ -24,7 +24,7 @@ def step_impl(context, username, password):
 
 
 @Then("sucess login the website")
-def step_impl(context):
+def browser_close(context):
     context.ps.quit()
 
 

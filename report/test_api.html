@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>测试报告</title>
+    <title>接口测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2016-04-27 12:44:42</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:00.207000</p>
-<p class='attribute'><strong>测试状态:</strong> &lt;！错误：2&gt;;</p>
+<h1>接口测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2016-05-11 17:25:26</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:00.995000</p>
+<p class='attribute'><strong>测试状态:</strong> &lt;通过：1&gt;;</p>
 
 <p class='description'>测试报告详情： </p>
 </div>
@@ -224,68 +224,34 @@ function showOutput(id, name) {
 
 </tr>
 
-<tr class='errorClass'>
-    <td>QydTest</td>
-    <td>2</td>
+<tr class='passClass'>
+    <td>TestCases</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',2)">点击查看</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">点击查看</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_rechargebankinfoget: 充值绑卡查询</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误-detail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过-detail</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: D:\Project\PycharmProjects\APITest
-Traceback (most recent call last):
-  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 24, in test_open_qyd
-    self.ps.open_url(self.rf.get_option_value("http","host"))
-  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 32, in open_url
-    self.driver.get(url)
-AttributeError: 'PySelenium' object has no attribute 'driver'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_open_qyd</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        错误-detail</a>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: D:\Project\PycharmProjects\APITest
-Traceback (most recent call last):
-  File "D:/Project/PycharmProjects/APITest/Gui_test.py", line 20, in tearDown
-    self.ps.quit()
-  File "D:\Project\PycharmProjects\APITest\PySelenium.py", line 183, in quit
-    self.driver.quit()
-AttributeError: 'PySelenium' object has no attribute 'driver'
+pt1.1: D:\Project\PycharmProjects\APITest
+获取的token值为：2LzVtGJSaKum2fe91DFS0BeVxpRdpIpdZQfzYXp5aikyczBvBr8BnTfM0PrUeMQbuoPcC
+接口请求的地址为:http://www.localqyd.com:80/entrance/account/rechargebankinfoget/json
+请求返回报文： {"status":200,"errorCodes":[],"faultedProperties":[],"entities":[{"id":"b19d5aa2-e29b-4315-b99d-d8e8807a0a93","logicalDel":0,"createTime":"2016-04-20 10:36:53","updateTime":"2016-04-20 18:27:28","version":0,"isSecret":false,"userId":"b6f2f568-f497-4d30-90de-d6d1307455a4","bankName":"招商银行","bankCard":"6226090110503501","bankCord":"CMB","realName":"于鹏飞","idNo":"130622198308057019","telNum":"13911253517","status":0,"type":0,"channel":0,"useRange":1}],"entity":{"id":"b19d5aa2-e29b-4315-b99d-d8e8807a0a93","logicalDel":0,"createTime":"2016-04-20 10:36:53","updateTime":"2016-04-20 18:27:28","version":0,"isSecret":false,"userId":"b6f2f568-f497-4d30-90de-d6d1307455a4","bankName":"招商银行","bankCard":"6226090110503501","bankCord":"CMB","realName":"于鹏飞","idNo":"130622198308057019","telNum":"13911253517","status":0,"type":0,"channel":0,"useRange":1},"successful":true}
 
 
         </pre>
@@ -297,10 +263,10 @@ AttributeError: 'PySelenium' object has no attribute 'driver'
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>
