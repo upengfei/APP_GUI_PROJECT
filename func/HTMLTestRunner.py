@@ -663,8 +663,8 @@ class HTMLTestRunner(Template_mixin):
         duration = str(self.stopTime - self.startTime)
         status = []
         if result.success_count: status.append(u'<通过：%s>;' % result.success_count)
-        if result.failure_count: status.append(u'<！失败：%s>;' % result.failure_count)
-        if result.error_count:   status.append(u'<！错误：%s>;' % result.error_count)
+        if result.failure_count: status.append(u'<失败：%s>;' % result.failure_count)
+        if result.error_count:   status.append(u'<错误：%s>;' % result.error_count)
         if status:
             status = ' '.join(status)
         else:
