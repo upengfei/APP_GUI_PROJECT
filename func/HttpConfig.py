@@ -129,7 +129,7 @@ class HttpConfig:
         }
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0",
-            "Content-Type":"application/x-www-form-urlencoded"
+            "Content-Type": "application/x-www-form-urlencoded"
         }
 
 
