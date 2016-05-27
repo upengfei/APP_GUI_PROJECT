@@ -14,7 +14,7 @@ from func import Base64
 class HttpConfig:
 
     def __init__(self):
-        self.rf = ReadFile.ReadFile()
+        self.rf = ReadFile.ReadFile(r'/config/config.ini')
         self.host = self.rf.get_option_value("http","host")
         self.port = self.rf.get_option_value("http","port")
         self.headers = {}

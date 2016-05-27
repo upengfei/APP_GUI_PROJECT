@@ -5,9 +5,9 @@ from func import otherFunc
 
 class ReadFile:
 
-    def __init__(self):
+    def __init__(self,filePath):
 
-        path = otherFunc.Func.get_root_path() + r'/config/config.ini'
+        path = otherFunc.Func.get_root_path() + filePath
 
         self.hc = configparser.ConfigParser()
         self.hc.read(path)

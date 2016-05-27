@@ -11,7 +11,7 @@ class MysqlDB(object):
 
     def __init__(self):
 
-        self.rf = ReadFile.ReadFile()
+        self.rf = ReadFile.ReadFile(r'/config/config.ini')
 
         self.conn = MySQLdb.connect(
             host=self.rf.get_option_value("db", "db_host"),
