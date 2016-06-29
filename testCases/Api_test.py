@@ -2,16 +2,17 @@
 import time
 import unittest
 
-from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile,otherFunc
+from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile,BasicFunc,Base64
 
 
 class TestCases(unittest.TestCase):
 
     def setUp(self):
-        otherFunc.Func().get_root_path()
-        self.rf = ReadFile.ReadFile()
+        BasicFunc.Func().get_root_path()
+        self.rf = ReadFile.ReadFile(r'/config/recharge_self.ini')
         self.hf = HttpFunc.HttpFunc()
         self.md = MysqlDB.MysqlDB()
+        self.bs = Base64.BaseChange(r'/config/recharge_self.ini')
 
     def tearDown(self):
         self.hf.buf_close()
@@ -20,8 +21,24 @@ class TestCases(unittest.TestCase):
 
     def test_rechargebankinfoget(self):
         u"""  充值绑卡查询  """
+        _url= self.rf.get_option_value("http","host")+":"+\
+              self.rf.get_option_value("http","port")+\
+              self.rf.get_option_value("URL","url_cookie")
 
-        token = self.hf.get_token()[0]  # 获得token值
+        self.hf.hf_post(_url,arg_type=0,action=0)
+
+        param = {
+            "name": "%s" % (self.rf.get_option_value("user","username"),),
+            "password":"%s" % (self.rf.get_option_value("user","passwd"),)
+        }
+        header={
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Authorization":"%s" % (self.bs.user_encode_back(),)
+
+        }
+        token=self.hf.hf_post(_url,params=param,headers=header)
+
         print u'获取的token值为：'+token
         location = self.hf.buf_tell()   # 获得token后，内存缓存区游标指针的位置
         header = [
@@ -33,7 +50,7 @@ class TestCases(unittest.TestCase):
         req_url = self.rf.get_option_value("http", "host")\
             + ':'\
             + self.rf.get_option_value("http", "port")\
-            + self.rf.get_option_value('API_URL', 'api_url')
+            + self.rf.get_option_value('URL', 'queryaccountamount')
 
         print u'接口请求的地址为:'+req_url
 

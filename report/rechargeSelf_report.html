@@ -2,15 +2,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>接口测试报告</title>
+    <title>测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-pre         { }
-
+/*pre         { }*/
+pre         {  word-wrap:break-word;word-break:break-all;overflow:auto;}
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
 	font-size: 16pt;
@@ -188,12 +188,12 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>接口测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2016-06-20 14:23:23</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:00.773000</p>
-<p class='attribute'><strong>测试状态:</strong> &lt;通过：1&gt;;</p>
+<h1>测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2016-06-27 17:37:20</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:00.551000</p>
+<p class='attribute'><strong>测试状态:</strong> &lt;通过：2&gt;;</p>
 
-<p class='description'>测试报告详情： </p>
+<p class='description'>测试详情</p>
 </div>
 
 
@@ -225,16 +225,16 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>TestCases</td>
-    <td>1</td>
-    <td>1</td>
+    <td>ApiRecharge</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',1)">点击查看</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">点击查看</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_rechargebankinfoget: 充值绑卡查询</div></td>
+    <td class='none'><div class='testcase'>test_tranasctionExcelExport_01: 交易明细导出-缺少用户类型参数</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -248,10 +248,34 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: D:\Project\PycharmProjects\Api-project
-获取的token值为：2AOUVJ7x8SjK99NLW2nC9xEzazU444wOhh3XYNXqTKA6X0ds0Dd8THOd0wZhUORAOlEo2
-接口请求的地址为:http://www.localqyd.com:80/entrance/account/rechargebankinfoget/json
-请求返回报文： {"status":200,"errorCodes":[],"faultedProperties":[],"entities":[{"id":"b19d5aa2-e29b-4315-b99d-d8e8807a0a93","logicalDel":0,"createTime":"2016-04-20 10:36:53","updateTime":"2016-04-20 18:27:28","version":0,"isSecret":false,"userId":"b6f2f568-f497-4d30-90de-d6d1307455a4","bankName":"招商银行","bankCard":"6226090110503501","bankCord":"CMB","realName":"于鹏飞","idNo":"130622198308057019","telNum":"13911253517","status":0,"type":0,"channel":0,"useRange":1}],"entity":{"id":"b19d5aa2-e29b-4315-b99d-d8e8807a0a93","logicalDel":0,"createTime":"2016-04-20 10:36:53","updateTime":"2016-04-20 18:27:28","version":0,"isSecret":false,"userId":"b6f2f568-f497-4d30-90de-d6d1307455a4","bankName":"招商银行","bankCard":"6226090110503501","bankCord":"CMB","realName":"于鹏飞","idNo":"130622198308057019","telNum":"13911253517","status":0,"type":0,"channel":0,"useRange":1},"successful":true}
+pt1.1: X-Auth-Token为:8ab48a07bee1ac64b4d67ce5a7b4f59c
+请求返回报文为:
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_tranasctionExcelExport_02: 交易明细导出-用户类型参数值为空</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过-detail</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: X-Auth-Token为:bbb929b8f8ee4f94aa188969b70680aa
+请求返回报文为:
 
 
         </pre>
@@ -263,8 +287,8 @@ pt1.1: D:\Project\PycharmProjects\Api-project
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>

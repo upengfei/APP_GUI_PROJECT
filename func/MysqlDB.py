@@ -4,22 +4,25 @@ import MySQLdb
 import ReadFile
 
 
+
 class MysqlDB(object):
     """
     数据库操作
     """
 
-    def __init__(self):
+    def __init__(self,path):
 
-        self.rf = ReadFile.ReadFile(r'/config/config.ini')
+        self.rf = ReadFile.ReadFile(path)
 
         self.conn = MySQLdb.connect(
             host=self.rf.get_option_value("db", "db_host"),
             user=self.rf.get_option_value("db", "db_user"),
             passwd=self.rf.get_option_value("db", "db_passwd"),
             db=self.rf.get_option_value("db", "db_name"),
-            port=int(self.rf.get_option_value("db", "db_port"))
+            port=int(self.rf.get_option_value("db", "db_port")),
+            charset="utf8"
         )
+
         self.cursor = self.conn.cursor()
 
     def execute(self, sql, arg=None):

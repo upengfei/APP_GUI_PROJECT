@@ -173,9 +173,9 @@ class Template_mixin(object):
     """
 
     STATUS = {
-    0: u'通过-detail',
-    1: u'失败-detail',
-    2: u'错误-detail',
+    0: '通过-detail',
+    1: '失败-detail',
+    2: '错误-detail',
     }
 
     DEFAULT_TITLE = 'Unit Test Report'
@@ -309,8 +309,8 @@ function showOutput(id, name) {
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-pre         { }
-
+/*pre         { }*/
+pre         {  word-wrap:break-word;word-break:break-all;overflow:auto;}
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
 	font-size: 16pt;
@@ -397,7 +397,7 @@ a.popup_link:hover {
     # Heading
     #
 
-    HEADING_TMPL = u"""<div class='heading'>
+    HEADING_TMPL = r"""<div class='heading'>
 <h1>%(title)s</h1>
 %(parameters)s
 <p class='description'>%(description)s</p>
@@ -419,7 +419,7 @@ a.popup_link:hover {
     # <td>Error</td>
     # <td>View</td>
 
-    REPORT_TMPL = u"""
+    REPORT_TMPL = ur"""
 <p id='show_detail_line'>内容显示：
 <a href='javascript:showCase(0)'>概要</a>
 <a href='javascript:showCase(1)'>失败</a>
@@ -457,7 +457,7 @@ a.popup_link:hover {
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
 
-    REPORT_CLASS_TMPL = ur"""
+    REPORT_CLASS_TMPL = r"""
 <tr class='%(style)s'>
     <td>%(desc)s</td>
     <td>%(count)s</td>
@@ -768,13 +768,15 @@ class HTMLTestRunner(Template_mixin):
         if isinstance(o,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # uo = unicode(o.encode('string_escape'))
-            uo = o.decode('latin-1')
+            # uo = o.decode('latin-1')
+            uo = o.decode('utf-8')
         else:
             uo = o
         if isinstance(e,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # ue = unicode(e.encode('string_escape'))
-            ue = e.decode('latin-1')
+            # ue = e.decode('latin-1')
+            ue = e.decode('utf-8')
         else:
             ue = e
 

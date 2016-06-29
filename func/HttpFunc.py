@@ -7,7 +7,7 @@ import re
 import urllib
 
 import ReadFile
-from func import Base64, HttpCurl,otherFunc
+from func import Base64, HttpCurl,BasicFunc
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(message)s")
@@ -21,7 +21,7 @@ class HttpFunc:
     def __init__(self):
         self.hc = HttpCurl.PyCurl()
         # self.buf = StringIO.StringIO()
-        self.rf = ReadFile.ReadFile()
+        self.rf = ReadFile.ReadFile(r"/config/config.ini")
 
         self.log = logging.getLogger()
 
@@ -34,7 +34,7 @@ class HttpFunc:
             'Content-Type: application/json; charset=UTF-8'
         ]
 
-        bc = Base64.BaseChange(os.getcwd() + r'/config/config.ini')
+        bc = Base64.BaseChange(r'/config/config.ini')
         data = {"authorization": "%s" % (bc.user_encode(),)}
         # data_json = json.dumps(data)
         req_api_url = self.rf.get_option_value("http", "host")+':'\
@@ -94,17 +94,11 @@ class HttpFunc:
         在当前工程指定目录下创建测试报告模板
         :return:
         """
+        if not os.path.exists(BasicFunc.Func().get_root_path()+ '\\report'):
+            os.mkdir(BasicFunc.Func().get_root_path() + r'\report')
 
-
-        if os.path.exists(otherFunc.Func().get_root_path()+'\\report'):
-            pass
-        else:
-            os.mkdir(otherFunc.Func().get_root_path()+r'\report')
-
-        if os.path.exists(otherFunc.Func().get_root_path()+r'\\report\\%s.html' % (f_name,)):
-            pass
-        else:
-            os.chdir(otherFunc.Func().get_root_path()+r'\report')
+        if not os.path.exists(BasicFunc.Func().get_root_path()+ r'\\report\\%s.html' % (f_name,)):
+            os.chdir(BasicFunc.Func().get_root_path() + r'\report')
             f = open(os.getcwd()+'\\%s.html' % (f_name,), 'wb')
             f.close()
 
@@ -114,9 +108,7 @@ class HttpFunc:
 
         path = os.getcwd()
 
-        if path.split('\\').__contains__("report"):
-            pass
-        else:
+        if not path.split('\\').__contains__("report"):
             os.chdir(path+r'\report')
             path = os.getcwd()
         print u'当前路径为：'+path
