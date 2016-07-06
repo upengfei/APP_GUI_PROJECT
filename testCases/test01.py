@@ -1,18 +1,28 @@
 # -*- coding:utf-8 -*-
-import requests
-import bs4,os,sys
-import time
-import socket
+import requests,urllib
+from func import QydBasicFunc,Base64
 
-# r= requests.get("http://www.qingyidai.com")
+bs = Base64.BaseChange(r'/config/qyd_func.ini')
+qyd = QydBasicFunc.QydBackGround()
+print qyd.getBackToken()
+# r = qyd.get("https://admin.stg-qyd.com/image/validator")
+# # # s= requests.session()
+# # r= s.get("https://admin.stg-qyd.com/image/validator", verify=False)
 #
-# t = bs4.BeautifulSoup(r.content,'lxml')
-# print t.p.a.text
-# project_dir = os.path.dirname(os.path.abspath(__file__))
-# print project_dir
-s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)# 创建 socket 对象
-HOST = socket.gethostbyname("c190158") # 获取本地主机名
-print HOST
-PORT = 56129
-s.bind((HOST, PORT))# 绑定端口
-s.listen(2)  # 等待客户端连接
+#
+# # print r.text
+# param = {
+#             "name": "36446337TAIaud2" ,
+#             "password":"1025"
+#         }
+#
+# header={
+#     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0",
+#     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+#     "Authorization":"%s" % (bs.user_encode_back(),),
+#     "Cookie":"JSESSIONID=%s" % (r.cookies['JSESSIONID'],)
+# }
+# url = "https://admin.stg-qyd.com/syslogin?"+urllib.urlencode(param)
+# t = qyd.post(url,headers=header)
+#
+# print t.headers["X-Auth-Token"]

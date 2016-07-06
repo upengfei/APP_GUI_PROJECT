@@ -67,11 +67,11 @@ class QydBackGround(object):
 
     def getBackToken(self):
         bs = Base64.BaseChange(r'/config/qyd_func.ini')
-        _url= self.rf.get_option_value("back_ground","host")+":"+\
-              self.rf.get_option_value("back_ground","port")+\
-              self.rf.get_option_value("back_ground","validator_url")
+        _url = self.rf.get_option_value("back_ground","host")+ \
+            self.rf.get_option_value("back_ground","validator_url")
 
-        rt = self.get(_url)
+        rt = self.get(_url,verify=False)
+
         param = {
             "name": "%s" % (self.rf.get_option_value("back_ground","username"),),
             "password":"%s" % (self.rf.get_option_value("back_ground","passwd"),)
@@ -82,19 +82,17 @@ class QydBackGround(object):
             "Authorization":"%s" % (bs.user_encode_back(),),
             "Cookie":"JSESSIONID=%s" % (rt.cookies['JSESSIONID'],)
         }
-        data = urllib.urlencode(param)
-        # print data
-        url = self.rf.get_option_value("back_ground","host")\
-            + ":" + self.rf.get_option_value("back_ground","port") \
-            + self.rf.get_option_value("back_ground","url_login") \
-            + '?' + data
 
-        r = self.post(url, headers=header)
+        url = self.rf.get_option_value("back_ground","host")\
+            + self.rf.get_option_value("back_ground","url_login") \
+            + '?' + urllib.urlencode(param)
+
+        r = self.post(url, headers=header,verify=False)
         print "X-Auth-Token为:{}".format(r.headers["X-Auth-Token"])
         return r.headers["X-Auth-Token"]
 
-    def post(self,url,data=None,json=None,**kwargs):
-        r = self.s.post(url,data=data,json=json,**kwargs)
+    def post(self, url, data=None, json=None, **kwargs):
+        r = self.s.post(url, data=data, json=json, **kwargs)
         return r
 
     def get(self, url, **kwargs):

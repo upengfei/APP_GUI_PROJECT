@@ -33,13 +33,12 @@ class ApiRecharge(unittest.TestCase):
         # self.s.headers.update({"X-Auth-Token":"{}".format(self.r.headers["X-Auth-Token"])})
 
         url_api = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL","queryaccountamount")
         # param = {
         #
         # }
 
-        r=self.s.post(url_api, headers=header1)
+        r=self.s.post(url_api, headers=header1, verify=False)
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -53,12 +52,11 @@ class ApiRecharge(unittest.TestCase):
         # self.s.headers.update({"X-Auth-Token":"{}".format(self.r.headers["X-Auth-Token"])})
 
         url_api = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL","queryaccountamount")
         param = {
 
         }
-        r=self.s.post(url_api,data=json.dumps(param), headers=header1)
+        r=self.s.post(url_api,data=json.dumps(param), headers=header1,verify=False)
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -72,12 +70,11 @@ class ApiRecharge(unittest.TestCase):
         # self.s.headers.update({"X-Auth-Token":"{}".format(self.r.headers["X-Auth-Token"])})
 
         url_api = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL","queryaccountamount")
         param = {
 
         }
-        r=self.s.post(url_api,data=json.dumps(param), headers=header1)
+        r=self.s.post(url_api,data=json.dumps(param), headers=header1,verify=False)
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -92,7 +89,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -103,7 +99,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -118,7 +114,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -131,7 +126,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -146,7 +141,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -159,7 +153,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -175,7 +169,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -188,7 +181,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -203,7 +196,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -216,7 +208,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code != 200, u'请求返回状态码与预期不一致，实际返回状态码为：'+str(r.status_code)
 
@@ -231,7 +223,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -244,7 +235,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code != 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -259,7 +250,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -272,7 +262,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code != 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -288,7 +278,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "querytransaction")
 
         params = {
@@ -301,7 +290,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -325,7 +314,6 @@ class ApiRecharge(unittest.TestCase):
         }
 
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "tranasctionexcelexport")\
             + "?"\
             + urllib.urlencode(params)
@@ -334,7 +322,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.get(_url, headers=header)
+        r = self.s.get(_url, headers=header,verify=False)
         # print u'请求返回报文为:%s' % (unicode(r.content),)
         # assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -356,7 +344,6 @@ class ApiRecharge(unittest.TestCase):
 
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "tranasctionexcelexport")\
             + "?"\
             + urllib.urlencode(params)
@@ -364,7 +351,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.get(_url,headers=header)
+        r = self.s.get(_url,headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         # assert r.status_code != 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -383,7 +370,6 @@ class ApiRecharge(unittest.TestCase):
 
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "tranasctionexcelexport")\
             + "?"\
             + urllib.urlencode(params)
@@ -391,7 +377,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.get(_url, headers=header)
+        r = self.s.get(_url, headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         # assert r.status_code != 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -402,7 +388,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "queryAvailableBankcard")
 
         params = {
@@ -413,7 +398,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -428,7 +413,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "queryAvailableBankcard")
 
         params = {
@@ -439,7 +423,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -455,7 +439,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundOfflineRecharge")
 
         params = {
@@ -469,7 +452,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -485,7 +468,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundOfflineRecharge")
 
         params = {
@@ -499,11 +481,41 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
     def test_backgroundOfflineRecharge_02(self):
+        """自有账户线下充值-流水号重复"""
+        sql = "select id from user where name='垫富宝投资有限公司';"
+
+        self.md.execute(sql)
+        user_id = self.md.fetchone()[0]
+        print user_id
+        header = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0",
+            "X-Auth-Token":"{}".format(self.s.getBackToken())
+        }
+        _url = self.rf.get_option_value("http","host")\
+            + self.rf.get_option_value("URL", "backgroundOfflineRecharge")
+
+        params = {
+            "userId":"{}".format(user_id),
+            "operationType":"BackgroundOffline",# 操作类型：ForegroundOnline、BackgroundOnline 、ForegroundOffline、BackgroundOffline
+            "bankName":"中信银行",
+            "amount":"100",
+            "serialNo":"abbbnnnofffoo-01"
+
+
+        }
+        # print header
+        # print url_api.decode('utf-8')
+        # print params
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
+        print u'请求返回报文为:%s' % (r.content,)
+        assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
+
+    def test_backgroundOfflineRecharge_03(self):
         """自有账户线下充值-加入流水号"""
         sql = "select id from user where name='垫富宝投资有限公司';"
 
@@ -515,7 +527,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundOfflineRecharge")
 
         params = {
@@ -523,14 +534,14 @@ class ApiRecharge(unittest.TestCase):
             "operationType":"BackgroundOffline",# 操作类型：ForegroundOnline、BackgroundOnline 、ForegroundOffline、BackgroundOffline
             "bankName":"中信银行",
             "amount":"100",
-            "serialNo":"abbbnnnooo-01"
+            "serialNo":"abbfghnnofffffdfoo-01"
 
 
         }
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
         print u'请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, u'请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
 
@@ -546,7 +557,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundofflinewithdrawal")
 
         params = {
@@ -561,7 +571,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
 
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
@@ -578,7 +588,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundofflinewithdrawal")
 
         params = {
@@ -593,7 +602,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
 
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
@@ -610,7 +619,6 @@ class ApiRecharge(unittest.TestCase):
             "X-Auth-Token":"{}".format(self.s.getBackToken())
         }
         _url = self.rf.get_option_value("http","host")\
-            + ":" + self.rf.get_option_value("http","port") \
             + self.rf.get_option_value("URL", "backgroundonlinewithdrawal")
 
         params = {
@@ -625,7 +633,7 @@ class ApiRecharge(unittest.TestCase):
         # print header
         # print url_api.decode('utf-8')
         # print params
-        r = self.s.post(_url,data=json.dumps(params),headers=header)
+        r = self.s.post(_url,data=json.dumps(params),headers=header,verify=False)
 
         print '请求返回报文为:%s' % (r.content,)
         assert r.status_code == 200, '请求返回状态码与预期不一致，返回状态码为：'+str(r.status_code)
@@ -637,27 +645,28 @@ if __name__ == "__main__":
         map(
             ApiRecharge,
             [
-                # "test_queryAccountAmount",
-                # "test_queryAccountAmount_01",
-                # "test_queryAccountAmount_02",
-                # "test_queryTransaction",
-                # "test_queryTransaction_01",
-                # "test_queryTransaction_02",
-                # "test_queryTransaction_03",
-                # "test_queryTransaction_04",
-                # "test_queryTransaction_05",
-                # "test_queryTransaction_06",
-                # "test_queryTransaction_07",
-                # "test_tranasctionExcelExport",
-                "test_tranasctionExcelExport_01",
-                "test_tranasctionExcelExport_02",
-                # "test_queryAvailableBankcard",
-                # "test_backgroundOfflineRecharge",
-                # "test_backgroundOfflineRecharge_01",
-                # "test_backgroundOfflineRecharge_02",
-                # "test_backGroundoOfflineWithdrawal",
-                # "test_backGroundoOfflineWithdrawal_01",
-                # "test_backGroundOnlineWithdrawal"
+                "test_queryAccountAmount",
+                "test_queryAccountAmount_01",
+                "test_queryAccountAmount_02",
+                "test_queryTransaction",
+                "test_queryTransaction_01",
+                "test_queryTransaction_02",
+                "test_queryTransaction_03",
+                "test_queryTransaction_04",
+                "test_queryTransaction_05",
+                "test_queryTransaction_06",
+                "test_queryTransaction_07",
+                "test_tranasctionExcelExport",
+                # "test_tranasctionExcelExport_01",
+                # "test_tranasctionExcelExport_02",
+                "test_queryAvailableBankcard",
+                "test_backgroundOfflineRecharge",
+                "test_backgroundOfflineRecharge_01",
+                "test_backgroundOfflineRecharge_02",
+                "test_backgroundOfflineRecharge_03",
+                "test_backGroundoOfflineWithdrawal",
+                "test_backGroundoOfflineWithdrawal_01",
+                "test_backGroundOnlineWithdrawal"
             ]
         )
     )

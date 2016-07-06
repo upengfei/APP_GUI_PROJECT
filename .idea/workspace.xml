@@ -23,10 +23,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/APITest$API_TEST.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416001817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APITest$api_test.coverage" NAME="api-test Coverage Results" MODIFIED="1466403802887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1467166472923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APITest$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1467251312032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APITest$recharge_api.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416039917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1467166469982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$racharge_api.coverage" NAME="racharge-api Coverage Results" MODIFIED="1467020240330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APITest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1467250593121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APITest$racharge_api.coverage" NAME="racharge-api Coverage Results" MODIFIED="1467284331293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APITest$Unittest_ApiRecharge_test_queryAvailableBankcard.coverage" NAME="Unittest ApiRecharge.test_queryAvailableBankcard Coverage Results" MODIFIED="1466407784799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APITest$Unnamed.coverage" NAME="racharge-api Coverage Results" MODIFIED="1466415918496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APITest$Unittest_ApiRecharge_test_queryTransaction.coverage" NAME="Unittest ApiRecharge.test_queryTransaction Coverage Results" MODIFIED="1466412132734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
@@ -40,50 +40,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recharge-api.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="recharge-api.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testCases/recharge-api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.475">
+              <caret line="616" column="18" selection-start-line="616" selection-start-column="18" selection-end-line="616" selection-end-column="18" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
-                <element signature="e#639#1344#0" expanded="false" />
-                <element signature="e#1396#2129#0" expanded="false" />
-                <element signature="e#2181#2891#0" expanded="false" />
-                <element signature="e#2938#3854#0" expanded="false" />
-                <element signature="e#3904#4866#0" expanded="false" />
-                <element signature="e#4916#5878#0" expanded="false" />
-                <element signature="e#5928#6876#0" expanded="false" />
-                <element signature="e#6926#7878#0" expanded="false" />
-                <element signature="e#7928#8879#0" expanded="false" />
-                <element signature="e#8929#9883#0" expanded="false" />
-                <element signature="e#9933#10889#0" expanded="false" />
-                <element signature="e#12956#13784#0" expanded="false" />
-                <element signature="e#13840#14574#0" expanded="false" />
-                <element signature="e#15562#16653#0" expanded="false" />
-                <element signature="e#16712#17808#0" expanded="false" />
-                <element signature="e#17867#19003#0" expanded="false" />
-                <element signature="e#20217#21320#0" expanded="false" />
-                <element signature="e#21377#22468#0" expanded="false" />
-                <marker date="1467020487702" expanded="true" signature="2966:3008" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="3946:3988" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="4958:5000" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="5963:6005" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="6963:7005" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="7965:8007" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="8967:9009" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="9972:10014" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="10970:11012" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="12006:12048" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="14656:14687" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="14656:14689" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="15592:15634" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="16749:16791" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="17903:17945" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="19092:19134" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="20257:20299" placeholder="select id fr... user" />
-                <marker date="1467020487702" expanded="true" signature="21407:21449" placeholder="select id fr... user" />
+                <element signature="e#639#1296#0" expanded="false" />
+                <element signature="e#1348#2032#0" expanded="false" />
+                <element signature="e#2084#2745#0" expanded="false" />
+                <element signature="e#2792#3659#0" expanded="false" />
+                <element signature="e#3709#4622#0" expanded="false" />
+                <element signature="e#4672#5585#0" expanded="false" />
+                <element signature="e#5635#6534#0" expanded="false" />
+                <element signature="e#6584#7487#0" expanded="false" />
+                <element signature="e#7537#8439#0" expanded="false" />
+                <element signature="e#8489#9394#0" expanded="false" />
+                <element signature="e#9444#10351#0" expanded="false" />
+                <element signature="e#10404#11326#0" expanded="false" />
+                <element signature="e#11382#12264#0" expanded="false" />
+                <element signature="e#12320#13099#0" expanded="false" />
+                <element signature="e#13155#13840#0" expanded="false" />
+                <element signature="e#13893#14723#0" expanded="false" />
+                <element signature="e#14779#15821#0" expanded="false" />
+                <element signature="e#15880#16927#0" expanded="false" />
+                <element signature="e#16986#18076#0" expanded="false" />
+                <element signature="e#19289#20333#0" expanded="false" />
+                <element signature="e#20395#21449#0" expanded="false" />
+                <marker date="1467284331283" expanded="true" signature="2820:2862" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="3751:3793" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="4714:4756" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="5670:5712" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="6621:6663" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="7574:7616" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="8527:8569" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="9483:9525" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="10432:10474" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="11419:11461" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="13922:13953" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="13922:13955" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="14809:14851" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="15917:15959" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="17022:17064" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="18171:18213" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="19319:19361" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="20435:20477" placeholder="select id fr... user" />
+                <marker date="1467284331283" expanded="true" signature="21536:21578" placeholder="select id fr... user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpCurl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rechargeSelf_report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/rechargeSelf_report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="655" column="0" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/config/recharge_self.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -102,19 +126,19 @@
         <entry file="file://$PROJECT_DIR$/config/qyd_func.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="26" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test01.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCases/test01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
-                <element signature="e#23#38#0" expanded="true" />
+                <element signature="e#23#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,17 +148,7 @@
         <entry file="file://$PROJECT_DIR$/testCases/test02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicFunc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,10 +168,21 @@
         <entry file="file://$PROJECT_DIR$/func/QydBasicFunc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
+                <element signature="e#155#1701#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpConfig.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/HttpConfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="121" column="30" selection-start-line="119" selection-start-column="9" selection-end-line="121" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,11 +220,11 @@
         <option value="$PROJECT_DIR$/func/BasicFunc.py" />
         <option value="$PROJECT_DIR$/func/HttpFunc.py" />
         <option value="$PROJECT_DIR$/config/qyd_func.ini" />
+        <option value="$PROJECT_DIR$/testCases/test01.py" />
         <option value="$PROJECT_DIR$/config/recharge_self.ini" />
         <option value="$PROJECT_DIR$/func/QydBasicFunc.py" />
         <option value="$PROJECT_DIR$/testCases/recharge-api.py" />
         <option value="$PROJECT_DIR$/testCases/test02.py" />
-        <option value="$PROJECT_DIR$/testCases/test01.py" />
       </list>
     </option>
   </component>
@@ -237,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,6 +338,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -321,10 +346,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.test02">
+  <component name="RunManager" selected="Python.racharge-api">
     <configuration default="false" name="Unittest ApiRecharge.test_queryTransaction" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -688,28 +713,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27365592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28010753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.50215054" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40418503" sideWeight="0.5032258" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40374038" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823982" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49784946" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40418503" sideWeight="0.4967742" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823982" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -751,30 +776,16 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="510" column="0" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="730" column="40" selection-start-line="730" selection-start-column="40" selection-end-line="730" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -846,25 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07421875">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1801" column="0" selection-start-line="1801" selection-start-column="0" selection-end-line="1801" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/Jmd_api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1036,25 +1032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/Base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22222222">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556">
-          <caret line="121" column="30" selection-start-line="119" selection-start-column="9" selection-end-line="121" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,6 +1043,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6785714">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/Base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="83" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.109375">
+          <caret line="417" column="21" selection-start-line="417" selection-start-column="21" selection-end-line="418" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/qyd_func.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/Jmd_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22070312">
+          <caret line="1810" column="0" selection-start-line="1810" selection-start-column="0" selection-end-line="1810" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/recharge_self.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/rechargeSelf_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="655" column="0" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,97 +1136,68 @@
     <entry file="file://$PROJECT_DIR$/func/QydBasicFunc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
+            <element signature="e#155#1701#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/recharge_self.ini">
+    <entry file="file://$PROJECT_DIR$/func/HttpConfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/rechargeSelf_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.714285">
-          <caret line="87" column="7" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="7" />
+          <caret line="121" column="30" selection-start-line="119" selection-start-column="9" selection-end-line="121" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCases/recharge-api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="548" column="61" selection-start-line="548" selection-start-column="61" selection-end-line="548" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.475">
+          <caret line="616" column="18" selection-start-line="616" selection-start-column="18" selection-end-line="616" selection-end-column="18" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#639#1344#0" expanded="false" />
-            <element signature="e#1396#2129#0" expanded="false" />
-            <element signature="e#2181#2891#0" expanded="false" />
-            <element signature="e#2938#3854#0" expanded="false" />
-            <element signature="e#3904#4866#0" expanded="false" />
-            <element signature="e#4916#5878#0" expanded="false" />
-            <element signature="e#5928#6876#0" expanded="false" />
-            <element signature="e#6926#7878#0" expanded="false" />
-            <element signature="e#7928#8879#0" expanded="false" />
-            <element signature="e#8929#9883#0" expanded="false" />
-            <element signature="e#9933#10889#0" expanded="false" />
-            <element signature="e#12956#13784#0" expanded="false" />
-            <element signature="e#13840#14574#0" expanded="false" />
-            <element signature="e#15562#16653#0" expanded="false" />
-            <element signature="e#16712#17808#0" expanded="false" />
-            <element signature="e#17867#19003#0" expanded="false" />
-            <element signature="e#20217#21320#0" expanded="false" />
-            <element signature="e#21377#22468#0" expanded="false" />
-            <marker date="1467020487702" expanded="true" signature="2966:3008" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="3946:3988" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="4958:5000" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="5963:6005" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="6963:7005" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="7965:8007" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="8967:9009" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="9972:10014" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="10970:11012" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="12006:12048" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="14656:14687" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="14656:14689" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="15592:15634" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="16749:16791" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="17903:17945" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="19092:19134" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="20257:20299" placeholder="select id fr... user" />
-            <marker date="1467020487702" expanded="true" signature="21407:21449" placeholder="select id fr... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/qyd_func.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#639#1296#0" expanded="false" />
+            <element signature="e#1348#2032#0" expanded="false" />
+            <element signature="e#2084#2745#0" expanded="false" />
+            <element signature="e#2792#3659#0" expanded="false" />
+            <element signature="e#3709#4622#0" expanded="false" />
+            <element signature="e#4672#5585#0" expanded="false" />
+            <element signature="e#5635#6534#0" expanded="false" />
+            <element signature="e#6584#7487#0" expanded="false" />
+            <element signature="e#7537#8439#0" expanded="false" />
+            <element signature="e#8489#9394#0" expanded="false" />
+            <element signature="e#9444#10351#0" expanded="false" />
+            <element signature="e#10404#11326#0" expanded="false" />
+            <element signature="e#11382#12264#0" expanded="false" />
+            <element signature="e#12320#13099#0" expanded="false" />
+            <element signature="e#13155#13840#0" expanded="false" />
+            <element signature="e#13893#14723#0" expanded="false" />
+            <element signature="e#14779#15821#0" expanded="false" />
+            <element signature="e#15880#16927#0" expanded="false" />
+            <element signature="e#16986#18076#0" expanded="false" />
+            <element signature="e#19289#20333#0" expanded="false" />
+            <element signature="e#20395#21449#0" expanded="false" />
+            <marker date="1467284331283" expanded="true" signature="2820:2862" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="3751:3793" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="4714:4756" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="5670:5712" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="6621:6663" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="7574:7616" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="8527:8569" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="9483:9525" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="10432:10474" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="11419:11461" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="13922:13953" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="13922:13955" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="14809:14851" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="15917:15959" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="17022:17064" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="18171:18213" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="19319:19361" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="20435:20477" placeholder="select id fr... user" />
+            <marker date="1467284331283" expanded="true" signature="21536:21578" placeholder="select id fr... user" />
           </folding>
         </state>
       </provider>
