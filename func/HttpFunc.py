@@ -126,6 +126,9 @@ class HttpFunc:
             print u'获取测试报告路径不正确'
             return False
 
+
+
+
     def buf_tell(self):
         return self.hc.buf_tell()
 

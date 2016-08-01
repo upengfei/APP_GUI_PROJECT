@@ -21,3 +21,16 @@ class Func:
         else:
             return path
 
+    def getLogDir(self):
+        """
+        在当前工程指定目录下创建测试报告模板
+        :return:
+        """
+        if not os.path.exists(Func.get_root_path()+ '\\log_file'):
+            os.mkdir(self.get_root_path() + r'\log_file')
+            logDir = os.path.join(Func.get_root_path() + r'\log_file')
+            return logDir
+        else:
+
+            logDir = os.path.join(Func.get_root_path() + r'\log_file')
+            return logDir
