@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 import MySQLdb
-
+import sys
 import ReadFile
-
+from func.log import logger
 
 
 class MysqlDB(object):
@@ -13,16 +13,18 @@ class MysqlDB(object):
     def __init__(self,path):
 
         self.rf = ReadFile.ReadFile(path)
-
-        self.conn = MySQLdb.connect(
-            host=self.rf.get_option_value("db", "db_host"),
-            user=self.rf.get_option_value("db", "db_user"),
-            passwd=self.rf.get_option_value("db", "db_passwd"),
-            db=self.rf.get_option_value("db", "db_name"),
-            port=int(self.rf.get_option_value("db", "db_port")),
-            charset="utf8"
-        )
-
+        try:
+            self.conn = MySQLdb.connect(
+                host=self.rf.get_option_value("db", "db_host"),
+                user=self.rf.get_option_value("db", "db_user"),
+                passwd=self.rf.get_option_value("db", "db_passwd"),
+                db=self.rf.get_option_value("db", "db_name"),
+                port=int(self.rf.get_option_value("db", "db_port")),
+                charset="utf8"
+            )
+        except Exception as e:
+            logger("链接数据库失败，错误信息：",e)
+            sys.exit()
         self.cursor = self.conn.cursor()
 
     def execute(self, sql, arg=None):
@@ -32,34 +34,51 @@ class MysqlDB(object):
         :param arg:
         :return:
         """
-        self.cursor.execute(sql, args=arg)
+        try:
+            self.cursor.execute(sql, args=arg)
+        except Exception as e:
+            logger("执行sql错误，错误信息：",e)
+            sys.exit()
 
     def executemany(self, sql, args):
         """
          执行单条sql语句,但是重复执行参数列表里的参数,返回值为受影响的行数
         """
-
-        self.cursor.executemany(sql, args=args)
+        try:
+            self.cursor.executemany(sql, args=args)
+        except Exception as e:
+            logger("执行sql错误，错误信息：",e)
+            sys.exit()
 
     def fetchone(self):
         """
         返回一条结果行；
         执行完后指针发生移动，配合scroll方法来移动指针(同样适用于fetchall/fetchmany)
         """
-
-        return self.cursor.fetchone()
+        try:
+            return self.cursor.fetchone()
+        except Exception as e:
+            logger("执行sql错误，错误信息：",e)
+            sys.exit()
 
     def fetchall(self):
         ''' 接收全部的返回结果行 '''
-        return self.cursor.fetchall()
-
+        try:
+            return self.cursor.fetchall()
+        except Exception as e:
+            print e
+            sys.exit()
     def fetchmany(self, num):
         """
         接收num条返回结果行.如果num的值大于返回的结果行的数量,则会返回cursor.arraysize条数据
         :param num:
         :return:
         """
-        return self.cursor.fetchmany(size=num)
+        try:
+            return self.cursor.fetchmany(size=num)
+        except Exception as e:
+            print e
+            sys.exit()
 
     def cursor_close(self):
         self.cursor.close()

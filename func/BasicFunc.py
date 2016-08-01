@@ -20,3 +20,4 @@ class Func:
             return list_dir[0]
         else:
             return path
+

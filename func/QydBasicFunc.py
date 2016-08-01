@@ -27,13 +27,13 @@ class QydForeground(object):
             "Connection": "keep-alive"
         }
 
-        url = self.rf.get_option_value("fore_ground","host")+":"+self.rf.get_option_value("fore_ground","port")\
+        url = self.rf.get_option_value("fore_ground","host")\
             + self.rf.get_option_value("fore_ground","login_url")
 
-        r=self.s.post(url,data=json.dumps(param),headers=headers)
+        r=self.s.post(url,data=json.dumps(param),headers=headers,verify=False)
         # print "请求返回报文："+str(r.content)
         find_content = re.findall('.*?"xAuthToken":"(.*?)","sessionId"', str(r.content), re.S)
-        print u'获取的token值为:%s' % (find_content[0],)
+        # print u'获取的token值为:%s' % (find_content[0],)
         return find_content[0]
 
     def post(self,url,data=None,json=None,**kwargs):
