@@ -5,8 +5,10 @@ import ReadFile
 import Base64
 import BasicFunc
 import requests, json, re, urllib
-
-
+from func.log import logger
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 class QydForeground(object):
     """
         获取轻易贷前台token，以及后续操作。
@@ -37,12 +39,21 @@ class QydForeground(object):
         return find_content[0]
 
     def post(self,url,data=None,json=None,**kwargs):
-        r = self.s.post(url,data=data,json=json,**kwargs)
-        return r
+        try:
+            r = self.s.post(url,data=data,json=json,**kwargs)
+
+            return r
+        except Exception as e:
+            logger.info("发送post请求错误，错误信息为:",e)
+            sys.exit()
 
     def get(self,url,**kwargs):
-        r = self.s.get(url,**kwargs)
-        return r
+        try:
+            r = self.s.get(url,**kwargs)
+            return r
+        except Exception as e:
+            logger.info("发送get请求错误，错误信息为:",e)
+            sys.exit()
 
     def get_headers(self):
         return self.s.headers
@@ -51,9 +62,12 @@ class QydForeground(object):
         return self.s.cookies
 
     def header_update(self,*args,**kwds):
+
         self.s.headers.update(*args,**kwds)
 
+
     def header_get(self,key,default=None):
+
         return self.s.headers.get(key,default=default)
 
 
@@ -92,12 +106,20 @@ class QydBackGround(object):
         return r.headers["X-Auth-Token"]
 
     def post(self, url, data=None, json=None, **kwargs):
-        r = self.s.post(url, data=data, json=json, **kwargs)
-        return r
+        try:
+            r = self.s.post(url, data=data, json=json, **kwargs)
+            return r
+        except Exception as e:
+            logger.info("发送post请求错误，错误信息为:",e)
+            sys.exit()
 
     def get(self, url, **kwargs):
-        r = self.s.get(url, **kwargs)
-        return r
+        try:
+            r = self.s.get(url, **kwargs)
+            return r
+        except Exception as e:
+            logger.info("发送get请求错误，错误信息为:",e)
+            sys.exit()
 
     def get_headers(self):
         return self.s.headers

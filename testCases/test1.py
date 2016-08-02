@@ -1,7 +1,4 @@
-
-from func import BasicFunc
+# -*- coding:utf-8 -*-
+from func import *
 import os,sys
-bf = BasicFunc.Func()
-
-
-print bf.getLogDir()
+os.path.abspath(".")
