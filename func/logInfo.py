@@ -4,7 +4,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import threading
 import configparser
-import ReadFile
+import conf_read
 import BasicFunc
 
 class LogSignleton(object):
@@ -13,31 +13,27 @@ class LogSignleton(object):
     log_on = 'console_log_on  = 1 开启控制台日志，0则关闭，logfile_log_on = 1 开启文件日志， 0则关闭'
     """
     def __init__(self, log_config):
-        pass
-
-    def __new__(cls, log_config):
         mutex=threading.Lock()
         mutex.acquire() # 上锁，防止多线程下出问题
-        if not hasattr(cls, 'instance'):
+        rf = conf_read.ReadFile(log_config)
 
-            cls.instance = super(LogSignleton, cls).__new__(cls)
-            # config = configparser.ConfigParser()
-            # config.read(log_config, encoding='utf-8')
+        # config = configparser.ConfigParser()
+        # config.read(log_config)
 
-            rf = ReadFile.ReadFile(log_config)
-            cls.instance.log_filename = BasicFunc.Func().getLogDir() +'\\'+ rf.get_option_value('LOGGING', 'log_file')
-            cls.instance.max_bytes_each = int(rf.get_option_value('LOGGING', 'max_bytes_each'))
-            cls.instance.backup_count = int(rf.get_option_value('LOGGING', 'backup_count'))
-            cls.instance.fmt = rf.get_option_value('LOGGING', 'fmt')
-            cls.instance.log_level_in_console = int(rf.get_option_value('LOGGING', 'log_level_in_console'))
-            cls.instance.log_level_in_logfile = int(rf.get_option_value('LOGGING', 'log_level_in_logfile'))
-            cls.instance.logger_name = rf.get_option_value('LOGGING', 'logger_name')
-            cls.instance.console_log_on = int(rf.get_option_value('LOGGING', 'console_log_on'))
-            cls.instance.logfile_log_on = int(rf.get_option_value('LOGGING', 'logfile_log_on'))
-            cls.instance.logger = logging.getLogger(cls.instance.logger_name)
-            cls.instance.__config_logger()
+        self.log_filename = BasicFunc.Func().getLogDir() +'\\'+rf.get_option_value('LOGGING', 'log_file')
+        self.max_bytes_each = int(rf.get_option_value('LOGGING', 'max_bytes_each'))
+        self.backup_count = int(rf.get_option_value('LOGGING', 'backup_count'))
+        self.fmt = rf.get_option_value('LOGGING', 'fmt')
+        self.log_level_in_console = int(rf.get_option_value('LOGGING', 'log_level_in_console'))
+        self.log_level_in_logfile = int(rf.get_option_value('LOGGING', 'log_level_in_logfile'))
+        self.logger_name = rf.get_option_value('LOGGING', 'logger_name')
+        self.console_log_on = int(rf.get_option_value('LOGGING', 'console_log_on'))
+        self.logfile_log_on = int(rf.get_option_value('LOGGING', 'logfile_log_on'))
+        self.logger = logging.getLogger(self.logger_name)
+        self.__config_logger()
         mutex.release()
-        return cls.instance
+
+
 
     def get_logger(self):
         return  self.logger
@@ -60,5 +56,5 @@ class LogSignleton(object):
             self.logger.addHandler(rt_file_handler)
             self.logger.setLevel(self.log_level_in_logfile)
 
-logsignleton = LogSignleton('/config/logconfig.ini')
+logsignleton = LogSignleton(r'\config\logconfig.ini')
 logger = logsignleton.get_logger()

@@ -3,7 +3,7 @@ import time,sys
 import unittest
 import requests,urllib
 import json
-from func import HTMLTestRunner, HttpFunc,MysqlDB, ReadFile,BasicFunc,QydBasicFunc
+from func import HTMLTestRunner, HttpFunc,MysqlDB, conf_read,BasicFunc,QydBasicFunc
 
 
 reload(sys)
@@ -14,7 +14,7 @@ class ApiRecharge(unittest.TestCase):
     def setUp(self):
         BasicFunc.Func().get_root_path()
         self.s = QydBasicFunc.QydBackGround()
-        self.rf = ReadFile.ReadFile(r'/config/recharge_self.ini')
+        self.rf = conf_read.ReadFile(r'/config/recharge_self.ini')
         self.md = MysqlDB.MysqlDB(r'/config/recharge_self.ini')
 
 
@@ -84,6 +84,7 @@ class ApiRecharge(unittest.TestCase):
 
         self.md.execute(sql)
         _id = self.md.fetchone()[0]
+
         header = {
             "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0",
             "X-Auth-Token":"{}".format(self.s.getBackToken())
@@ -670,7 +671,7 @@ if __name__ == "__main__":
             ]
         )
     )
-    now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+    now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime())
     HttpFunc.HttpFunc.create_report("rechargeSelf_report")
 
     filename = HttpFunc.HttpFunc.get_report("rechargeSelf_report")

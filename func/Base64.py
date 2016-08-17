@@ -1,12 +1,12 @@
 import base64
 import configparser
-from func import BasicFunc,ReadFile
+from func import BasicFunc,conf_read
 
-class BaseChange:
+class BaseChange(object):
 
     def __init__(self,path):
         file_path = BasicFunc.Func.get_root_path() + path
-        self.rf = ReadFile.ReadFile(path)
+        self.rf = conf_read.ReadFile(path)
 
     def user_encode(self):
 

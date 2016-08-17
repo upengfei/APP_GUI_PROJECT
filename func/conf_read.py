@@ -1,16 +1,21 @@
 # -*- coding:utf-8 -*-
 import configparser
 import os
-from func import BasicFunc
+import BasicFunc
+
+import sys
+
 
 class ReadFile:
-
     def __init__(self,filePath):
 
         path = BasicFunc.Func.get_root_path() + filePath
+        try:
+            self.hc = configparser.ConfigParser()
+            self.hc.read(path)
+        except Exception as e:
 
-        self.hc = configparser.ConfigParser()
-        self.hc.read(path)
+            sys.exit()
 
     def get_sections(self):
         """
@@ -35,8 +40,11 @@ class ReadFile:
         :param option:
         :return:
         """
+        try:
+            return self.hc.get(section, option)
+        except Exception as e:
 
-        return self.hc.get(section, option)
+            sys.exit()
 
     def set_option_value(self, section, option, value):
 

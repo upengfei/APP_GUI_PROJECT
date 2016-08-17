@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 import MySQLdb
 import sys
-import ReadFile
-from func.log import logger
+import conf_read
+from func.logInfo import logger
 
 
 class MysqlDB(object):
@@ -12,7 +12,7 @@ class MysqlDB(object):
 
     def __init__(self,path):
 
-        self.rf = ReadFile.ReadFile(path)
+        self.rf = conf_read.ReadFile(path)
         try:
             self.conn = MySQLdb.connect(
                 host=self.rf.get_option_value("db", "db_host"),
@@ -22,10 +22,11 @@ class MysqlDB(object):
                 port=int(self.rf.get_option_value("db", "db_port")),
                 charset="utf8"
             )
+            self.cursor = self.conn.cursor()
         except Exception as e:
-            logger("链接数据库失败，错误信息：",e)
-            sys.exit()
-        self.cursor = self.conn.cursor()
+            print e
+
+
 
     def execute(self, sql, arg=None):
         """
@@ -37,8 +38,8 @@ class MysqlDB(object):
         try:
             self.cursor.execute(sql, args=arg)
         except Exception as e:
-            logger("执行sql错误，错误信息：",e)
-            sys.exit()
+
+            print e
 
     def executemany(self, sql, args):
         """
@@ -47,8 +48,8 @@ class MysqlDB(object):
         try:
             self.cursor.executemany(sql, args=args)
         except Exception as e:
-            logger("执行sql错误，错误信息：",e)
-            sys.exit()
+
+            print e
 
     def fetchone(self):
         """
@@ -58,8 +59,8 @@ class MysqlDB(object):
         try:
             return self.cursor.fetchone()
         except Exception as e:
-            logger("执行sql错误，错误信息：",e)
-            sys.exit()
+
+            print e
 
     def fetchall(self):
         ''' 接收全部的返回结果行 '''
@@ -67,7 +68,7 @@ class MysqlDB(object):
             return self.cursor.fetchall()
         except Exception as e:
             print e
-            sys.exit()
+
     def fetchmany(self, num):
         """
         接收num条返回结果行.如果num的值大于返回的结果行的数量,则会返回cursor.arraysize条数据
@@ -78,7 +79,7 @@ class MysqlDB(object):
             return self.cursor.fetchmany(size=num)
         except Exception as e:
             print e
-            sys.exit()
+
 
     def cursor_close(self):
         self.cursor.close()

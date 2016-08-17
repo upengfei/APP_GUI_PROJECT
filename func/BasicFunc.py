@@ -2,7 +2,7 @@
 
 import os
 
-class Func:
+class Func(object):
     def __init__(self):
         pass
 

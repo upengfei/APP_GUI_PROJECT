@@ -2,14 +2,14 @@
 import time,re
 import unittest,urllib
 
-from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile,BasicFunc,HttpConfig
+from func import HTMLTestRunner, HttpFunc, MysqlDB, conf_read,BasicFunc,HttpConfig
 
 
 class TestCases(unittest.TestCase):
 
     def setUp(self):
         BasicFunc.Func().get_root_path()
-        self.rf = ReadFile.ReadFile(r'/config/config.ini')
+        self.rf = conf_read.ReadFile(r'/config/config.ini')
         self.hf = HttpFunc.HttpFunc()
         self.md = MysqlDB.MysqlDB()
         self.hc = HttpConfig.HttpConfig()

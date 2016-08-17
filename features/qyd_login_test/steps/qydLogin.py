@@ -2,7 +2,7 @@
 import time
 
 from behave import *
-from func import ReadFile
+from func import conf_read
 from func import PySelenium
 
 

@@ -2,16 +2,16 @@
 import time
 import unittest
 
-from func import HTMLTestRunner, HttpFunc, MysqlDB, ReadFile,BasicFunc,Base64
+from func import HTMLTestRunner, HttpFunc, MysqlDB, conf_read,BasicFunc,Base64
 
 
 class TestCases(unittest.TestCase):
 
     def setUp(self):
         BasicFunc.Func().get_root_path()
-        self.rf = ReadFile.ReadFile(r'/config/recharge_self.ini')
+        self.rf = conf_read.ReadFile(r'/config/recharge_self.ini')
         self.hf = HttpFunc.HttpFunc()
-        self.md = MysqlDB.MysqlDB()
+        self.md = MysqlDB.MysqlDB('/config/config.ini')
         self.bs = Base64.BaseChange(r'/config/recharge_self.ini')
 
     def tearDown(self):

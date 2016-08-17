@@ -6,7 +6,7 @@ import os
 import re
 import urllib
 
-import ReadFile
+import conf_read
 from func import Base64, HttpCurl,BasicFunc
 
 logging.basicConfig(level=logging.INFO,
@@ -21,7 +21,7 @@ class HttpFunc:
     def __init__(self):
         self.hc = HttpCurl.PyCurl()
         # self.buf = StringIO.StringIO()
-        self.rf = ReadFile.ReadFile(r"/config/config.ini")
+        self.rf = conf_read.ReadFile(r"/config/config.ini")
 
         self.log = logging.getLogger()
 

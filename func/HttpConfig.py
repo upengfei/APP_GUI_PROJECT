@@ -6,7 +6,7 @@ import os
 import re
 import urllib
 import urllib2
-from func import ReadFile
+from func import conf_read
 
 from func import Base64
 
@@ -14,7 +14,7 @@ from func import Base64
 class HttpConfig:
 
     def __init__(self):
-        self.rf = ReadFile.ReadFile(r'/config/config.ini')
+        self.rf = conf_read.ReadFile(r'/config/config.ini')
         self.host = self.rf.get_option_value("http","host")
         self.port = self.rf.get_option_value("http","port")
         self.headers = {}

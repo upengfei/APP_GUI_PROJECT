@@ -3,7 +3,7 @@
 import time
 import unittest
 
-from func import HTMLTestRunner, HttpFunc, MysqlDB, PySelenium, ReadFile
+from func import HTMLTestRunner, HttpFunc, MysqlDB, PySelenium, conf_read
 
 
 class QydTest(unittest.TestCase):
@@ -11,7 +11,7 @@ class QydTest(unittest.TestCase):
     def setUp(self):
         HttpFunc.HttpFunc().get_root_path()
         self.ps = PySelenium.PySelenium()
-        self.rf = ReadFile.ReadFile()
+        self.rf = conf_read.ReadFile()
         self.msd = MysqlDB.MysqlDB()
 
     def tearDown(self):

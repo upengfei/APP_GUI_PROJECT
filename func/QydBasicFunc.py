@@ -1,21 +1,23 @@
 # -*- coding:utf-8 -*-
 
 import MysqlDB
-import ReadFile
+import conf_read
 import Base64
 import BasicFunc
 import requests, json, re, urllib
-from func.log import logger
+from func.logInfo import logger
 import sys
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
 class QydForeground(object):
     """
         获取轻易贷前台token，以及后续操作。
     """
     def __init__(self):
         self.s = requests.session()
-        self.rf = ReadFile.ReadFile(r'/config/qyd_func.ini')
+        self.rf = conf_read.ReadFile(r'/config/qyd_func.ini')
 
     def get_token(self):
         bs = Base64.BaseChange(r'/config/qyd_func.ini')
@@ -59,15 +61,29 @@ class QydForeground(object):
         return self.s.headers
 
     def get_cookies(self):
+        '''
+        获取cookie值
+        :return:
+        '''
         return self.s.cookies
 
     def header_update(self,*args,**kwds):
-
+        '''
+        增加header参数
+        :param args:
+        :param kwds:
+        :return:
+        '''
         self.s.headers.update(*args,**kwds)
 
 
     def header_get(self,key,default=None):
-
+        '''
+        获取header对应key的值
+        :param key:
+        :param default:
+        :return:
+        '''
         return self.s.headers.get(key,default=default)
 
 
@@ -77,7 +93,7 @@ class QydBackGround(object):
     """
     def __init__(self):
         self.s = requests.session()
-        self.rf = ReadFile.ReadFile(r'/config/qyd_func.ini')
+        self.rf = conf_read.ReadFile(r'/config/qyd_func.ini')
 
     def getBackToken(self):
         bs = Base64.BaseChange(r'/config/qyd_func.ini')
@@ -106,6 +122,14 @@ class QydBackGround(object):
         return r.headers["X-Auth-Token"]
 
     def post(self, url, data=None, json=None, **kwargs):
+        '''
+
+        :param url:
+        :param data:
+        :param json: 支持直接使用json体参数进行请求
+        :param kwargs:
+        :return:
+        '''
         try:
             r = self.s.post(url, data=data, json=json, **kwargs)
             return r
