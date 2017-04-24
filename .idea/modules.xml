@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/APITest.iml" filepath="$PROJECT_DIR$/.idea/APITest.iml" />
+      <module fileurl="file://D:\project\APP_GUI_PROJECT\.idea\APP_GUI_PROJECT.iml" filepath="D:\project\APP_GUI_PROJECT\.idea\APP_GUI_PROJECT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/APP_GUI_PROJECT.iml" filepath="$PROJECT_DIR$/.idea/APP_GUI_PROJECT.iml" />
     </modules>
   </component>
 </project>

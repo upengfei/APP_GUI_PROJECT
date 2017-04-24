@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 # import os,sys,time
 
 
-class PySelenium(object):
+class SeleniumPy(object):
 
     def __init__(self, browser="ff"):
 

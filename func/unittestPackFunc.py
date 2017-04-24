@@ -11,7 +11,6 @@ from func import Func
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-
 def test_case_dicovery(dir, pattern='*.py',top_lever_file=None):
     """加载某文件下所有.py下的测试用例，并返回suite(一个套件)"""
     if dir is None:suite = TestLoader().discover('.')
@@ -41,5 +40,5 @@ def get_suite(cls,args):
         sys.stderr("args参数需为list类型")
 
 if __name__ == '__main__':
-    run_case(test_case_dicovery('./APP_GUI',pattern='YKJ_func_sample.py'),u'注册流程测试报告')
+    run_case(test_case_dicovery('./YKJ_APP_GUI',pattern='YKJ_func_sample.py'),u'注册流程测试报告')
 

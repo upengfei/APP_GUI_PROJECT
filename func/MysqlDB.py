@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import MySQLdb
 import sys
-import conf_read
+import ReadFunc
 from func.logInfo import logger
 
 
@@ -10,16 +10,18 @@ class MysqlDB(object):
     数据库操作
     """
 
-    def __init__(self,path):
-
-        self.rf = conf_read.ReadFile(path)
+    def __init__(self,path,configName='db'):
+        """
+        configName:为配置文件中的第一等级字段section名称，如：Appconfig.ini文件中的【db】
+        """
+        self.rf = ReadFunc.ReadFile(path)
         try:
             self.conn = MySQLdb.connect(
-                host=self.rf.get_option_value("db", "db_host"),
-                user=self.rf.get_option_value("db", "db_user"),
-                passwd=self.rf.get_option_value("db", "db_passwd"),
-                db=self.rf.get_option_value("db", "db_name"),
-                port=int(self.rf.get_option_value("db", "db_port")),
+                host=self.rf.get_option_value(configName, "db_host"),
+                user=self.rf.get_option_value(configName, "db_user"),
+                passwd=self.rf.get_option_value(configName, "db_passwd"),
+                db=self.rf.get_option_value(configName, "db_name"),
+                port=int(self.rf.get_option_value(configName, "db_port")),
                 charset="utf8"
             )
             self.cursor = self.conn.cursor()

@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/func/HTMLTestRunner.py" line="775" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0848daa-e0c2-4238-bfcc-8c4023e7eb99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCases/test2.py" afterPath="$PROJECT_DIR$/testCases/test2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/unittestPackFunc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/APITest.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/gui.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/qyd_func.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/recharge_self.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/withholdAgent.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/qyd_login_test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/qyd_login_test/qyd_login_test.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/qyd_login_test/steps/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/qyd_login_test/steps/qydLogin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/HTMLTestRunner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/HttpConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/HttpFunc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/QydBasicFunc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/ReadFucn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log_file/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log_file/log.txt.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log_file/log.txt.2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log_file/log.txt.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log_file/log.txt.4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/jmd_api_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/rechargeSelf_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/test_api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/test_gui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/wbqueryauthorizeinfo_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/wbquerywithholdinfo_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/wbremoveauthorize_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/wbverificode_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/wbwithhold_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/old_testcases/Api_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/old_testcases/Gui_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/old_testcases/Jmd_api_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/old_testcases/buyCY_multiprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/old_testcases/recharge-api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/run.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/test1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/test2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/代扣接口/WBqueryauthorizeinfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/代扣接口/WBquerywithholdinfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/代扣接口/WBremoveauthorize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/代扣接口/WBverificode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/代扣接口/WBwithhold.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/logconfig.ini" afterPath="$PROJECT_DIR$/config/logconfig.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/Base64.py" afterPath="$PROJECT_DIR$/func/Base64.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/BasicFunc.py" afterPath="$PROJECT_DIR$/func/BasicFunc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/MysqlDB.py" afterPath="$PROJECT_DIR$/func/MysqlDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/__init__.py" afterPath="$PROJECT_DIR$/func/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/logInfo.py" afterPath="$PROJECT_DIR$/func/logInfo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/func/PySelenium.py" afterPath="$PROJECT_DIR$/func/seleniumPy.py" />
     </list>
     <list id="de92a555-2574-417b-8ec2-b74fb8542e6a" name="Failed commit: Default" comment="HTMLTestRunner modified" />
     <list id="63f53901-09ec-4543-82e6-cc343a216c1a" name="Failed commit: Default (2)" comment="增加logging" />
-    <ignored path="APITest.iws" />
+    <ignored path="APP_GUI_PROJECT.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,147 +73,170 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/APITest$API_TEST.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416001817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$WBremoveauthorize.coverage" NAME="WBremoveauthorize Coverage Results" MODIFIED="1471251475344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$WBqueryauthorizeinfo.coverage" NAME="WBqueryauthorizeinfo Coverage Results" MODIFIED="1471252543610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$logInfo.coverage" NAME="logInfo Coverage Results" MODIFIED="1470620383606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
-    <SUITE FILE_PATH="coverage/APITest$api_test.coverage" NAME="api-test Coverage Results" MODIFIED="1466403802887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$run.coverage" NAME="run Coverage Results" MODIFIED="1470966679580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1471414766706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unnamed.coverage" NAME="racharge-api Coverage Results" MODIFIED="1466415918496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1471330893448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittests_in_recharge_api.coverage" NAME="Unittests in recharge-api Coverage Results" MODIFIED="1470388525539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittest_WBqueryauthorizeinfo_test_withholdexcept_01.coverage" NAME="Unittest WBqueryauthorizeinfo.test_withholdexcept_01 Coverage Results" MODIFIED="1470724082411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittests_in_WBqueryauthorizeinfo.coverage" NAME="Unittests in WBqueryauthorizeinfo Coverage Results" MODIFIED="1470969475028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1470280545316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$recharge_api.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416039917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$withhold.coverage" NAME="withhold Coverage Results" MODIFIED="1471330926760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1469697157737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$racharge_api.coverage" NAME="racharge-api Coverage Results" MODIFIED="1470386816016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittest_ApiRecharge_test_queryAvailableBankcard.coverage" NAME="Unittest ApiRecharge.test_queryAvailableBankcard Coverage Results" MODIFIED="1466407784799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$WBquerywithholdinfo.coverage" NAME="WBquerywithholdinfo Coverage Results" MODIFIED="1471315828866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittest_Mytest01_test_add.coverage" NAME="Unittest Mytest01.test_add Coverage Results" MODIFIED="1470210294254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$Unittest_ApiRecharge_test_queryTransaction.coverage" NAME="Unittest ApiRecharge.test_queryTransaction Coverage Results" MODIFIED="1466412132734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$WBverificode.coverage" NAME="WBverificode Coverage Results" MODIFIED="1471250548801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APITest$buyCY_multiprocess.coverage" NAME="buyCY_multiprocess Coverage Results" MODIFIED="1470050066554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="D:\Project\PycharmProjects\Api-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCqueryinfoamount.coverage" NAME="HYCqueryinfoamount Coverage Results" MODIFIED="1488166913425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYquerycontractinfo_test_querycontractinfo_except_05.coverage" NAME="Unittest IHYquerycontractinfo.test_querycontractinfo_except_05 Coverage Results" MODIFIED="1476687438501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$API_TEST.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416001817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$verifyloginpasswd.coverage" NAME="verifyloginpasswd Coverage Results" MODIFIED="1486435629329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$rechargeRepeatSms.coverage" NAME="rechargeRepeatSms Coverage Results" MODIFIED="1491010464656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferhold_test_gettransferhold_01.coverage" NAME="Unittest IHYgettransferhold.test_gettransferhold_01 Coverage Results" MODIFIED="1476324820899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$gesturePasswd.coverage" NAME="gesturePasswd Coverage Results" MODIFIED="1486435865926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYgetplaninfo__1_.coverage" NAME="Unittests in IHYgetplaninfo (1) Coverage Results" MODIFIED="1476240366518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_for_testCases_run_test_case_dicovery.coverage" NAME="Unittests for testCases.run.test_case_dicovery Coverage Results" MODIFIED="1492135803172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$api_noviceActivity.coverage" NAME="api_noviceActivity Coverage Results" MODIFIED="1491384016076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getTransferHolding.coverage" NAME="getTransferHolding Coverage Results" MODIFIED="1488164419585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_Mytest01_test_add.coverage" NAME="Unittest Mytest01.test_add Coverage Results" MODIFIED="1470210294254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_ApiRecharge_test_queryAvailableBankcard.coverage" NAME="Unittest ApiRecharge.test_queryAvailableBankcard Coverage Results" MODIFIED="1466407784799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$dataCollection.coverage" NAME="dataCollection Coverage Results" MODIFIED="1489634623683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_WBremoveauthorize.coverage" NAME="Unittests in WBremoveauthorize Coverage Results" MODIFIED="1477980997866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_TestCasesRUN_py.coverage" NAME="Unittests in TestCasesRUN.py Coverage Results" MODIFIED="1492147547224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1492418505151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYpendingsettlementIncome.coverage" NAME="HYpendingsettlementIncome Coverage Results" MODIFIED="1477904520730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_for_testCases_test05_Test_test_newDeco.coverage" NAME="Unittests for testCases.test05.Test.test_newDeco Coverage Results" MODIFIED="1492508011191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYCbuyproduct.coverage" NAME="Unittests in IHYCbuyproduct Coverage Results" MODIFIED="1477982021975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/newHuanYing" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$cyassigndetailList.coverage" NAME="cyassigndetailList Coverage Results" MODIFIED="1488164410395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYgethytransferbuyback.coverage" NAME="Unittests in IHYgethytransferbuyback Coverage Results" MODIFIED="1475028967983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYsellproductloandetail.coverage" NAME="HYsellproductloandetail Coverage Results" MODIFIED="1477971251996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$accountStatistic.coverage" NAME="accountStatistic Coverage Results" MODIFIED="1489567279394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlocktype.coverage" NAME="getlocktype Coverage Results" MODIFIED="1474871007161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYgetplaninfo.coverage" NAME="Unittests in IHYgetplaninfo Coverage Results" MODIFIED="1476243320202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$api_test.coverage" NAME="api-test Coverage Results" MODIFIED="1466403802887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test_.coverage" NAME="test_ Coverage Results" MODIFIED="1483412414966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$accountTotalAssets.coverage" NAME="accountTotalAssets Coverage Results" MODIFIED="1486695359167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlockamount.coverage" NAME="getlockamount Coverage Results" MODIFIED="1476781453537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCquerycontractinfo.coverage" NAME="HYCquerycontractinfo Coverage Results" MODIFIED="1483507400060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYprdassignmentdetaillist.coverage" NAME="HYprdassignmentdetaillist Coverage Results" MODIFIED="1488867778983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test05.coverage" NAME="test05 Coverage Results" MODIFIED="1492508193101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1490925139460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$redis_query.coverage" NAME="redis_query Coverage Results" MODIFIED="1478746477607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYcreateplan.coverage" NAME="HYcreateplan Coverage Results" MODIFIED="1478744421065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYsellproduct_test_sellproduct.coverage" NAME="Unittest IHYsellproduct.test_sellproduct Coverage Results" MODIFIED="1476508756018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$setlockdetail.coverage" NAME="setlockdetail Coverage Results" MODIFIED="1474870673243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$lockdetail.coverage" NAME="lockdetail Coverage Results" MODIFIED="1474960637257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getToken.coverage" NAME="getToken Coverage Results" MODIFIED="1481699935883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$recharge_getuserquota.coverage" NAME="recharge-getuserquota Coverage Results" MODIFIED="1491383360520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYrepo.coverage" NAME="HYrepo Coverage Results" MODIFIED="1477550816945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlockdetail.coverage" NAME="getlockdetail Coverage Results" MODIFIED="1476780938285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCsellproductloandetail.coverage" NAME="HYCsellproductloandetail Coverage Results" MODIFIED="1488173236599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYpendingsettlementincome.coverage" NAME="Unittests in IHYpendingsettlementincome Coverage Results" MODIFIED="1476865495837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$buycy.coverage" NAME="buycy Coverage Results" MODIFIED="1488165758366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1479373072353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYgetproductbuyback.coverage" NAME="HYgetproductbuyback Coverage Results" MODIFIED="1477984869591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$logInfo.coverage" NAME="logInfo Coverage Results" MODIFIED="1492138798691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_run_py.coverage" NAME="Unittests in run.py Coverage Results" MODIFIED="1492137673386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCqueryproductamount.coverage" NAME="HYCqueryproductamount Coverage Results" MODIFIED="1488173430275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$buyCY_multiprocess.coverage" NAME="buyCY_multiprocess Coverage Results" MODIFIED="1474622270387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$withdrawAble.coverage" NAME="withdrawAble Coverage Results" MODIFIED="1486445136825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgethytransferbuyback_test_gethytransferbuyback__1_.coverage" NAME="Unittest IHYgethytransferbuyback.test_gethytransferbuyback (1) Coverage Results" MODIFIED="1476000470295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getSuminterest.coverage" NAME="getSuminterest Coverage Results" MODIFIED="1488770348800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_recharge_api.coverage" NAME="Unittests in recharge-api Coverage Results" MODIFIED="1470388525539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$rechargeContract.coverage" NAME="rechargeContract Coverage Results" MODIFIED="1491016043951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYquerycontractinfo_test_querycontractinfo.coverage" NAME="Unittest IHYquerycontractinfo.test_querycontractinfo Coverage Results" MODIFIED="1476517478113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$activityinfo.coverage" NAME="activityinfo Coverage Results" MODIFIED="1487570916954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYrepo.coverage" NAME="Unittests in IHYrepo Coverage Results" MODIFIED="1476950296331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$run.coverage" NAME="run Coverage Results" MODIFIED="1492508686920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYrepo__1_.coverage" NAME="Unittests in IHYrepo (1) Coverage Results" MODIFIED="1476949036872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$withhold.coverage" NAME="withhold Coverage Results" MODIFIED="1474962002347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCgettransferholding.coverage" NAME="HYCgettransferholding Coverage Results" MODIFIED="1489545457303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$IHYCbuyproduct.coverage" NAME="IHYCbuyproduct Coverage Results" MODIFIED="1488173915196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferhold_test_gettransferhold.coverage" NAME="Unittest IHYgettransferhold.test_gettransferhold Coverage Results" MODIFIED="1476673950489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$sellCY.coverage" NAME="sellCY Coverage Results" MODIFIED="1488165373011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IAddlockdetail_test_addlockdetail.coverage" NAME="Unittest IAddlockdetail.test_addlockdetail Coverage Results" MODIFIED="1474964382275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$tcase_excel_import.coverage" NAME="tcase-excel-import Coverage Results" MODIFIED="1471574007866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/test" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_ApiRecharge_test_queryTransaction.coverage" NAME="Unittest ApiRecharge.test_queryTransaction Coverage Results" MODIFIED="1466412132734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getrepaymentrecord.coverage" NAME="getrepaymentrecord Coverage Results" MODIFIED="1488164499734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$WBqueryauthorizeinfo.coverage" NAME="WBqueryauthorizeinfo Coverage Results" MODIFIED="1477980902874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYChyrepaymentrecord.coverage" NAME="HYChyrepaymentrecord Coverage Results" MODIFIED="1488867746594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYquerycontractinfo_test_querycontractinfo_except_02.coverage" NAME="Unittest IHYquerycontractinfo.test_querycontractinfo_except_02 Coverage Results" MODIFIED="1476242304442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$voucherInstuct.coverage" NAME="voucherInstuct Coverage Results" MODIFIED="1487124283901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYrepo_test_buyback.coverage" NAME="Unittest IHYrepo.test_buyback Coverage Results" MODIFIED="1476948652673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYdivestment.coverage" NAME="HYdivestment Coverage Results" MODIFIED="1480045966230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYgetplaninfo.coverage" NAME="HYgetplaninfo Coverage Results" MODIFIED="1477901617325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test.coverage" NAME="test Coverage Results" MODIFIED="1481705116906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYbuyproduct.coverage" NAME="HYbuyproduct Coverage Results" MODIFIED="1478573332286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1482896094792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test2__2_.coverage" NAME="test2 (2) Coverage Results" MODIFIED="1476091191475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tkinter" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$sellloandetail.coverage" NAME="sellloandetail Coverage Results" MODIFIED="1488165427483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$repoHY.coverage" NAME="repoHY Coverage Results" MODIFIED="1476691811032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$WBremoveauthorize.coverage" NAME="WBremoveauthorize Coverage Results" MODIFIED="1477980919223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1482113373910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Gui_test.coverage" NAME="Gui_test Coverage Results" MODIFIED="1478655832702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_test4.coverage" NAME="Unittests in test4 Coverage Results" MODIFIED="1484545817360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYqueryproductamount.coverage" NAME="HYqueryproductamount Coverage Results" MODIFIED="1477984857391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$qyd_login_test_feature.coverage" NAME="qyd_login_test.feature Coverage Results" MODIFIED="1477982306948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYpendingsettlementincome_test_pendingsettlementincome.coverage" NAME="Unittest IHYpendingsettlementincome.test_pendingsettlementincome Coverage Results" MODIFIED="1477640202835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$qyd_borrowMoney.coverage" NAME="qyd_borrowMoney Coverage Results" MODIFIED="1480563921846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test3__1_.coverage" NAME="test3 (1) Coverage Results" MODIFIED="1490928114874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/old_testcases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferdetail_test_gettransferdetail.coverage" NAME="Unittest IHYgettransferdetail.test_gettransferdetail Coverage Results" MODIFIED="1475119481500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_Test_test_001.coverage" NAME="Unittest Test.test_001 Coverage Results" MODIFIED="1484105612619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_WBqueryauthorizeinfo.coverage" NAME="Unittests in WBqueryauthorizeinfo Coverage Results" MODIFIED="1477980716259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/daikou" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1482132250790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getwithdrawloanlist.coverage" NAME="getwithdrawloanlist Coverage Results" MODIFIED="1488164520027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$rechargeOK.coverage" NAME="rechargeOK Coverage Results" MODIFIED="1491016290520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1480310122974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCgetprdsuminterest.coverage" NAME="HYCgetprdsuminterest Coverage Results" MODIFIED="1489039183661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCqueryprodtransferlist.coverage" NAME="HYCqueryprodtransferlist Coverage Results" MODIFIED="1488868257857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_WBremoveauthorize__1_.coverage" NAME="Unittests in WBremoveauthorize (1) Coverage Results" MODIFIED="1477981994205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/daikou" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferhold_test_gettransferhold_ex_05.coverage" NAME="Unittest IHYgettransferhold.test_gettransferhold_ex_05 Coverage Results" MODIFIED="1476674213987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$racharge_api.coverage" NAME="racharge-api Coverage Results" MODIFIED="1470386816016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgetplaninfo_test_gethyplaninfo_01.coverage" NAME="Unittest IHYgetplaninfo.test_gethyplaninfo_01 Coverage Results" MODIFIED="1476174508978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$BasicFunc.coverage" NAME="BasicFunc Coverage Results" MODIFIED="1492138662210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYisshowloan.coverage" NAME="HYisshowloan Coverage Results" MODIFIED="1488769758664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$recharge_api.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416039917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlockamountouter.coverage" NAME="getlockamountouter Coverage Results" MODIFIED="1474870293202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYCbuyproduct_test_buyproduct_ex_03.coverage" NAME="Unittest IHYCbuyproduct.test_buyproduct_ex_03 Coverage Results" MODIFIED="1477980503216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/HuanYing_change" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$querycontractinfo.coverage" NAME="querycontractinfo Coverage Results" MODIFIED="1476688555244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unnamed.coverage" NAME="racharge-api Coverage Results" MODIFIED="1466415918496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$autoWithdraw.coverage" NAME="autoWithdraw Coverage Results" MODIFIED="1490944270231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$queryTransferList.coverage" NAME="queryTransferList Coverage Results" MODIFIED="1488164551961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$testcasedicovery.coverage" NAME="testcasedicovery Coverage Results" MODIFIED="1492496882560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCbuybacklist.coverage" NAME="HYCbuybacklist Coverage Results" MODIFIED="1491383887398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_HY" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$gettransferhold.coverage" NAME="HYgettransferhold Coverage Results" MODIFIED="1476864860090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$onekeywithDraw.coverage" NAME="onekeywithDraw Coverage Results" MODIFIED="1491010264262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYquerycontractinfo.coverage" NAME="HYquerycontractinfo Coverage Results" MODIFIED="1477979253032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$IHYCsellproduct.coverage" NAME="IHYCsellproduct Coverage Results" MODIFIED="1488173199879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getplaninfo.coverage" NAME="HYgetplaninfo Coverage Results" MODIFIED="1476866362718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$cytransferlist.coverage" NAME="cytransferlist Coverage Results" MODIFIED="1487655077251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_WBqueryauthorizeinfo_test_withholdexcept_01.coverage" NAME="Unittest WBqueryauthorizeinfo.test_withholdexcept_01 Coverage Results" MODIFIED="1470724082411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgethytransferbuyback_test_gethytransferbuyback.coverage" NAME="Unittest IHYgethytransferbuyback.test_gethytransferbuyback Coverage Results" MODIFIED="1475030097866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYrepayment.coverage" NAME="HYrepayment Coverage Results" MODIFIED="1477463059862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYwithdrawloandetail_test_withdrawloandetail.coverage" NAME="Unittest IHYwithdrawloandetail.test_withdrawloandetail Coverage Results" MODIFIED="1476253795162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYgettransferhold.coverage" NAME="HYgettransferhold Coverage Results" MODIFIED="1477901989168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYCbuyproduct_test_buyproduct.coverage" NAME="Unittest IHYCbuyproduct.test_buyproduct Coverage Results" MODIFIED="1477980697718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/HuanYing_change" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getCYamount.coverage" NAME="getCYamount Coverage Results" MODIFIED="1488867480039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgetplaninfo_test_gethyplaninfo.coverage" NAME="Unittest IHYgetplaninfo.test_gethyplaninfo Coverage Results" MODIFIED="1476673854368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$WBverificode.coverage" NAME="WBverificode Coverage Results" MODIFIED="1471250548801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$WBquerywithholdinfo.coverage" NAME="WBquerywithholdinfo Coverage Results" MODIFIED="1471315828866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$queryCYremainamount.coverage" NAME="queryCYremainamount Coverage Results" MODIFIED="1488165502506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$bindingqyd.coverage" NAME="bindingqyd Coverage Results" MODIFIED="1471508002794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tkinter" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$updatelockdetail.coverage" NAME="updatelockdetail Coverage Results" MODIFIED="1474870694291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYcreateplan_test_createplan.coverage" NAME="Unittest IHYcreateplan.test_createplan Coverage Results" MODIFIED="1476328803504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCqueryassetslist.coverage" NAME="HYCqueryassetslist Coverage Results" MODIFIED="1488166880768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$JiGuangBinding.coverage" NAME="JiGuangBinding Coverage Results" MODIFIED="1487759368664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="APITest" />
+    <favorites_list name="APP_GUI_PROJECT" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/test1.py">
+      <file leaf-file-name="test01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCases/test01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#23#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logInfo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/func/logInfo.py">
+      <file leaf-file-name="YKJ_func_sample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WBqueryauthorizeinfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/WBqueryauthorizeinfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="77" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="77" />
+            <state relative-caret-position="695">
+              <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding>
-                <element signature="e#1545#2392#0" expanded="false" />
-                <element signature="e#2444#3277#0" expanded="false" />
-                <element signature="e#3329#4176#0" expanded="false" />
-                <element signature="e#4228#5094#0" expanded="false" />
-                <element signature="e#5146#5990#0" expanded="false" />
-                <element signature="e#6042#6891#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WBverificode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/WBverificode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="10" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#2736#3749#0" expanded="false" />
-                <element signature="e#3792#4768#0" expanded="false" />
-                <element signature="e#4811#5784#0" expanded="false" />
-                <element signature="e#6840#7814#0" expanded="false" />
-                <marker date="1471250547525" expanded="true" signature="1778:1870" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="1822:1869" placeholder="select id fr... user" />
-                <marker date="1471250547525" expanded="true" signature="3853:3945" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="3897:3944" placeholder="select id fr... user" />
-                <marker date="1471250547525" expanded="true" signature="4868:4960" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="4912:4959" placeholder="select id fr... user" />
-                <marker date="1471250547525" expanded="true" signature="5883:5975" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="5927:5974" placeholder="select id fr... user" />
-                <marker date="1471250547525" expanded="true" signature="6899:6991" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="6943:6990" placeholder="select id fr... user" />
-                <marker date="1471250547525" expanded="true" signature="7916:8008" placeholder="select sso_i... user_profile" />
-                <marker date="1471250547525" expanded="true" signature="7960:8007" placeholder="select id fr... user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WBquerywithholdinfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/WBquerywithholdinfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WBwithhold.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/WBwithhold.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding>
-                <element signature="e#1079#1533#0" expanded="false" />
-                <element signature="e#1567#4056#0" expanded="false" />
-                <element signature="e#5370#6697#0" expanded="false" />
-                <element signature="e#6745#7951#0" expanded="false" />
-                <element signature="e#8005#9187#0" expanded="false" />
-                <element signature="e#9235#10415#0" expanded="false" />
-                <element signature="e#10463#11641#0" expanded="false" />
-                <element signature="e#11689#12876#0" expanded="false" />
-                <element signature="e#12924#14115#0" expanded="false" />
-                <element signature="e#14163#16692#0" expanded="false" />
-                <marker date="1471330919443" expanded="true" signature="1197:1309" placeholder="select a.ava... account" />
-                <marker date="1471330919443" expanded="true" signature="1619:1711" placeholder="select statu... withhold_info" />
-                <marker date="1471330919443" expanded="true" signature="3228:3283" placeholder="select count... transaction" />
-                <marker date="1471330919443" expanded="true" signature="3665:3716" placeholder="select count... transfer" />
+                <element signature="e#15#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,95 +251,89 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/heads/master" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run</find>
+      <find>key</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
-      </map>
-    </option>
-    <option name="FORCE_PUSH_ALLOWED" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
-    <push-targets>
-      <push-target-info repo="$PROJECT_DIR$/.." source="nick" target-remote="origin" target-branch="master" />
-    </push-targets>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/func/otherFunc.py" />
-        <option value="$PROJECT_DIR$/testCases/recharge_api.py" />
-        <option value="C:/Python27/Lib/StringIO.py" />
-        <option value="C:/Python27/Lib/site-packages/MySQLdb/cursors.py" />
-        <option value="$PROJECT_DIR$/report/rechargeSelf_report.html" />
-        <option value="$PROJECT_DIR$/config/recharge_self.ini" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_CYtransferList.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_GetCYamount.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_Getcysuminterest.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_Getrepaymentrecord.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_GetWithdrawLoanList.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_QuerycyRemainamount.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_QueryCYtransferlist.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_SellCy.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_CY/api_sellloanincomedetail.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_autoWithdraw.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_onekeyWithdraw.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_rechargeContract.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_rechargeRepeatSms.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_rechargeOk.py" />
         <option value="$PROJECT_DIR$/config/gui.yaml" />
-        <option value="$PROJECT_DIR$/config/qyd_func.ini" />
-        <option value="$PROJECT_DIR$/testCases/test01.py" />
-        <option value="$PROJECT_DIR$/testCases/__init__.py" />
-        <option value="$PROJECT_DIR$/testCases/buyCY_multiprocess.py" />
-        <option value="$PROJECT_DIR$/../interface_project/globalpkg/log.py" />
-        <option value="$PROJECT_DIR$/../interface_project/interface/__init__.py" />
-        <option value="$PROJECT_DIR$/../interface_project/globalpkg/mydb.py" />
-        <option value="$PROJECT_DIR$/../interface_project/globalpkg/othertools.py" />
-        <option value="$PROJECT_DIR$/func/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/../interface_project/htmlparser.py" />
-        <option value="$PROJECT_DIR$/config/logconfig.conf" />
+        <option value="$PROJECT_DIR$/testCases/APP_HY/api_IHYCbuybacklist.py" />
+        <option value="$PROJECT_DIR$/func/HttpCurl.py" />
         <option value="$PROJECT_DIR$/func/HttpFunc.py" />
-        <option value="$PROJECT_DIR$/testCases/Api_test.py" />
-        <option value="$PROJECT_DIR$/testCases/recharge-api.py" />
-        <option value="$PROJECT_DIR$/testCases/test02.py" />
-        <option value="$PROJECT_DIR$/func/BasicFunc.py" />
-        <option value="$PROJECT_DIR$/func/log.py" />
-        <option value="$PROJECT_DIR$/func/log_print.py" />
-        <option value="$PROJECT_DIR$/func/Base64.py" />
-        <option value="$PROJECT_DIR$/config/logconfig.ini" />
+        <option value="$PROJECT_DIR$/features/qyd_login_test/steps/qydLogin.py" />
         <option value="$PROJECT_DIR$/func/QydBasicFunc.py" />
-        <option value="$PROJECT_DIR$/func/ReadFile.py" />
-        <option value="$PROJECT_DIR$/func/__init__.py" />
-        <option value="$PROJECT_DIR$/func/conf_read.py" />
+        <option value="$PROJECT_DIR$/testCases/app_init.py" />
         <option value="$PROJECT_DIR$/func/logInfo.py" />
-        <option value="$PROJECT_DIR$/testCases/withhold_agent_api.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_accountStatistic/api_accountStatistic.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_accountStatistic/test01.py" />
+        <option value="$PROJECT_DIR$/func/HtmlReportTemplate.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_GUI/test01.py" />
+        <option value="$PROJECT_DIR$/testCases/ConstConfig.py" />
+        <option value="$PROJECT_DIR$/testCases/app_gui_init.py" />
+        <option value="$PROJECT_DIR$/gui/login.yaml" />
+        <option value="$PROJECT_DIR$/testCases/APP_GUI/app_gui_init.py" />
+        <option value="$PROJECT_DIR$/func/Base64.py" />
+        <option value="$PROJECT_DIR$/report/test_report_sample.html" />
+        <option value="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
+        <option value="$PROJECT_DIR$/testCases/APP_GUI/user_register.py" />
+        <option value="$PROJECT_DIR$/func/PySelenium.py" />
+        <option value="$PROJECT_DIR$/func/seleniumPy.py" />
+        <option value="$PROJECT_DIR$/func/ReadFunc.py" />
+        <option value="$PROJECT_DIR$/testCases/TestCasesRUN.py" />
+        <option value="$PROJECT_DIR$/func/__init__.py" />
+        <option value="$PROJECT_DIR$/testCases/test4.py" />
+        <option value="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
+        <option value="$PROJECT_DIR$/testCases/APP_GUI/YKJ_func_sample.py" />
+        <option value="$PROJECT_DIR$/gui/AppGui.yaml" />
+        <option value="$PROJECT_DIR$/testCases/__init__.py" />
         <option value="$PROJECT_DIR$/testCases/run.py" />
-        <option value="$PROJECT_DIR$/func/MysqlDB.py" />
-        <option value="$PROJECT_DIR$/config/withholdAgent.ini" />
-        <option value="$PROJECT_DIR$/testCases/WBverificode.py" />
-        <option value="$PROJECT_DIR$/testCases/WBremoveauthorize.py" />
-        <option value="$PROJECT_DIR$/testCases/WBqueryauthorizeinfo.py" />
-        <option value="$PROJECT_DIR$/testCases/WBquerywithholdinfo.py" />
-        <option value="$PROJECT_DIR$/testCases/test1.py" />
-        <option value="$PROJECT_DIR$/testCases/WBwithhold.py" />
-        <option value="$PROJECT_DIR$/testCases/test2.py" />
+        <option value="$PROJECT_DIR$/testCases/test05.py" />
+        <option value="$PROJECT_DIR$/func/BasicFunc.py" />
+        <option value="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" />
+        <option value="$PROJECT_DIR$/config/AppConfig.ini" />
+        <option value="$PROJECT_DIR$/config/logconfig.ini" />
+        <option value="$PROJECT_DIR$/testCases/test01.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -277,14 +347,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Failed commit: Default (2)" />
-        <subPane subId="Changed Files" />
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tkinter">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="D:\Project\tkinter">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -302,6 +386,76 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Api-project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="testCases">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="newHuanYing">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Api-project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="testCases">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HuanYing">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Api-project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="testCases">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="daikou">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Api-project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -312,31 +466,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Api-project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="func">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Api-project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="features">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
+            <PATH_ELEMENT USER_OBJECT="APP_GUI_PROJECT">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -350,8 +480,8 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <subPane subId="Default" />
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,14 +489,8 @@
               <option name="myItemId" value="APITest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="APITest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api-project" />
+              <option name="myItemId" value="APP_GUI_PROJECT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -380,7 +504,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Api-project" />
+              <option name="myItemId" value="APP_GUI_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testCases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YKJ_APP_GUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,25 +522,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Api-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="func" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APITest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="APP_GUI_PROJECT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,114 +531,39 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testCases/test4.py" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testCases/WBquerywithholdinfo.py" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\PycharmProjects\Api-project\func" />
+      <recent name="D:\project\APP_GUI_PROJECT\testCases\APP_accountStatistic" />
+      <recent name="D:\Project\PycharmProjects\Api-project\testCases\JiGuangPush" />
+      <recent name="D:\Project\PycharmProjects\Api-project\testCases\newHuanYing" />
+      <recent name="D:\Project\PycharmProjects\Api-project\testCases\HuanYing_change" />
       <recent name="D:\Project\PycharmProjects\Api-project\config" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\APP_GUI_PROJECT\func" />
+      <recent name="D:\project\APP_GUI_PROJECT\func\appFunc" />
+      <recent name="D:\project\APP_GUI_PROJECT\testCases" />
+      <recent name="D:\project\APP_GUI_PROJECT\testCases\APP_GUI" />
+      <recent name="E:\project\APP_API_PROJECT\testCases\old_testcases" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="withhold" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBwithhold.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in WBqueryauthorizeinfo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBwithhold.py" />
-      <option name="CLASS_NAME" value="WBqueryauthorizeinfo" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,13 +575,26 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -557,7 +609,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -571,7 +623,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -587,28 +639,15 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
+    <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -617,15 +656,24 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <module name="APP_GUI_PROJECT" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -637,7 +685,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -646,28 +694,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -679,196 +705,36 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
+      <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WBverificode" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBverificode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WBqueryauthorizeinfo" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBqueryauthorizeinfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WBremoveauthorize" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBremoveauthorize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="api-test" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/Api_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="racharge-api" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/recharge-api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WBquerywithholdinfo" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="APITest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/WBquerywithholdinfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="Python.WBverificode" />
-      <item index="1" class="java.lang.String" itemvalue="Python.WBqueryauthorizeinfo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.WBremoveauthorize" />
-      <item index="3" class="java.lang.String" itemvalue="Python.api-test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.racharge-api" />
-      <item index="5" class="java.lang.String" itemvalue="Python.WBquerywithholdinfo" />
-      <item index="6" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="7" class="java.lang.String" itemvalue="Python.withhold" />
-      <item index="8" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="9" class="java.lang.String" itemvalue="Python.run" />
-      <item index="10" class="java.lang.String" itemvalue="Python tests.Unittests in WBqueryauthorizeinfo" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.withhold" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in WBqueryauthorizeinfo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.run" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a0848daa-e0c2-4238-bfcc-8c4023e7eb99" name="Default" comment="" />
       <created>1466403036079</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1466403036079</updated>
     </task>
     <task id="LOCAL-00001" summary="HTMLTestRunner modified">
       <created>1466471753845</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1466471753845</updated>
     </task>
     <task id="LOCAL-00002" summary="增加logging">
       <created>1470038943466</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1470038943466</updated>
     </task>
@@ -876,69 +742,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_ApiRecharge_test_queryAvailableBankcard - 2016.06.20 at 15h 29m 45s.xml">
-      <configuration name="Unittest ApiRecharge.test_queryAvailableBankcard" configurationId="tests" />
+    <history-entry file="Unittests_for_testCases_test05_Test_test_newDeco - 2017.04.18 at 17h 30m 19s.xml">
+      <configuration name="Unittests for testCases.test05.Test.test_newDeco" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_ApiRecharge_test_queryTransaction - 2016.06.20 at 15h 25m 36s.xml">
-      <configuration name="Unittest ApiRecharge.test_queryTransaction" configurationId="tests" />
+    <history-entry file="Unittests_for_testCases_test05_Test_test_newDeco - 2017.04.18 at 17h 31m 54s.xml">
+      <configuration name="Unittests for testCases.test05.Test.test_newDeco" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_ApiRecharge_test_queryTransaction - 2016.06.20 at 15h 32m 35s.xml">
-      <configuration name="Unittest ApiRecharge.test_queryTransaction" configurationId="tests" />
+    <history-entry file="Unittests_for_testCases_test05_Test_test_newDeco - 2017.04.18 at 17h 32m 52s.xml">
+      <configuration name="Unittests for testCases.test05.Test.test_newDeco" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_ApiRecharge_test_queryTransaction - 2016.06.20 at 16h 42m 13s.xml">
-      <configuration name="Unittest ApiRecharge.test_queryTransaction" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Mytest01_test_add - 2016.08.03 at 15h 44m 55s.xml">
-      <configuration name="Unittest Mytest01.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_WBqueryauthorizeinfo_test_withholdexcept_01 - 2016.08.09 at 14h 28m 03s.xml">
-      <configuration name="Unittest WBqueryauthorizeinfo.test_withholdexcept_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_WBqueryauthorizeinfo - 2016.08.12 at 10h 37m 22s.xml">
-      <configuration name="Unittests in WBqueryauthorizeinfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_WBqueryauthorizeinfo - 2016.08.12 at 10h 37m 56s.xml">
-      <configuration name="Unittests in WBqueryauthorizeinfo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_recharge-api - 2016.08.05 at 17h 15m 27s.xml">
-      <configuration name="Unittests in recharge-api" configurationId="tests" />
+    <history-entry file="Unittests_for_testCases_test05_Test_test_newDeco - 2017.04.18 at 17h 33m 31s.xml">
+      <configuration name="Unittests for testCases.test05.Test.test_newDeco" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3483871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33821377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2345815" sideWeight="0.50537634" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.52342606" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42400882" sideWeight="0.49462366" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.47657394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39718616" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39528024" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.4951613" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -952,14 +799,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/testCases/Api_test.py</url>
+          <url>file://$PROJECT_DIR$/testCases/old_testcases/Api_test.py</url>
           <line>1</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/testCases/Api_test.py</url>
+          <url>file://$PROJECT_DIR$/testCases/old_testcases/Api_test.py</url>
           <line>413</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/appFunc/app_gui_init.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -972,416 +824,349 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="89" />
+      <option name="time" value="120" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../interface_project/globalpkg/log.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/asserters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49137932">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="-11">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_project/casestep.py">
+    <entry file="file://$PROJECT_DIR$/func/appFunc/ConstConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9655173">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="110">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/rechargeSelf_report.html">
+    <entry file="file://$PROJECT_DIR$/report/image/TestCasesRUN.png" />
+    <entry file="file://$PROJECT_DIR$/report/注册流程测试报告.html" />
+    <entry file="file://C:/Python27/Lib/unittest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1172">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_project/config/logconfig.conf">
+    <entry file="file://C:/Python27/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028528528">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="52" />
+        <state relative-caret-position="-3372">
+          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_project/htmlreporter.py">
+    <entry file="file://C:/Python27/Lib/functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028528528">
-          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../interface_project/htmlparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/jmd_api_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/Api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/Gui_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_file/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6576577">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/buyCY_multiprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028528528">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8738737">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/logging/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026027398">
-          <caret line="1801" column="0" selection-start-line="1801" selection-start-column="0" selection-end-line="1801" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/Base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="80" column="41" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/ExcelFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
+    <entry file="file://$PROJECT_DIR$/func/HtmlReportTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="748">
+          <caret line="442" column="17" lean-forward="true" selection-start-line="442" selection-start-column="17" selection-end-line="442" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/conf_read.py">
+    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-2272">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/PySelenium.py">
+    <entry file="file://$PROJECT_DIR$/func/HttpFunc.py" />
+    <entry file="file://$PROJECT_DIR$/func/MysqlDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1694">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/recharge-api.py">
+    <entry file="file://$PROJECT_DIR$/func/redisQuery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="679" column="21" selection-start-line="673" selection-start-column="4" selection-end-line="679" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/logconfig.ini">
+    <entry file="file://C:/Python27/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28443113">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="88">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
+    <entry file="file://C:/Python27/Lib/unittest/result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/recharge_self.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/QydBasicFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/Jmd_api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+        <state relative-caret-position="1017">
+          <caret line="250" column="26" lean-forward="false" selection-start-line="250" selection-start-column="26" selection-end-line="250" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="-6385">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
+    <entry file="file://C:/Python27/Lib/unittest/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="638" column="0" selection-start-line="638" selection-start-column="0" selection-end-line="638" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-3084">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/MysqlDB.py">
+    <entry file="file://C:/Python27/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-214">
+          <caret line="1266" column="8" lean-forward="false" selection-start-line="1266" selection-start-column="8" selection-end-line="1266" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/wbqueryauthorizeinfo_report.html">
+    <entry file="file://$PROJECT_DIR$/testCases/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/wbquerywithholdinfo_report.html">
+    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/wbremoveauthorize_report.html">
+    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/workbook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1673">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/withholdAgent.ini">
+    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/worksheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59491193">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="704">
+          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/wbverificode_report.html">
+    <entry file="file://$PROJECT_DIR$/testCases/test05.py" />
+    <entry file="file://$PROJECT_DIR$/config/AppConfig.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7867495">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/wbwithhold_report.html">
+    <entry file="file://$PROJECT_DIR$/func/ReadFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039337475">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/WBverificode.py">
+    <entry file="file://$PROJECT_DIR$/func/Base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="10" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="137">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/appFunc/app_gui_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="36" />
           <folding>
-            <element signature="e#2736#3749#0" expanded="false" />
-            <element signature="e#3792#4768#0" expanded="false" />
-            <element signature="e#4811#5784#0" expanded="false" />
-            <element signature="e#6840#7814#0" expanded="false" />
-            <marker date="1471250547525" expanded="true" signature="1778:1870" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="1822:1869" placeholder="select id fr... user" />
-            <marker date="1471250547525" expanded="true" signature="3853:3945" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="3897:3944" placeholder="select id fr... user" />
-            <marker date="1471250547525" expanded="true" signature="4868:4960" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="4912:4959" placeholder="select id fr... user" />
-            <marker date="1471250547525" expanded="true" signature="5883:5975" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="5927:5974" placeholder="select id fr... user" />
-            <marker date="1471250547525" expanded="true" signature="6899:6991" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="6943:6990" placeholder="select id fr... user" />
-            <marker date="1471250547525" expanded="true" signature="7916:8008" placeholder="select sso_i... user_profile" />
-            <marker date="1471250547525" expanded="true" signature="7960:8007" placeholder="select id fr... user" />
+            <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/WBremoveauthorize.py">
+    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/WBqueryauthorizeinfo.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="77" />
-          <folding>
-            <element signature="e#1545#2392#0" expanded="false" />
-            <element signature="e#2444#3277#0" expanded="false" />
-            <element signature="e#3329#4176#0" expanded="false" />
-            <element signature="e#4228#5094#0" expanded="false" />
-            <element signature="e#5146#5990#0" expanded="false" />
-            <element signature="e#6042#6891#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/WBquerywithholdinfo.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/command.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="149" column="14" lean-forward="true" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/WBwithhold.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/keys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#1079#1533#0" expanded="false" />
-            <element signature="e#1567#4056#0" expanded="false" />
-            <element signature="e#5370#6697#0" expanded="false" />
-            <element signature="e#6745#7951#0" expanded="false" />
-            <element signature="e#8005#9187#0" expanded="false" />
-            <element signature="e#9235#10415#0" expanded="false" />
-            <element signature="e#10463#11641#0" expanded="false" />
-            <element signature="e#11689#12876#0" expanded="false" />
-            <element signature="e#12924#14115#0" expanded="false" />
-            <element signature="e#14163#16692#0" expanded="false" />
-            <marker date="1471330919443" expanded="true" signature="1197:1309" placeholder="select a.ava... account" />
-            <marker date="1471330919443" expanded="true" signature="1619:1711" placeholder="select statu... withhold_info" />
-            <marker date="1471330919443" expanded="true" signature="3228:3283" placeholder="select count... transaction" />
-            <marker date="1471330919443" expanded="true" signature="3665:3716" placeholder="select count... transfer" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/-762174762/__builtin__.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2657" column="10" selection-start-line="2657" selection-start-column="10" selection-end-line="2657" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test1.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/remote_invoker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="564">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test2.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriverresult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriverexception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/unittestPackFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11154">
+          <caret line="518" column="13" lean-forward="false" selection-start-line="518" selection-start-column="13" selection-end-line="518" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="293" column="13" lean-forward="false" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/seleniumPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/logInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logconfig.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/AppGui.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="196" lean-forward="true" selection-start-line="25" selection-start-column="196" selection-end-line="25" selection-end-column="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3636">
+          <caret line="3355" column="6" lean-forward="false" selection-start-line="3355" selection-start-column="6" selection-end-line="3355" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="108" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
