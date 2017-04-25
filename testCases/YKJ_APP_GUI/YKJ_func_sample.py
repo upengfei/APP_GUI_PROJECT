@@ -47,7 +47,7 @@ class Test(AppGuiInit):
         self.driver \
             .element_by_xpath(self.ft['android']['register']['register']) \
             .click()
-    @unittest.skip("登录跳过")
+    # @unittest.skip("登录跳过")
     def test_login(self):
         """友空间-登录"""
         self.info=self.info+"--开始进行登录测试"
