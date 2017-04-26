@@ -32,7 +32,7 @@ class Func(object):
         返回logfile文件路径
         :return:
         """
-        logFilePath = Func.get_root_path()+ r'\log_file'
+        logFilePath = Func.get_root_path()+ r'\logFile'
         if not os.path.exists(logFilePath):
             os.mkdir(logFilePath)
             return os.path.abspath(logFilePath)
@@ -103,6 +103,25 @@ def skipTestIf(port=None):
         return deco
     return wrap
 
+
+def get_android_Phone_model():
+    """
+    获取安卓手机的型号
+    :return: 
+    """
+    resp = os.popen("adb devices -l")
+    content = resp.readlines()[1].split(" ")
+    for item in list(set(content)):
+        if item.__contains__("model"):
+            return item.split(":")[1]
+
+def get_android_phone_udid():
+    """
+    获取安卓手机udid
+    :return: 
+    """
+    resp = os.popen("adb devices -l")
+    return resp.readlines()[1][:23].rstrip()
 
 # def init_set(appType='android'):
 #     if not appType.lower() in ['ios','android']:sys.stderr("appType类型错误！")

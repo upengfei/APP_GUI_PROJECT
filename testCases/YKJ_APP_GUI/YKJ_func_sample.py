@@ -16,28 +16,24 @@ sys.setdefaultencoding("utf-8")
 
 class Test(AppGuiInit):
 
-
     def setUp(self):
         """★★★★★运行初始化方法★★★★"""
         self.info="准备开始测试"
         logger.info(self.info)
 
-        desired_caps = {
-            'platformName': '%s' % AppBase.PLATFORMNAME.value,
-            'app': '%s' % AppBase.app.value,
-            'reuse': '%d' % AppBase.reuse.value,
-            'udid': '17a8606b'
-
-        }
-        self.driver = WebDriver(desired_caps)
-        self.driver.init()
-
-
-
+        # desired_caps = {
+        #     'platformName': '%s' % AppBase.PLATFORMNAME.value,
+        #     'app': '%s' % AppBase.app.value,
+        #     'reuse': '%d' % AppBase.reuse.value,
+        #     'udid': '17a8606b'
+        #
+        # }
+        # self.driver = WebDriver(desired_caps)
+        # self.driver.init()
     def tearDown(self):
         """测试用例运行结束，开始后续处理"""
         get_screenshots(self.driver)
-        self.driver.quit()
+        # self.driver.quit()
         logger.info("测试用例运行结束，开始后续处理☜☜☜☜☜")
 
     # 正常流程
@@ -87,10 +83,12 @@ class Test(AppGuiInit):
         #     .wait_for_element_by_xpath(logout['setup_tag'])
         self.info+="→→Now,点击'设置'！"
         print self.info
-        MyinvitePeople = self.driver\
-                        .element_by_xpath(logout['MyinvitePeople'])
+        time.sleep(1)
 
-        rect = MyinvitePeople.rect
+        myinvitePeople = self.driver\
+                             .element_by_xpath(logout['MyinvitePeople'])
+
+        rect = myinvitePeople.rect
         x_center = rect['x'] + rect['width'] / 2
 
         y_down = rect['y'] + rect['height']

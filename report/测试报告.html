@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>APP GUI TEST REPORT</h1>
-<p class='attribute'><strong>开始时间:</strong> 2017-04-25 15:50:22</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:27.600000</p>
-<p class='attribute'><strong>测试状态:</strong> &lt;通过：1&gt;;</p>
+<p class='attribute'><strong>开始时间:</strong> 2017-04-26 13:44:38</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:39.121000</p>
+<p class='attribute'><strong>测试状态:</strong> &lt;通过：2&gt;;</p>
 
 <p class='description'></p>
 </div>
@@ -227,15 +227,15 @@ function showOutput(id, name) {
 
 <tr class='passClass'>
     <td>YKJ_func_sample.Test</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',1)">点击查看</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">点击查看</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_logout: 友空间-登出功能演示操作</div></td>
+    <td class='none'><div class='testcase'>test_login: 友空间-登录</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -249,7 +249,33 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 准备开始测试→→开始进行登出操作→→进入个人设置
+pt1.1: 准备开始测试--开始进行登录测试--友空间登录成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_logout: 友空间-登出功能演示操作</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过-detail</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 准备开始测试→→开始进行登出操作→→进入个人设置
 准备开始测试→→开始进行登出操作→→进入个人设置→→Now,点击'设置'！
 进入设置页成功
 登出成功！
@@ -265,8 +291,8 @@ pt1.1: 准备开始测试→→开始进行登出操作→→进入个人设置
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>

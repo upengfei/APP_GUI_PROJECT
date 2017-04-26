@@ -19,22 +19,19 @@ class AppGuiInit(unittest.TestCase):
         cls.ft = yaml_load('AppGui')
         cls.rd = ReadFile("Appconfig.ini")
 
-        # logger.info("测试开始")
-        #
-        # desired_caps = {
-        #     'platformName': '%s' % AppBase.PLATFORMNAME.value,
-        #     'app': '%s' % AppBase.app.value,
-        #     'reuse': '%d' % AppBase.reuse.value,
-        #     'udid': '17a8606b'
-        #
-        # }
-        #
-        # cls.driver = WebDriver(desired_caps)
-        # cls.driver.init()
+        desired_caps = {
+            'platformName': '%s' % AppBase.PLATFORMNAME.value,
+            'app': '%s' % AppBase.app.value,
+            'reuse': '%d' % AppBase.reuse.value,
+            'udid': '17a8606b'
+
+        }
+        cls.driver = WebDriver(desired_caps)
+        cls.driver.init()
 
     @classmethod
     def tearDownClass(cls):
         """测试用例运行结束，开始后续处理"""
-
+        cls.driver.quit()
 
 
