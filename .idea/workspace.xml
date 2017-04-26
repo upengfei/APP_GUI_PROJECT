@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0848daa-e0c2-4238-bfcc-8c4023e7eb99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/image/run.png" afterPath="$PROJECT_DIR$/report/image/run.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/BasicFunc.py" afterPath="$PROJECT_DIR$/func/BasicFunc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/appFunc/app_gui_init.py" afterPath="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/AppGui.yaml" afterPath="$PROJECT_DIR$/gui/AppGui.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/测试报告.html" afterPath="$PROJECT_DIR$/report/测试报告.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" afterPath="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/HtmlReportTemplate.py" afterPath="$PROJECT_DIR$/func/HtmlReportTemplate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCases/test01.py" afterPath="$PROJECT_DIR$/testCases/test01.py" />
     </list>
     <list id="de92a555-2574-417b-8ec2-b74fb8542e6a" name="Failed commit: Default" comment="HTMLTestRunner modified" />
@@ -64,7 +60,7 @@
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$setlockdetail.coverage" NAME="setlockdetail Coverage Results" MODIFIED="1474870673243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$lockdetail.coverage" NAME="lockdetail Coverage Results" MODIFIED="1474960637257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getToken.coverage" NAME="getToken Coverage Results" MODIFIED="1481699935883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
-    <SUITE FILE_PATH="coverage/APITest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1493190248950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APITest$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1493194052578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$recharge_getuserquota.coverage" NAME="recharge-getuserquota Coverage Results" MODIFIED="1491383360520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYrepo.coverage" NAME="HYrepo Coverage Results" MODIFIED="1477550816945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlockdetail.coverage" NAME="getlockdetail Coverage Results" MODIFIED="1476780938285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
@@ -175,8 +171,8 @@
       <file leaf-file-name="test01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testCases/test01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="110">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -234,42 +230,32 @@
       <file leaf-file-name="BasicFunc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="100">
+              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppGui.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/AppGui.yaml">
+      <file leaf-file-name="saxutils.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/xml/sax/saxutils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="198">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
               <folding>
-                <element signature="e#11#1129#0" expanded="false" />
-                <element signature="e#1132#3640#0" expanded="false" />
-                <element signature="e#1986#3157#0" expanded="false" />
-                <element signature="e#3643#3860#0" expanded="false" />
+                <element signature="e#120#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_register_multi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py">
+      <file leaf-file-name="测试报告.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/测试报告.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="-88">
+              <caret line="221" column="17" lean-forward="true" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/image/run.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -330,7 +316,6 @@
         <option value="$PROJECT_DIR$/func/logInfo.py" />
         <option value="$PROJECT_DIR$/testCases/APP_accountStatistic/api_accountStatistic.py" />
         <option value="$PROJECT_DIR$/testCases/APP_accountStatistic/test01.py" />
-        <option value="$PROJECT_DIR$/func/HtmlReportTemplate.py" />
         <option value="$PROJECT_DIR$/testCases/APP_GUI/test01.py" />
         <option value="$PROJECT_DIR$/testCases/ConstConfig.py" />
         <option value="$PROJECT_DIR$/testCases/app_gui_init.py" />
@@ -358,6 +343,7 @@
         <option value="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
         <option value="$PROJECT_DIR$/testCases/test01.py" />
         <option value="$PROJECT_DIR$/func/BasicFunc.py" />
+        <option value="$PROJECT_DIR$/func/HtmlReportTemplate.py" />
       </list>
     </option>
   </component>
@@ -1008,7 +994,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34272996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1076,13 +1062,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1172">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3372">
@@ -1101,13 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HtmlReportTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="442" column="17" lean-forward="true" selection-start-line="442" selection-start-column="17" selection-end-line="442" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1287,7 @@
         <state relative-caret-position="440">
           <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <element signature="e#15#69#0" expanded="true" />
+            <element signature="e#15#69#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1331,19 +1303,6 @@
     <entry file="file://$PROJECT_DIR$/report/image/run.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#4892#4896#0" expanded="false" />
-            <element signature="e#4900#4904#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/log.txt">
@@ -1422,16 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/logconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1448,10 +1397,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="221" column="17" lean-forward="true" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/xml/sax/saxutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#120#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/HtmlReportTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="443" column="0" lean-forward="true" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
           <folding />
         </state>
       </provider>

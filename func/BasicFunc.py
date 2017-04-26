@@ -109,19 +109,16 @@ def get_android_Phone_model():
     获取安卓手机的型号
     :return: 
     """
-    resp = os.popen("adb devices -l")
-    content = resp.readlines()[1].split(" ")
-    for item in list(set(content)):
-        if item.__contains__("model"):
-            return item.split(":")[1]
+    resp = os.popen("adb shell getprop ro.product.model")
+    return resp.read()
 
 def get_android_phone_udid():
     """
     获取安卓手机udid
     :return: 
     """
-    resp = os.popen("adb devices -l")
-    return resp.readlines()[1][:23].rstrip()
+    resp = os.popen("adb get-serialno")
+    return resp.read()
 
 # def init_set(appType='android'):
 #     if not appType.lower() in ['ios','android']:sys.stderr("appType类型错误！")

@@ -2,9 +2,10 @@ import os
 
 from func import BasicFunc
 
-r = os.popen("adb devices -l")
+# r = os.popen("adb shell getprop ro.product.model")
 # print r.readlines()[1].index("device")
-
-print BasicFunc.get_android_phone_udid()
-
-print BasicFunc.get_android_Phone_model()
+r = os.popen("adb get-serialno")
+print r.read()
+# print BasicFunc.get_android_phone_udid()
+#
+# print BasicFunc.get_android_Phone_model()
