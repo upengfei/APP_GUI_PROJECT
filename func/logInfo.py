@@ -16,12 +16,12 @@ class LogSignleton(object):
     def __init__(self, file):
         path = Func.get_root_path()
         config = configparser.ConfigParser()
-        config.read(path+'\\config'+'\\'+file)
+        config.read(path+os.sep+'config'+os.sep+file)
 
         mutex=threading.Lock()
         mutex.acquire() # 上锁，防止多线程下出问题
         # rf = ReadFunc.ReadFile(path)
-        self.log_filename = Func.getLogDir()+'\\'+config.get('LOGGING', 'logFile')
+        self.log_filename = Func.getLogDir()+os.sep+config.get('LOGGING', 'logFile')
 
         self.max_bytes_each = int(config.get('LOGGING', 'max_bytes_each'))
         self.backup_count = int(config.get('LOGGING', 'backup_count'))

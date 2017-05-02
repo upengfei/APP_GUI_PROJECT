@@ -443,7 +443,6 @@ a.popup_link:hover {
     <td>查看详情</td>
 
 
-
 </tr>
 %(test_list)s
 <tr id='total_row'>
@@ -453,7 +452,6 @@ a.popup_link:hover {
     <td>%(fail)s</td>
     <td>%(error)s</td>
     <td>&nbsp;</td>
-    
 </tr>
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
@@ -491,7 +489,6 @@ a.popup_link:hover {
     <!--css div popup end-->
 
     </td>
-    
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
@@ -543,11 +540,13 @@ class _TestResult(TestResult):
         #   stack trace,
         # )
         self.result = []
+        self.outputBuffer = StringIO.StringIO()
 
     def startTest(self, test):
+        # global outputBuffer
         TestResult.startTest(self, test)
         # just one buffer for both stdout and stderr
-        self.outputBuffer = StringIO.StringIO()
+        # self.outputBuffer = StringIO.StringIO()
         stdout_redirector.fp = self.outputBuffer
         stderr_redirector.fp = self.outputBuffer
         self.stdout0 = sys.stdout
@@ -635,7 +634,9 @@ class HTMLTestRunner(Template_mixin):
     def run(self, test):
         "Run the given test case or test suite."
         result = _TestResult(self.verbosity)
+        # result.startTest(test)
         test(result)
+
         self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
         print >>sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime)
@@ -788,16 +789,12 @@ class HTMLTestRunner(Template_mixin):
             output = saxutils.escape(uo+ue),
         )
 
-        s = uo + ue
-        html = s[s.find('htmlbegin') + 9:s.find('htmlend')]
-
         row = tmpl % dict(
             tid = tid,
             Class = (n == 0 and 'hiddenRow' or 'none'),
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none'),
             desc = desc,
             script = script,
-
             status = self.STATUS[n],
         )
         rows.append(row)

@@ -22,9 +22,11 @@ def run_case(suite,report__file_name=None,title='APP GUI TEST REPORT',descriptio
     """生成测试报告"""
     if report__file_name is None:report__file_name='test_report_sample'
     filename = Func.create_report(report__file_name)
-    fp = file(filename, 'wb')
-    runner = HtmlReportTemplate.HTMLTestRunner(stream=fp, title=title, description=description)
-    runner.run(suite)
+    # fp = open(filename, 'wb')
+    with open(filename,'wb') as fp:
+        runner = HtmlReportTemplate.HTMLTestRunner(stream=fp, title=title, description=description)
+        runner.run(suite)
+
 
 
 def get_suite(cls,args):

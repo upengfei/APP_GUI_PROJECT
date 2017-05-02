@@ -21,8 +21,8 @@ class Func(object):
         :return:
         """
         path = os.getcwd()
-        _list = path.split("\\")
-        return '\\'.join(_list[:_list.index('APP_GUI_PROJECT')+1])
+        _list = path.split(os.sep)
+        return os.sep.join(_list[:_list.index('APP_GUI_PROJECT')+1])
 
 
 
@@ -32,7 +32,7 @@ class Func(object):
         返回logfile文件路径
         :return:
         """
-        logFilePath = Func.get_root_path()+ r'\logFile'
+        logFilePath = Func.get_root_path()+ os.sep+'logFile'
         if not os.path.exists(logFilePath):
             os.mkdir(logFilePath)
             return os.path.abspath(logFilePath)
@@ -45,16 +45,16 @@ class Func(object):
         在当前工程指定目录下创建测试报告模板
         :return:
         """
-        if not os.path.exists(Func.get_root_path() + '\\report'):
-            os.mkdir(Func.get_root_path() + r'\report')
+        if not os.path.exists(Func.get_root_path() + os.sep+'report'):
+            os.mkdir(Func.get_root_path() + os.sep+'report')
 
-        if not os.path.exists(Func.get_root_path() + r'\\report\\%s.html' % (f_name,)):
-            os.chdir(Func.get_root_path() + r'\report')
-            f = open(os.getcwd() + '\\%s.html' % (f_name,), 'wb')
+        if not os.path.exists(Func.get_root_path() + os.sep+'report'+os.sep+'%s.html' % (f_name,)):
+            os.chdir(Func.get_root_path() + os.sep+'report')
+            f = open(os.getcwd() + os.sep+'%s.html' % (f_name,), 'wb')
             f.close()
             return os.path.join(os.getcwd(), '%s.html' % (f_name,))
         else:
-            return os.path.join(Func.get_root_path() + r'\\report', '%s.html' % (f_name,))
+            return os.path.join(Func.get_root_path() + os.sep+'report', '%s.html' % (f_name,))
 
 
 def yaml_load(filename):
@@ -63,7 +63,7 @@ def yaml_load(filename):
     :param filename: 要读取的文件名
     :return: 
     """
-    dirname = Func.get_root_path()+'\\gui\\'+ filename+'.yaml'
+    dirname = Func.get_root_path()+os.sep+'gui'+os.sep+ filename+'.yaml'
     try:
         ft = yaml.load(open(dirname))
 
@@ -80,16 +80,16 @@ def get_screenshots(driver,imgName=None):
     """
     if imgName is None: imgName = NAME(sys.argv[0])
 
-    imgPath = Func.get_root_path()+'\\report\\image\\'+imgName+'.png'
+    imgPath = Func.get_root_path()+os.sep+'report'+os.sep+'image'+os.sep+imgName+'.png'
     driver.save_screenshot(imgPath)
 
 
 def get_screenshots_add(driver,file_name,imgName=None):
     """依据文件名保存截图"""
-    if not os.path.exists(Func.get_root_path()+'\\report\\'+file_name):
-        os.mkdir(Func.get_root_path()+'\\report\\'+file_name)
+    if not os.path.exists(Func.get_root_path()+os.sep+'report'+os.sep+file_name):
+        os.mkdir(Func.get_root_path()+os.sep+'report'+os.sep+file_name)
     if imgName is None: imgName = NAME(sys.argv[0])
-    imgPath = Func.get_root_path() + '\\report\\'+file_name +'\\'+ imgName + '.png'
+    imgPath = Func.get_root_path() + os.sep+'report'+os.sep+file_name +os.sep+ imgName + '.png'
     driver.save_screenshot(imgPath)
 
 

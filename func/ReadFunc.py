@@ -10,7 +10,7 @@ class ReadFile(object):
 
     def __init__(self,file_name):
 
-        self.conf =Func.get_root_path() + '\\config\\'+file_name
+        self.conf =Func.get_root_path() + os.sep+'config'+os.sep+file_name
         # logger.info("读取的配置文件为: "+self.conf)
         try:
             self.hc = configparser.ConfigParser()
