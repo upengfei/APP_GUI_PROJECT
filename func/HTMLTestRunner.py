@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# coding:utf-8
 """
 A TestRunner for use with the Python unit testing framework. It
 generates a HTML report to show the result at a glance.
@@ -15,7 +15,7 @@ The simplest way to use this is to invoke its main method. E.g.
 
 
 For more customization options, instantiates a HTMLTestRunner object.
-HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
+HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g..
 
     # output to a file
     fp = file('my_report.html', 'wb')
@@ -65,6 +65,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # URL: http://tungwaiyip.info/software/HTMLTestRunner.html
 
+__author__ = "Wai Yip Tung"
 __version__ = "0.8.2"
 
 
@@ -90,11 +91,11 @@ Version in 0.7.1
 # TODO: color stderr
 # TODO: simplify javascript using ,ore than 1 class in the class attribute?
 
+import sys,os
 import datetime
-import StringIO
-import sys
-import time
 import unittest
+from func import Func
+from io import StringIO
 from xml.sax import saxutils
 
 
@@ -172,9 +173,9 @@ class Template_mixin(object):
     """
 
     STATUS = {
-    0: '通过-detail',
-    1: '失败-detail',
-    2: '错误-detail',
+    0: u'通过',
+    1: u'失败',
+    2: u'错误',
     }
 
     DEFAULT_TITLE = 'Unit Test Report'
@@ -308,8 +309,8 @@ function showOutput(id, name) {
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-/*pre         { }*/
-pre         {  word-wrap:break-word;word-break:break-all;overflow:auto;}
+pre         { }
+
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
 	font-size: 16pt;
@@ -396,7 +397,7 @@ a.popup_link:hover {
     # Heading
     #
 
-    HEADING_TMPL = r"""<div class='heading'>
+    HEADING_TMPL = """<div class='heading'>
 <h1>%(title)s</h1>
 %(parameters)s
 <p class='description'>%(description)s</p>
@@ -411,16 +412,11 @@ a.popup_link:hover {
 
     # ------------------------------------------------------------------------
     # Report
-    #<td>Test Group/Test case</td>
-    # <td>Count</td>
-    # <td>Pass</td>
-    # <td>Fail</td>
-    # <td>Error</td>
-    # <td>View</td>
+    #
 
-    REPORT_TMPL = ur"""
-<p id='show_detail_line'>内容显示：
-<a href='javascript:showCase(0)'>概要</a>
+    REPORT_TMPL = u"""
+<p id='show_detail_line'>显示
+<a href='javascript:showCase(0)'>内容概要</a>
 <a href='javascript:showCase(1)'>失败</a>
 <a href='javascript:showCase(2)'>所有</a>
 </p>
@@ -434,42 +430,45 @@ a.popup_link:hover {
 <col align='right' />
 </colgroup>
 <tr id='header_row'>
-
-    <td>测试用例名称</td>
+    <td colspan='2'>Test Group/Test case</td>
     <td>测试用例数</td>
-    <td>通过</td>
+    <td>成功</td>
     <td>失败</td>
     <td>错误</td>
     <td>查看详情</td>
-
+    <td>截图</td>
 
 </tr>
 %(test_list)s
 <tr id='total_row'>
-    <td>Total</td>
+    <td colspan='2'>Total</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
     <td>&nbsp;</td>
+    <td>&nbsp;</td>
 </tr>
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
 
-    REPORT_CLASS_TMPL = r"""
+    REPORT_CLASS_TMPL = ur"""
 <tr class='%(style)s'>
+    <td>%(cid)s</td>
     <td>%(desc)s</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
-    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">点击查看</a></td>
+    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">详情</a></td>
+    <td>&nbsp;</td>
 </tr>
 """ # variables: (style, desc, count, Pass, fail, error, cid)
 
 
     REPORT_TEST_WITH_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
+    <td  align='center'>%(caseid)s</td>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'>
 
@@ -489,12 +488,17 @@ a.popup_link:hover {
     <!--css div popup end-->
 
     </td>
+    <td align='center'>
+    <a target="_blank" href="image/%(image)s.png" title="%(image)s ">
+    <img src="image/%(image)s.png" height=100 width=50 border=0 /></a>
+    </td>
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
 
     REPORT_TEST_NO_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
+    <td class='%(style)s'>case_id</td>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'>%(status)s</td>
 </tr>
@@ -505,7 +509,13 @@ a.popup_link:hover {
 %(id)s: %(output)s
 """ # variables: (id, output)
 
+    REPORT_TEST_OUTPUT_IMAGE = r"""
+%(screenshot)s
+"""
 
+    REPORT_TEST_OUTPUT_CASEID = r"""
+%(case_id)s
+"""
 
     # ------------------------------------------------------------------------
     # ENDING
@@ -523,13 +533,14 @@ class _TestResult(TestResult):
     # It lacks the output and reporting ability compares to unittest._TextTestResult.
 
     def __init__(self, verbosity=1):
-        super(_TestResult,self).__init__()
-        # TestResult.__init__(self)
+        TestResult.__init__(self)
         self.stdout0 = None
         self.stderr0 = None
         self.success_count = 0
         self.failure_count = 0
         self.error_count = 0
+        self.image_view = 0
+
         self.verbosity = verbosity
 
         # result is a list of result in 4 tuple
@@ -540,24 +551,26 @@ class _TestResult(TestResult):
         #   stack trace,
         # )
         self.result = []
-        self.outputBuffer = StringIO.StringIO()
+        self.outputBuffer = StringIO()
 
     def startTest(self, test):
-        # global outputBuffer
         TestResult.startTest(self, test)
         # just one buffer for both stdout and stderr
-        # self.outputBuffer = StringIO.StringIO()
-        stdout_redirector.fp = self.outputBuffer
-        stderr_redirector.fp = self.outputBuffer
-        self.stdout0 = sys.stdout
-        self.stderr0 = sys.stderr
-        sys.stdout = stdout_redirector
-        sys.stderr = stderr_redirector
+        # self.outputBuffer = StringIO()
+
+        # for print in HTMLTestRunner
+        # stdout_redirector.fp = self.outputBuffer
+        # stderr_redirector.fp = self.outputBuffer
+        # self.stdout0 = sys.stdout
+        # self.stderr0 = sys.stderr
+        # sys.stdout = stdout_redirector
+        # sys.stderr = stderr_redirector
 
 
     def complete_output(self):
         """
-        Disconnect output redirection and return buffer.
+        Disconnect
+        output redirection and return buffer.
         Safe to call multiple times.
         """
         if self.stdout0:
@@ -580,12 +593,13 @@ class _TestResult(TestResult):
         TestResult.addSuccess(self, test)
         output = self.complete_output()
         self.result.append((0, test, output, ''))
-        if self.verbosity > 1:
-            sys.stderr.write('ok ')
-            sys.stderr.write(str(test))
-            sys.stderr.write('\n')
-        else:
-            sys.stderr.write('.')
+
+        # if self.verbosity > 1:
+        #     sys.stderr.write('ok ')
+        #     sys.stderr.write(str(test))
+        #     sys.stderr.write('\n')
+        # else:
+        #     sys.stderr.write('.')
 
     def addError(self, test, err):
         self.error_count += 1
@@ -593,12 +607,13 @@ class _TestResult(TestResult):
         _, _exc_str = self.errors[-1]
         output = self.complete_output()
         self.result.append((2, test, output, _exc_str))
-        if self.verbosity > 1:
-            sys.stderr.write('E  ')
-            sys.stderr.write(str(test))
-            sys.stderr.write('\n')
-        else:
-            sys.stderr.write('E')
+
+        # if self.verbosity > 1:
+        #     sys.stderr.write('E  ')
+        #     sys.stderr.write(str(test))
+        #     sys.stderr.write('\n')
+        # else:
+        #     sys.stderr.write('E')
 
     def addFailure(self, test, err):
         self.failure_count += 1
@@ -606,12 +621,13 @@ class _TestResult(TestResult):
         _, _exc_str = self.failures[-1]
         output = self.complete_output()
         self.result.append((1, test, output, _exc_str))
-        if self.verbosity > 1:
-            sys.stderr.write('F  ')
-            sys.stderr.write(str(test))
-            sys.stderr.write('\n')
-        else:
-            sys.stderr.write('F')
+
+        # if self.verbosity > 1:
+        #     sys.stderr.write('F  ')
+        #     sys.stderr.write(str(test))
+        #     sys.stderr.write('\n')
+        # else:
+        #     sys.stderr.write('F')
 
 
 class HTMLTestRunner(Template_mixin):
@@ -631,15 +647,14 @@ class HTMLTestRunner(Template_mixin):
 
         self.startTime = datetime.datetime.now()
 
+
     def run(self, test):
         "Run the given test case or test suite."
         result = _TestResult(self.verbosity)
-        # result.startTest(test)
         test(result)
-
         self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
-        print >>sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime)
+        # print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime - self.startTime))
         return result
 
 
@@ -650,7 +665,7 @@ class HTMLTestRunner(Template_mixin):
         classes = []
         for n,t,o,e in result_list:
             cls = t.__class__
-            if not rmap.has_key(cls):
+            if not cls in rmap:
                 rmap[cls] = []
                 classes.append(cls)
             rmap[cls].append((n,t,o,e))
@@ -666,9 +681,9 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
-        if result.success_count: status.append(u'<通过：%s>;' % result.success_count)
-        if result.failure_count: status.append(u'<失败：%s>;' % result.failure_count)
-        if result.error_count:   status.append(u'<错误：%s>;' % result.error_count)
+        if result.success_count: status.append(u'成功： %s'    % result.success_count)
+        if result.failure_count: status.append(u'失败： %s' % result.failure_count)
+        if result.error_count:   status.append(u'错误： %s'   % result.error_count  )
         if status:
             status = ' '.join(status)
         else:
@@ -676,8 +691,9 @@ class HTMLTestRunner(Template_mixin):
         return [
             (u'开始时间', startTime),
             (u'运行时间', duration),
-            (u'测试状态', status),
+            (u'运行状态', status),
         ]
+
 
     def generateReport(self, test, result):
         report_attrs = self.getReportAttributes(result)
@@ -735,7 +751,7 @@ class HTMLTestRunner(Template_mixin):
                 name = "%s.%s" % (cls.__module__, cls.__name__)
             doc = cls.__doc__ and cls.__doc__.split("\n")[0] or ""
             desc = doc and '%s: %s' % (name, doc) or name
-
+            # print "%%%##@@@@"+desc
             row = self.REPORT_CLASS_TMPL % dict(
                 style = ne > 0 and 'errorClass' or nf > 0 and 'failClass' or 'passClass',
                 desc = desc,
@@ -759,6 +775,7 @@ class HTMLTestRunner(Template_mixin):
         )
         return report
 
+
     def _generate_report_test(self, rows, cid, tid, n, t, o, e):
         # e.g. 'pt1.1', 'ft1.1', etc
         has_output = bool(o or e)
@@ -772,29 +789,40 @@ class HTMLTestRunner(Template_mixin):
         if isinstance(o,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # uo = unicode(o.encode('string_escape'))
-            # uo = o.decode('latin-1')
-            uo = o.decode('utf-8')
+            uo = o
         else:
             uo = o
         if isinstance(e,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # ue = unicode(e.encode('string_escape'))
-            # ue = e.decode('latin-1')
-            ue = e.decode('utf-8')
+            uo = e.decode('utf-8')
         else:
-            ue = e
+            uo = e
 
         script = self.REPORT_TEST_OUTPUT_TMPL % dict(
             id = tid,
-            output = saxutils.escape(uo+ue),
+            output = saxutils.escape(uo)
+            # output=saxutils.escape(uo + ue)
+        )
+        # print "%%%%%%%%%"+script
+        image = self.REPORT_TEST_OUTPUT_IMAGE % dict(
+            screenshot = saxutils.escape(uo)
+            # screenshot = saxutils.escape(uo + ue)
         )
 
+        caseid = self.REPORT_TEST_OUTPUT_CASEID % dict(
+            case_id = saxutils.escape(uo)
+            # case_id = saxutils.escape(uo + ue)
+        )
+        # print "############"+caseid
         row = tmpl % dict(
             tid = tid,
             Class = (n == 0 and 'hiddenRow' or 'none'),
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none'),
             desc = desc,
             script = script,
+            image = image[image.find("IMAGE:")+6:].split('.')[0],
+            caseid = caseid[caseid.find("case"):(int(caseid.find("case"))+9)],
             status = self.STATUS[n],
         )
         rows.append(row)

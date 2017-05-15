@@ -27,6 +27,7 @@ class AppGuiInit(unittest.TestCase):
 
         }
         cls.driver = WebDriver(desired_caps)
+        BasicFE.set_driver(cls.driver)
         cls.driver.init()
 
     @classmethod

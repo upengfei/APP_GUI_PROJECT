@@ -8,12 +8,9 @@ NAME = lambda p : os.path.basename(p).split('.')[0]
 
 class Func(object):
     """
-    功能介绍：获取项目根目录
+    功能介绍：封装了一些常用的基础方法
     注意：在get_root_path方法中如果更改项目名称，比如：将‘APP_GUI_PROJECT’更改为‘abc’,则需要将get_root_path方法下的‘APP_API_PROJECT’修改为‘abc’
     """
-    def __init__(self):
-        pass
-
     @staticmethod
     def get_root_path():
         """

@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0848daa-e0c2-4238-bfcc-8c4023e7eb99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/func/HtmlReportTemplate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/image/run.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/测试报告.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testCases/__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/BasicFunc.py" afterPath="$PROJECT_DIR$/func/BasicFunc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/__init__.py" afterPath="$PROJECT_DIR$/func/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/appFunc/app_gui_init.py" afterPath="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/unittestPackFunc.py" afterPath="$PROJECT_DIR$/func/unittestPackFunc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/AppGui.yaml" afterPath="$PROJECT_DIR$/gui/AppGui.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logFile/log.txt" afterPath="$PROJECT_DIR$/logFile/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" afterPath="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCases/run.py" afterPath="$PROJECT_DIR$/testCases/run.py" />
     </list>
     <list id="de92a555-2574-417b-8ec2-b74fb8542e6a" name="Failed commit: Default" comment="HTMLTestRunner modified" />
     <list id="63f53901-09ec-4543-82e6-cc343a216c1a" name="Failed commit: Default (2)" comment="增加logging" />
@@ -76,10 +87,11 @@
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getSuminterest.coverage" NAME="getSuminterest Coverage Results" MODIFIED="1488770348800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_recharge_api.coverage" NAME="Unittests in recharge-api Coverage Results" MODIFIED="1470388525539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$rechargeContract.coverage" NAME="rechargeContract Coverage Results" MODIFIED="1491016043951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_BasicFunc_py.coverage" NAME="Unittests in BasicFunc.py Coverage Results" MODIFIED="1494764421855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYquerycontractinfo_test_querycontractinfo.coverage" NAME="Unittest IHYquerycontractinfo.test_querycontractinfo Coverage Results" MODIFIED="1476517478113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$activityinfo.coverage" NAME="activityinfo Coverage Results" MODIFIED="1487570916954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYrepo.coverage" NAME="Unittests in IHYrepo Coverage Results" MODIFIED="1476950296331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$run.coverage" NAME="run Coverage Results" MODIFIED="1492508686920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$run.coverage" NAME="run Coverage Results" MODIFIED="1494831371043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_IHYrepo__1_.coverage" NAME="Unittests in IHYrepo (1) Coverage Results" MODIFIED="1476949036872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$withhold.coverage" NAME="withhold Coverage Results" MODIFIED="1474962002347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYCgettransferholding.coverage" NAME="HYCgettransferholding Coverage Results" MODIFIED="1489545457303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
@@ -104,7 +116,7 @@
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$sellloandetail.coverage" NAME="sellloandetail Coverage Results" MODIFIED="1488165427483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$repoHY.coverage" NAME="repoHY Coverage Results" MODIFIED="1476691811032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$WBremoveauthorize.coverage" NAME="WBremoveauthorize Coverage Results" MODIFIED="1477980919223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1482113373910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1494684315432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Gui_test.coverage" NAME="Gui_test Coverage Results" MODIFIED="1478655832702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_test4.coverage" NAME="Unittests in test4 Coverage Results" MODIFIED="1484545817360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYqueryproductamount.coverage" NAME="HYqueryproductamount Coverage Results" MODIFIED="1477984857391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
@@ -115,7 +127,7 @@
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferdetail_test_gettransferdetail.coverage" NAME="Unittest IHYgettransferdetail.test_gettransferdetail Coverage Results" MODIFIED="1475119481500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_Test_test_001.coverage" NAME="Unittest Test.test_001 Coverage Results" MODIFIED="1484105612619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittests_in_WBqueryauthorizeinfo.coverage" NAME="Unittests in WBqueryauthorizeinfo Coverage Results" MODIFIED="1477980716259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/daikou" />
-    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1482132250790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/my-test-project" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1494811302546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getwithdrawloanlist.coverage" NAME="getwithdrawloanlist Coverage Results" MODIFIED="1488164520027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$rechargeOK.coverage" NAME="rechargeOK Coverage Results" MODIFIED="1491016290520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge" />
     <SUITE FILE_PATH="coverage/APITest$run.coverage" NAME="run Coverage Results" MODIFIED="1493716346867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
@@ -126,7 +138,7 @@
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgettransferhold_test_gettransferhold_ex_05.coverage" NAME="Unittest IHYgettransferhold.test_gettransferhold_ex_05 Coverage Results" MODIFIED="1476674213987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$racharge_api.coverage" NAME="racharge-api Coverage Results" MODIFIED="1470386816016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$Unittest_IHYgetplaninfo_test_gethyplaninfo_01.coverage" NAME="Unittest IHYgetplaninfo.test_gethyplaninfo_01 Coverage Results" MODIFIED="1476174508978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
-    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$BasicFunc.coverage" NAME="BasicFunc Coverage Results" MODIFIED="1492138662210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$BasicFunc.coverage" NAME="BasicFunc Coverage Results" MODIFIED="1494764686386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$HYisshowloan.coverage" NAME="HYisshowloan Coverage Results" MODIFIED="1488769758664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases/" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$recharge_api.coverage" NAME="recharge_api Coverage Results" MODIFIED="1466416039917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
     <SUITE FILE_PATH="coverage/APP_GUI_PROJECT$getlockamountouter.coverage" NAME="getlockamountouter Coverage Results" MODIFIED="1474870293202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCases" />
@@ -166,16 +178,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="YKJ_func_sample.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppGui.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/AppGui.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YKJ_func_sample.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
-                <element signature="e#879#1010#0" expanded="false" />
-                <element signature="e#1091#1223#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="测试报告.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/测试报告.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="232" column="34" lean-forward="false" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1198">
+              <caret line="560" column="37" lean-forward="true" selection-start-line="560" selection-start-column="37" selection-end-line="560" selection-end-column="37" />
+              <folding>
+                <element signature="e#3231#3244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_gui_init.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/appFunc/app_gui_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_register_multi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,8 +255,8 @@
       <file leaf-file-name="webelement.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/macaca/webelement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="-300">
+              <caret line="477" column="63" lean-forward="false" selection-start-line="477" selection-start-column="59" selection-end-line="477" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -193,48 +265,18 @@
       <file leaf-file-name="command.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/macaca/command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="142">
+              <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="118" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="true">
-        <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriver.py">
+      <file leaf-file-name="keys.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/macaca/keys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remote_invoker.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/macaca/remote_invoker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/macaca/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="130" column="50" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="locator.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/macaca/locator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="1139">
+              <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -253,6 +295,7 @@
     <findStrings>
       <find>run</find>
       <find>key</find>
+      <find>click</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -264,12 +307,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_Getcysuminterest.py" />
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_Getrepaymentrecord.py" />
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_GetWithdrawLoanList.py" />
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_QuerycyRemainamount.py" />
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_QueryCYtransferlist.py" />
-        <option value="$PROJECT_DIR$/testCases/APP_CY/api_SellCy.py" />
         <option value="$PROJECT_DIR$/testCases/APP_CY/api_sellloanincomedetail.py" />
         <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_autoWithdraw.py" />
         <option value="$PROJECT_DIR$/testCases/APP_WithdrawAndRecharge/api_onekeyWithdraw.py" />
@@ -297,24 +334,30 @@
         <option value="$PROJECT_DIR$/func/PySelenium.py" />
         <option value="$PROJECT_DIR$/func/seleniumPy.py" />
         <option value="$PROJECT_DIR$/testCases/TestCasesRUN.py" />
-        <option value="$PROJECT_DIR$/func/__init__.py" />
         <option value="$PROJECT_DIR$/testCases/test4.py" />
         <option value="$PROJECT_DIR$/testCases/APP_GUI/YKJ_func_sample.py" />
-        <option value="$PROJECT_DIR$/testCases/__init__.py" />
-        <option value="$PROJECT_DIR$/testCases/run.py" />
         <option value="$PROJECT_DIR$/testCases/test05.py" />
         <option value="$PROJECT_DIR$/config/AppConfig.ini" />
         <option value="$PROJECT_DIR$/config/logconfig.ini" />
-        <option value="$PROJECT_DIR$/func/appFunc/ConstConfig.py" />
-        <option value="$PROJECT_DIR$/gui/AppGui.yaml" />
-        <option value="$PROJECT_DIR$/testCases/test01.py" />
-        <option value="$PROJECT_DIR$/func/unittestPackFunc.py" />
-        <option value="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" />
-        <option value="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
         <option value="$PROJECT_DIR$/func/HtmlReportTemplate.py" />
-        <option value="$PROJECT_DIR$/func/BasicFunc.py" />
         <option value="$PROJECT_DIR$/func/logInfo.py" />
         <option value="$PROJECT_DIR$/func/ReadFunc.py" />
+        <option value="$PROJECT_DIR$/testCases/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/testCases/run.py" />
+        <option value="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_app_01.py" />
+        <option value="$PROJECT_DIR$/report/测试报告.html" />
+        <option value="$PROJECT_DIR$/func/BasicFunc.py" />
+        <option value="$PROJECT_DIR$/func/appFunc/app_gui_init.py" />
+        <option value="$PROJECT_DIR$/gui/AppGui.yaml" />
+        <option value="$PROJECT_DIR$/testCases/test01.py" />
+        <option value="$PROJECT_DIR$/func/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/func/appFunc/ConstConfig.py" />
+        <option value="$PROJECT_DIR$/func/__init__.py" />
+        <option value="$PROJECT_DIR$/func/unittestPackFunc.py" />
+        <option value="C:/Python27/Lib/site-packages/macaca/webelement.py" />
+        <option value="$PROJECT_DIR$/func/FuncExpansion.py" />
+        <option value="$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py" />
       </list>
     </option>
   </component>
@@ -325,10 +368,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="4" />
-    <option name="width" value="1364" />
-    <option name="height" value="723" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -348,7 +389,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,6 +420,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APP_GUI_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySQL_python-1.2.3-py2.7.egg-info" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,20 +551,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logFile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APP_GUI_PROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APP_GUI_PROJECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -531,12 +579,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="func" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appFunc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -674,17 +727,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testCases/test4.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UI-auto-test-base-macaca-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\APP_GUI_PROJECT\gui" />
+      <recent name="D:\project\APP_GUI_PROJECT\func" />
       <recent name="D:\project\APP_GUI_PROJECT\testCases\APP_accountStatistic" />
       <recent name="D:\Project\PycharmProjects\Api-project\testCases\JiGuangPush" />
       <recent name="D:\Project\PycharmProjects\Api-project\testCases\newHuanYing" />
-      <recent name="D:\Project\PycharmProjects\Api-project\testCases\HuanYing_change" />
-      <recent name="D:\Project\PycharmProjects\Api-project\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\APP_GUI_PROJECT\func" />
@@ -740,6 +793,25 @@
       <module name="APP_GUI_PROJECT" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicFunc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APP_GUI_PROJECT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/BasicFunc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -893,14 +965,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.run" />
       <item index="1" class="java.lang.String" itemvalue="Python.test01" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BasicFunc" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.run" />
         <item index="1" class="java.lang.String" itemvalue="Python.test01" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BasicFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -947,20 +1021,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="4" width="1364" height="723" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34050444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25555557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.52342606" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31484503" sideWeight="0.47657394" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32524273" sideWeight="0.47657394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39528024" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39320388" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.4951613" order="0" side_tool="false" content_ui="tabs" />
@@ -1010,75 +1084,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="121" />
+      <option name="time" value="131" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/functools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="80" column="41" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/ExcelFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2272">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HttpFunc.py" />
-    <entry file="file://$PROJECT_DIR$/func/MysqlDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1694">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/redisQuery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1017">
-          <caret line="250" column="26" lean-forward="false" selection-start-line="250" selection-start-column="26" selection-end-line="250" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3084">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="1266" column="8" lean-forward="false" selection-start-line="1266" selection-start-column="8" selection-end-line="1266" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testCases/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1086,298 +1096,362 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1673">
-          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/xlsxwriter/worksheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test05.py" />
-    <entry file="file://$PROJECT_DIR$/config/AppConfig.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/Base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/macaca/keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriverresult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-957">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriverexception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/seleniumPy.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/asserters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/__init__.py">
+    <entry file="file://$PROJECT_DIR$/config/AppConfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2112">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/AppGui.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/appFunc/ConstConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-762174762/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="263" column="4" lean-forward="false" selection-start-line="263" selection-start-column="4" selection-end-line="263" selection-end-column="4" />
+        <state relative-caret-position="66">
+          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/logconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="22">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/xml/sax/saxutils.py">
+    <entry file="file://$PROJECT_DIR$/func/ExcelFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/StringIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5766">
+        <state relative-caret-position="-462">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/result.py">
+    <entry file="file://$PROJECT_DIR$/func/HttpCurl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/ReadFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/redisQuery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/seleniumPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCases/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_app_01.py" />
+    <entry file="file://$PROJECT_DIR$/func/Base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/remote_invoker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/common/multi_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1464">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7192">
+          <caret line="178" column="11" lean-forward="false" selection-start-line="178" selection-start-column="11" selection-end-line="178" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3056">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/switch_to.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/logInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/image/run.png" />
+    <entry file="file://$PROJECT_DIR$/report/image/test_login-20170514214856.png" />
+    <entry file="file://$PROJECT_DIR$/testCases/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#15#69#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/HtmlReportTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8602">
+          <caret line="775" column="12" lean-forward="true" selection-start-line="775" selection-start-column="12" selection-end-line="775" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1494823186181" expanded="true" signature="593:594" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/unittestPackFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6094">
-          <caret line="280" column="17" lean-forward="false" selection-start-line="280" selection-start-column="10" selection-end-line="280" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/image/run.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/HtmlReportTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12056">
-          <caret line="553" column="32" lean-forward="false" selection-start-line="553" selection-start-column="32" selection-end-line="553" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/logInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/ReadFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/macaca/locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/macaca/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="130" column="50" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="50" />
+        <state relative-caret-position="-200">
+          <caret line="151" column="4" lean-forward="false" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/appFunc/app_gui_init.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriverexception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="-266">
+          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/appFunc/ConstConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/image/test_login-20170515130106.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/BasicFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/FuncExpansion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="159" column="16" lean-forward="true" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#30#0" expanded="true" />
+            <element signature="e#2670#3324#0" expanded="false" />
+            <element signature="e#3385#4041#0" expanded="false" />
+            <element signature="e#4071#4257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/AppGui.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/macaca/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-            <element signature="e#879#1010#0" expanded="false" />
-            <element signature="e#1091#1223#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/macaca/remote_invoker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        <state relative-caret-position="-300">
+          <caret line="477" column="63" lean-forward="false" selection-start-line="477" selection-start-column="59" selection-end-line="477" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/macaca/command.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="142">
+          <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="118" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-762174762/__builtin__.py">
+    <entry file="file://C:/Python27/Lib/site-packages/macaca/keys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11553">
-          <caret line="2574" column="8" lean-forward="false" selection-start-line="2574" selection-start-column="8" selection-end-line="2574" selection-end-column="8" />
+        <state relative-caret-position="1139">
+          <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/MysqlDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
+          <caret line="560" column="37" lean-forward="true" selection-start-line="560" selection-start-column="37" selection-end-line="560" selection-end-column="37" />
+          <folding>
+            <element signature="e#3231#3244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/macaca/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/appFunc/app_gui_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/user_register_multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="232" column="34" lean-forward="false" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCases/YKJ_APP_GUI/YKJ_func_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
