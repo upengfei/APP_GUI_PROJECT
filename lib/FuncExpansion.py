@@ -2,9 +2,9 @@
 
 import time,os
 from macaca import WebElement,WebDriver,WebDriverException
-from func import Func
+from lib import read_conf,get_root_path
 from functools import wraps
-from func import logger
+from lib import logger
 
 flag="IMAGE:"
 
@@ -31,6 +31,7 @@ class BasicFE(object):
 
     @staticmethod
     def _get_element_size(element):
+        if not isinstance(element,WebElement): raise Exception("element error!")
         rect = element.rect
 
         x_center = rect['x'] + rect['width'] / 2
@@ -139,8 +140,8 @@ class BasicFE(object):
         self._swipe(fromX, fromY, toX, toY, steps)
 
 
-def delete_file(path):
-    """将某一目录置为空"""
+def clean_dir(path):
+    """清空目录"""
     if os.listdir(path):
         for item in os.listdir(path):
             file_path = os.path.join(path,item)
@@ -151,9 +152,9 @@ def delete_file(path):
 def _screenshots(name):
     date_time = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
     screenshot = name + '-' + date_time + '.png'
-    image_dir_path = Func.get_root_path() + os.sep + 'report'+ os.sep+'image'
-    delete_file(image_dir_path)
-    imagePath = Func.get_root_path() + os.sep + 'report'+ os.sep+'image' +os.sep+ screenshot
+    image_dir_path = get_root_path() + os.sep + 'report'+ os.sep+'image'
+    clean_dir(image_dir_path)
+    imagePath = image_dir_path +os.sep+ screenshot
     print imagePath
     driver = BasicFE().get_driver()
     driver.save_screenshot(imagePath)
@@ -176,7 +177,7 @@ def testInfo(func):
                 raise WebDriverException(message=e)
             else:
                 print e
-                raise WebDriverException(message=flag + _screenshots(func.__name__))
+                raise WebDriverException(message="Eorror:"+str(e)+"\n截图如下： "+flag + _screenshots(func.__name__))
         except AssertionError as e:
             logger.error('AssertionError, %s', e)
             logger.error('\t<-- %s, %s, %s', func.__name__, 'AssertionError', 'Error')
@@ -185,16 +186,34 @@ def testInfo(func):
                 raise AssertionError(e)
             else:
                 print e
-                raise AssertionError(flag + _screenshots(func.__name__))
+                raise AssertionError("Eorror:"+str(e)+"\n截图如下： "+flag + _screenshots(func.__name__))
         except Exception as e:
             logger.error('Exception, %s', e)
             print e
             logger.error('\t<-- %s, %s, %s', func.__name__, 'Exception', 'Error')
 
             if flag in str(e):
-                print e
-                raise Exception(e)
+
+                raise "Eorror:"+str(e)
             else:
                 print e
-                raise Exception(flag + _screenshots(func.__name__))
+                raise Exception("Eorror:"+str(e)+"\n截图如下： "+flag + _screenshots(func.__name__))
     return wrapper
+
+
+def app_init():
+    try:
+        rc = read_conf('AppConf.ini')
+        desired_caps= {
+            "platformName": '%s' % rc.get("Android", 'platformName'),
+            "app":"%s" % rc.get("Android", 'app'),
+            "reuse":"%s" % rc.get("Android", 'reuse'),
+            "udid":"%s" % rc.get("Android", 'udid'),
+        }
+        print desired_caps
+        driver = WebDriver(desired_caps)
+        BasicFE.set_driver(driver)
+        driver.init()
+        return driver
+    except Exception as e:
+        raise "error:"+str(e)

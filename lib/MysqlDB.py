@@ -1,8 +1,7 @@
 # -*- coding:utf-8 -*-
 import MySQLdb
-import sys
-import ReadFunc
-from func.logInfo import logger
+from lib import read_conf
+
 
 
 class MysqlDB(object):
@@ -14,7 +13,7 @@ class MysqlDB(object):
         """
         configName:为配置文件中的第一等级字段section名称，如：Appconfig.ini文件中的【db】
         """
-        self.rf = ReadFunc.ReadFile(path)
+        self.rf = read_conf(path)
         try:
             self.conn = MySQLdb.connect(
                 host=self.rf.get_option_value(configName, "db_host"),

@@ -4,7 +4,7 @@
 from enum import Enum
 
 class AppBase(Enum):
-    PLATFORMNAME = 'Android',  # 当前用例运行的平台（Ios，Android，Desktop）
+    platformName = 'Android',  # 当前用例运行的平台（Ios，Android，Desktop）
     browserName = "Chrome",  # 当前测试的浏览器名称{ iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron }
     deviceName = "",  # 模拟器的名称，例如 ‘iPhone 6’ 或者 ‘Nexus 5x’。
     app = "C:\\Users\Administrator\\Desktop\\esnformal.apk",  # .ipa，.app 或者 .apk 文件的绝对地址或者远程地址，或者是包含上述文件格式的 Zip 文件。

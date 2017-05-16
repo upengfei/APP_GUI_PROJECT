@@ -1,256 +1,155 @@
-2017-05-14 23:05:17,048 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:05:17,049 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:05:17,290 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:05:17,290 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:05:18,269 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:06:06,960 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:06:31,207 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:06:31,209 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:06:31,209 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:06:32,130 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:06:32,130 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:06:33,167 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:10:43,742 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:11:08,859 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:11:08,859 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:11:08,859 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:11:09,234 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:11:09,236 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:11:10,288 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:11:27,688 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:11:52,145 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:11:52,145 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:11:52,147 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:11:52,471 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:11:52,471 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:11:53,519 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:12:08,572 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:12:34,158 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:12:34,158 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:12:34,158 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:12:34,711 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:12:34,713 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:12:35,700 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:13:20,128 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:13:22,671 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:13:56,971 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:13:56,971 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:13:56,973 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:13:57,259 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:13:57,259 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:13:58,313 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:20:50,165 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:21:15,226 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:21:15,226 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:21:15,226 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:21:15,638 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:21:15,638 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:21:16,749 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:25:10,073 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:25:36,510 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:25:36,510 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:25:36,510 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:25:36,875 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:25:36,875 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:25:38,003 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:26:07,724 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:26:31,809 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:26:31,809 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:26:31,809 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:26:32,055 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:26:32,055 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:26:33,072 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:27:16,878 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:27:41,392 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:27:41,392 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:27:41,394 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:27:41,601 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:27:41,602 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:27:42,578 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:28:21,796 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:28:46,099 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:28:46,101 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:28:46,101 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:28:46,467 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:28:46,467 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:28:47,464 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:36:06,602 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:36:30,905 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:36:30,907 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:36:30,907 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:36:31,299 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:36:31,301 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:36:32,301 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:39:25,956 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:39:51,000 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:39:51,000 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:39:51,000 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:39:51,476 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:39:51,476 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:39:52,450 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-14 23:40:56,042 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-14 23:41:20,710 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-14 23:41:20,710 FuncExpansion.py [line: 302] INFO: 	--> test_login
-2017-05-14 23:41:20,711 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-14 23:41:21,233 FuncExpansion.py [line: 325] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-14 23:41:21,233 FuncExpansion.py [line: 327] ERROR: 	<-- test_login, Exception, Error
-2017-05-14 23:41:22,236 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 10:48:02,259 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 10:48:43,457 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 10:48:43,457 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 10:48:43,457 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 10:48:44,161 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 10:48:44,161 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 10:48:45,203 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 10:57:40,802 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 10:58:06,782 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 10:58:06,782 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 10:58:06,782 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 10:58:07,142 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 10:58:07,144 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 10:58:08,200 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 10:58:49,138 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 10:59:14,266 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 10:59:14,266 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 10:59:14,266 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 10:59:14,578 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 10:59:14,578 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 10:59:15,628 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 10:59:34,454 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 10:59:59,006 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 10:59:59,006 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 10:59:59,007 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 10:59:59,298 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 10:59:59,299 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 11:00:00,444 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:00:28,401 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:00:57,171 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:00:57,173 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:00:57,173 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:00:57,328 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 11:00:57,329 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 11:00:58,407 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:05:51,651 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:06:17,562 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:06:17,562 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:06:17,563 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:06:17,859 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 11:06:17,859 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 11:06:18,868 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:08:58,512 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:09:26,173 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:09:26,174 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:09:26,174 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:09:26,673 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 11:09:26,673 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 11:09:27,733 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:12:20,213 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:12:45,404 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:12:45,404 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:12:45,404 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:12:45,680 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 11:12:45,680 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 11:12:46,732 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:24:21,621 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:24:56,726 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:25:33,960 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:27:03,421 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:27:03,421 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:27:03,423 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:27:04,075 YKJ_func_sample.py [line: 74] INFO: 
-Error: WebDriverError.INVALID_SELECTOR
-Message: None
-
-2017-05-15 11:27:04,075 FuncExpansion.py [line: 168] INFO: <-- test_login, Success
-
-2017-05-15 11:27:04,075 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 11:27:29,170 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 11:27:45,930 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 11:27:45,930 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 11:27:45,931 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 11:28:00,674 YKJ_func_sample.py [line: 71] INFO: 准备开始测试--开始进行登录测试--友空间登录成功！
-2017-05-15 11:28:00,674 FuncExpansion.py [line: 168] INFO: <-- test_login, Success
-
-2017-05-15 11:28:00,674 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 12:39:58,094 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 12:40:26,272 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 12:40:26,272 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 12:40:26,272 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 12:40:26,667 FuncExpansion.py [line: 189] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 12:40:26,667 FuncExpansion.py [line: 191] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 12:40:27,825 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 12:49:19,516 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 12:49:47,301 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 12:50:14,923 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 12:50:14,923 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 12:50:14,923 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 12:50:15,226 YKJ_func_sample.py [line: 74] INFO: 
-Error: WebDriverError.UNKNOWN_ERROR
-Message: None
-
-2017-05-15 12:50:15,226 FuncExpansion.py [line: 168] INFO: <-- test_login, Success
-
-2017-05-15 12:50:15,226 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 12:52:28,973 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 12:52:54,608 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 12:52:54,608 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 12:52:54,608 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 12:52:55,345 YKJ_func_sample.py [line: 74] INFO: 
-Error: WebDriverError.UNKNOWN_ERROR
-Message: None
-
-2017-05-15 12:52:55,346 FuncExpansion.py [line: 168] INFO: <-- test_login, Success
-
-2017-05-15 12:52:55,346 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 12:58:10,970 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 12:58:35,568 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 12:58:35,569 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 12:58:35,569 YKJ_func_sample.py [line: 53] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 12:58:35,812 YKJ_func_sample.py [line: 74] INFO: 
-Error: WebDriverError.UNKNOWN_ERROR
-Message: None
-
-2017-05-15 12:58:35,812 FuncExpansion.py [line: 168] INFO: <-- test_login, Success
-
-2017-05-15 12:58:35,812 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 13:00:40,250 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 13:01:06,262 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 13:01:06,262 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 13:01:06,262 YKJ_func_sample.py [line: 48] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 13:01:06,976 FuncExpansion.py [line: 171] ERROR: WebDriverException, 
-Error: WebDriverError.UNKNOWN_ERROR
-Message: None
-
-2017-05-15 13:01:06,976 FuncExpansion.py [line: 172] ERROR: 	<-- test_login, WebDriverException, Error
-2017-05-15 13:01:07,888 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 13:33:06,323 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 13:33:53,384 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 13:33:53,384 FuncExpansion.py [line: 166] INFO: 	--> test_login
-2017-05-15 13:33:53,384 YKJ_func_sample.py [line: 48] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 13:34:09,095 YKJ_func_sample.py [line: 66] INFO: 准备开始测试--开始进行登录测试--友空间登录成功！
-2017-05-15 13:34:09,095 FuncExpansion.py [line: 168] INFO: <-- test_login, 测试通过
-
-2017-05-15 13:34:09,095 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 14:42:38,042 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 14:43:28,528 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 14:43:28,528 FuncExpansion.py [line: 167] INFO: 	--> test_login
-2017-05-15 14:43:28,529 YKJ_func_sample.py [line: 48] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 14:43:41,542 YKJ_func_sample.py [line: 66] INFO: 准备开始测试--开始进行登录测试--友空间登录成功！
-2017-05-15 14:43:41,542 FuncExpansion.py [line: 169] INFO: <-- test_login, 测试通过
-
-2017-05-15 14:43:41,542 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 14:53:44,198 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 14:54:10,956 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 14:54:10,957 FuncExpansion.py [line: 167] INFO: 	--> test_login
-2017-05-15 14:54:10,957 YKJ_func_sample.py [line: 48] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 14:54:24,838 YKJ_func_sample.py [line: 66] INFO: 准备开始测试--开始进行登录测试--友空间登录成功！
-2017-05-15 14:54:24,839 FuncExpansion.py [line: 169] INFO: <-- test_login, 测试通过
-
-2017-05-15 14:54:24,839 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
-2017-05-15 14:56:11,579 app_gui_init.py [line: 18] INFO: 类初始化。。。
-2017-05-15 14:56:37,394 YKJ_func_sample.py [line: 22] INFO: 准备开始测试
-2017-05-15 14:56:37,394 FuncExpansion.py [line: 167] INFO: 	--> test_login
-2017-05-15 14:56:37,394 YKJ_func_sample.py [line: 48] INFO: 准备开始测试--开始进行登录测试
-2017-05-15 14:56:37,977 FuncExpansion.py [line: 190] ERROR: Exception, 'WebElement' object has no attribute 'sendkeys'
-2017-05-15 14:56:37,977 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
-2017-05-15 14:56:38,997 YKJ_func_sample.py [line: 38] INFO: 测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 20:59:35,045 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 20:59:35,069 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 20:59:35,069 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 20:59:35,069 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 20:59:35,069 FuncExpansion.py [line: 190] ERROR: Exception, 'Test' object has no attribute 'driver'
+2017-05-16 20:59:35,069 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 20:59:35,069 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:21:35,276 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:21:35,298 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:21:35,298 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:21:35,298 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:21:35,298 FuncExpansion.py [line: 190] ERROR: Exception, 'Test' object has no attribute 'driver'
+2017-05-16 21:21:35,299 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:21:35,299 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:24:57,279 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:24:57,288 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:24:57,288 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:24:57,288 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:24:57,288 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:24:57,289 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:24:57,289 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:30:11,213 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:30:11,226 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:30:11,226 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:30:11,226 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:30:11,226 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:30:11,226 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:30:11,229 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:31:24,538 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:31:24,546 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:31:24,546 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:31:24,546 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:31:24,546 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:31:24,546 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:31:24,549 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:32:40,407 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:32:40,415 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:32:40,415 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:32:40,417 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:32:40,417 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:32:40,417 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:32:40,418 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:37:36,125 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:37:36,138 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:37:36,138 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:37:36,140 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:37:36,140 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:37:36,141 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:37:36,142 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:37:54,035 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:37:54,042 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:37:54,042 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:37:54,042 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:37:54,042 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:37:54,042 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:37:54,045 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:40:17,273 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:40:17,282 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:40:17,282 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:40:17,282 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:40:17,282 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:40:17,282 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:40:17,283 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:41:59,490 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:41:59,506 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:41:59,506 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:41:59,506 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:41:59,507 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:41:59,507 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:41:59,510 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:43:43,526 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:43:43,540 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:43:43,542 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:43:43,542 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:43:43,542 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:43:43,542 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:43:43,545 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:44:02,558 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:44:02,569 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:44:02,569 FuncExpansion.py [line: 167] INFO: 	--> test_login
+2017-05-16 21:44:02,569 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:44:02,569 FuncExpansion.py [line: 190] ERROR: Exception, 'session_id'
+2017-05-16 21:44:02,569 FuncExpansion.py [line: 192] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:44:02,572 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:48:19,282 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:48:19,289 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:48:19,289 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:48:19,289 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:48:19,289 FuncExpansion.py [line: 191] ERROR: Exception, 'session_id'
+2017-05-16 21:48:19,289 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:48:19,290 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:48:48,779 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:48:48,788 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:48:48,788 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:48:48,789 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:48:48,789 FuncExpansion.py [line: 191] ERROR: Exception, 'session_id'
+2017-05-16 21:48:48,789 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:48:48,790 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:52:05,111 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:52:05,118 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:52:05,118 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:52:05,119 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:52:05,119 FuncExpansion.py [line: 191] ERROR: Exception, 'session_id'
+2017-05-16 21:52:05,119 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:52:05,121 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:54:26,420 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:54:26,427 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:54:26,427 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:54:26,427 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:54:26,427 FuncExpansion.py [line: 191] ERROR: Exception, 'session_id'
+2017-05-16 21:54:26,428 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:54:26,428 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:55:41,913 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:56:17,063 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:56:17,063 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:56:17,065 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:56:17,611 FuncExpansion.py [line: 191] ERROR: Exception, 'ConfigParser' object has no attribute 'get_option_value'
+2017-05-16 21:56:17,611 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:56:18,671 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:57:01,941 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:57:27,592 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:57:27,592 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:57:27,594 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:57:28,061 FuncExpansion.py [line: 191] ERROR: Exception, 'ConfigParser' object has no attribute 'get_option_value'
+2017-05-16 21:57:28,061 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:57:29,150 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:58:07,681 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 21:58:31,825 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 21:58:31,825 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 21:58:31,825 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 21:58:32,161 FuncExpansion.py [line: 191] ERROR: Exception, No section: 'user'
+2017-05-16 21:58:32,161 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 21:58:33,302 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 21:59:39,282 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 22:00:03,558 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 22:00:03,558 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 22:00:03,559 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 22:00:05,543 FuncExpansion.py [line: 191] ERROR: Exception, No option 'pwd' in section: 'user'
+2017-05-16 22:00:05,543 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 22:00:06,562 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 22:03:45,828 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 22:04:12,224 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 22:04:12,226 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 22:04:12,226 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 22:04:13,407 FuncExpansion.py [line: 191] ERROR: Exception, No option 'pswd' in section: 'user'
+2017-05-16 22:04:13,407 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 22:04:14,542 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜
+2017-05-16 22:05:56,973 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 22:06:09,782 app_gui_init.py [line: 21] INFO: 类初始化。。。
+2017-05-16 22:06:35,506 YKJ_func_sample.py [line: 19] INFO: 准备开始测试
+2017-05-16 22:06:35,506 FuncExpansion.py [line: 168] INFO: 	--> test_login
+2017-05-16 22:06:35,506 YKJ_func_sample.py [line: 35] INFO: 准备开始测试--开始进行登录测试
+2017-05-16 22:06:37,099 FuncExpansion.py [line: 191] ERROR: Exception, No option 'pswd' in section: 'user'
+2017-05-16 22:06:37,099 FuncExpansion.py [line: 193] ERROR: 	<-- test_login, Exception, Error
+2017-05-16 22:06:38,217 YKJ_func_sample.py [line: 25] INFO: 	☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜

@@ -1,15 +1,12 @@
 # coding:utf-8
 import sys
-
-from macaca import WebDriver,WebDriverException
-import unittest
-from func import get_screenshots
-from func.appFunc.ConstConfig import AppBase
-from func.appFunc.app_gui_init import AppGuiInit
-from func.logInfo import logger
-from func import testInfo,BasicFE
 import time
-from func.BasicFunc import skipTestIf
+import unittest
+
+from YKJappBaseFunc import AppGuiInit
+from lib import testInfo
+from lib.Log import logger
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -21,23 +18,13 @@ class Test(AppGuiInit):
         self.info="准备开始测试"
         logger.info(self.info)
 
-        # desired_caps = {
-        #     'platformName': '%s' % AppBase.PLATFORMNAME.value,
-        #     'app': '%s' % AppBase.app.value,
-        #     'reuse': '%d' % AppBase.reuse.value,
-        #     'udid': '17a8606b'
-        #
-        # }
-        # driver = WebDriver(desired_caps)
 
-        # self.driver.init()
     def tearDown(self):
         """测试用例运行结束，开始后续处理"""
-        # get_screenshots(self.driver)
-        # self.driver.quit()
-        logger.info("测试用例运行结束，开始后续处理☜☜☜☜☜")
 
-    # 正常流程
+        logger.info("\t☜☜☜☜☜测试用例运行结束，开始后续处理☜☜☜☜☜")
+
+
 
     # @unittest.skip("登录跳过")
     @testInfo
@@ -49,11 +36,11 @@ class Test(AppGuiInit):
         login = self.ft['android']['login']
         self.driver \
             .element_by_id(login['username'])\
-            .sendkeys("%s" % self.rd.get_option_value("Test_user","user"))
+            .send_keys("%s" % self.rd.get("user","username"))
 
         self.driver \
             .element_by_id(login['passwd'])\
-            .send_keys('%s' % self.rd.get_option_value("Test_user","pwd"))
+            .send_keys('%s' % self.rd.get("user","pswd"))
 
         # self.driver \
         #     .element_by_xpath(login['button_login']) \

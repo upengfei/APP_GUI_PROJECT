@@ -94,7 +94,7 @@ Version in 0.7.1
 import sys,os
 import datetime
 import unittest
-from func import Func
+from lib import get_root_path
 from io import StringIO
 from xml.sax import saxutils
 
@@ -789,9 +789,9 @@ class HTMLTestRunner(Template_mixin):
         if isinstance(o,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # uo = unicode(o.encode('string_escape'))
-            uo = o
+            uo = o.decode('utf-8')
         else:
-            uo = o
+            uo = e
         if isinstance(e,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # ue = unicode(e.encode('string_escape'))

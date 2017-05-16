@@ -7,8 +7,8 @@
 import sys,os
 
 from unittest import TestLoader,TestSuite
-from func import HTMLTestRunner
-from func import Func
+from lib import HTMLTestRunner,create_report
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -24,7 +24,7 @@ def test_case_dicovery(dir, pattern='*.py',top_lever_file=None):
 def run_case(suite,report__file_name=None,title='APP GUI TEST REPORT',description=None):
     """生成测试报告"""
     if report__file_name is None:report__file_name='test_report_sample'
-    filename = Func.create_report(report__file_name)
+    filename = create_report(report__file_name)
     # fp = open(filename, 'wb')
     with open(filename,'wb') as fp:
         runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=title, description=description)

@@ -1,15 +1,15 @@
 # coding:utf-8
 import sys
+import time
 
 from macaca import WebDriver
-import unittest
-from func import get_screenshots
-from func.appFunc.ConstConfig import AppBase
-from func.appFunc.app_gui_init import AppGuiInit
-from func.logInfo import logger
-from parameterized import parameterized,param
-import time
-from func.BasicFunc import skipTestIf
+
+from YKJappBaseFunc import AppBase
+from YKJappBaseFunc import AppGuiInit
+from lib import get_screenshots
+from lib.BasicFunc import skipTestIf
+from lib.Log import logger
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 

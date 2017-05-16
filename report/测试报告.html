@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>APP GUI TEST REPORT</h1>
-<p class='attribute'><strong>开始时间:</strong> 2017-05-15 14:56:11</p>
-<p class='attribute'><strong>运行时间:</strong> 0:00:27.433000</p>
+<p class='attribute'><strong>开始时间:</strong> 2017-05-16 22:06:09</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:28.451000</p>
 <p class='attribute'><strong>运行状态:</strong> 错误： 1</p>
 
 <p class='description'></p>
@@ -251,9 +251,10 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "D:\project\APP_GUI_PROJECT\func\FuncExpansion.py", line 199, in wrapper
-    raise Exception(flag + _screenshots(func.__name__))
-Exception: IMAGE:test_login-20170515145637.png
+  File "D:\project\APP_GUI_PROJECT\lib\FuncExpansion.py", line 200, in wrapper
+    raise Exception("Eorror:"+str(e)+"\n截图如下： "+flag + _screenshots(func.__name__))
+Exception: Eorror:No option 'pswd' in section: 'user'
+截图如下： IMAGE:test_login-20170516220637.png
 
 
         </pre>
@@ -262,8 +263,8 @@ Exception: IMAGE:test_login-20170515145637.png
 
     </td>
     <td align='center'>
-    <a target="_blank" href="image/test_login-20170515145637.png" title="test_login-20170515145637 ">
-    <img src="image/test_login-20170515145637.png" height=100 width=50 border=0 /></a>
+    <a target="_blank" href="image/test_login-20170516220637.png" title="test_login-20170516220637 ">
+    <img src="image/test_login-20170516220637.png" height=100 width=50 border=0 /></a>
     </td>
 </tr>
 

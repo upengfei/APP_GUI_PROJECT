@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 import threading
 import configparser
 import os
-from BasicFunc import Func
+from lib import read_conf,getLogDir
 
 class LogSignleton(object):
     """
@@ -14,14 +14,12 @@ class LogSignleton(object):
     """
 
     def __init__(self, file):
-        path = Func.get_root_path()
-        config = configparser.ConfigParser()
-        config.read(path+os.sep+'config'+os.sep+file)
+        config = read_conf(file)
 
         mutex=threading.Lock()
         mutex.acquire() # 上锁，防止多线程下出问题
         # rf = ReadFunc.ReadFile(path)
-        self.log_filename = Func.getLogDir()+os.sep+config.get('LOGGING', 'logFile')
+        self.log_filename =getLogDir()+os.sep+config.get('LOGGING', 'logFile')
 
         self.max_bytes_each = int(config.get('LOGGING', 'max_bytes_each'))
         self.backup_count = int(config.get('LOGGING', 'backup_count'))

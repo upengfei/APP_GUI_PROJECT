@@ -3,7 +3,7 @@
 import sys,os
 sys.path.append(os.path.split(os.path.abspath(os.path.dirname(__file__)))[0])
 
-from func import test_case_dicovery,get_suite,run_case
+from lib import test_case_dicovery,get_suite,run_case
 from testCases.YKJ_APP_GUI.YKJ_func_sample import Test
 
 
